@@ -1,4 +1,4 @@
-[
+ï»¿[
     {
         "name": "Agni",
         "title": "God of Fire",
@@ -306,7 +306,7 @@
                 170
             ],
             "powerDamage": 35,
-            "cooldown": 10,
+            "cooldown": 14,
             "cost": [
                 70,
                 75,
@@ -1651,13 +1651,7 @@
                 280
             ],
             "powerDamage": 50,
-            "cooldown": [
-                15,
-                14,
-                13,
-                12,
-                11
-            ],
+            "cooldown": 14,
             "cost": [
                 60,
                 70,
@@ -2143,7 +2137,7 @@
                 110
             ],
             "powerDamage": 20,
-            "cooldown": 15,
+            "cooldown": 13,
             "cost": [
                 60,
                 65,
@@ -2394,7 +2388,13 @@
                 280
             ],
             "powerDamage": 50,
-            "cooldown": 18,
+            "cooldown": [
+                18,
+                17,
+                16,
+                15,
+                14
+            ],
             "cost": [
                 50,
                 55,
@@ -2983,11 +2983,11 @@
             "name": "Training Excercise",
             "description": "Chiron warns his teammates to evade the area, removing crowd control effects so they can escape before it explodes, damaging and crippling all enemies in the area.",
             "damage": [
-                70,
-                120,
-                170,
-                220,
-                270
+                80,
+                135,
+                190,
+                245,
+                300
             ],
             "powerDamage": 80,
             "cooldown": 13,
@@ -3614,7 +3614,7 @@
                 70,
                 85
             ],
-            "powerDamage": 15,
+            "powerDamage": 10,
             "cooldown": 14,
             "cost": [
                 60,
@@ -3863,11 +3863,11 @@
             "powerDamage": 80,
             "cooldown": 15,
             "cost": [
+                60,
                 65,
                 70,
                 75,
-                80,
-                85
+                80
             ],
             "icon": "images/smite/abilities/unchained.jpg"
         },
@@ -3876,13 +3876,7 @@
             "name": "Seething Howl",
             "description": "Fenrir rears back and howls, inspiring himself with a physical power and lifesteal buff.  At full runes, the buff is increased by 50%.",
             "cooldown": 13,
-            "cost": [
-                60,
-                65,
-                70,
-                75,
-                80
-            ],
+            "cost": 60,
             "icon": "images/smite/abilities/seething howl.jpg"
         },
         "abilityThree": {
@@ -3899,11 +3893,11 @@
             "powerDamage": 50,
             "cooldown": 14,
             "cost": [
+                60,
+                65,
                 70,
                 75,
-                80,
-                85,
-                90
+                80
             ],
             "ticks": 4,
             "icon": "images/smite/abilities/brutalize.jpg"
@@ -3938,7 +3932,7 @@
         "healthPerLevel": 80,
         "mana": 220,
         "manaPerLevel": 37,
-        "speed": 375,
+        "speed": 370,
         "attackSpeed": 0.95,
         "attackSpeedPerLevel": 1.95,
         "damage": 35,
@@ -4151,11 +4145,11 @@
             "name": "Dharmic Pillars",
             "description": "Ganesha summons the Four Great Pillars of Righteousness to imprison his Enemies. Between each pair of pillars a magical field is created, and Enemies who pass through the field take Damage, are Slowed, and have their Protections reduced for 3s. Enemy Minions and Jungle Monsters take 40% of this Damage.",
             "damage": [
-                95,
-                135,
-                175,
-                215,
-                255
+                90,
+                130,
+                170,
+                210,
+                250
             ],
             "powerDamage": 40,
             "cooldown": 75,
@@ -4990,7 +4984,7 @@
         "mpFivePerLevel": 0.35,
         "passive": {
             "name": "Suntouched",
-            "description": "After taking a critical hit, Hou Yi can’t be critically hit again for 3s.",
+            "description": "After taking a critical hit, Hou Yi can't be critically hit again for 3s.",
             "icon": "images/smite/abilities/suntouched.jpg"
         },
         "abilityOne": {
@@ -5018,7 +5012,7 @@
         "abilityTwo": {
             "level": 5,
             "name": "Mark of the Golden Crow",
-            "description": "Hou Yi marks an enemy with Mark of the Golden Crow. Marked enemies take extra damage for every 10% of their missing health from Hou Yi’s abilities and basic attacks. Marked enemies are visible to Hou Yi on the minimap including stealthed gods. The mark lasts for 10s.",
+            "description": "Hou Yi marks an enemy with Mark of the Golden Crow. Marked enemies take extra damage for every 10% of their missing health from Hou Yiï¿½s abilities and basic attacks. Marked enemies are visible to Hou Yi on the minimap including stealthed gods. The mark lasts for 10s.",
             "cooldown": 18,
             "cost": 50,
             "toggleStats": {
@@ -7160,7 +7154,7 @@
         "mpFivePerLevel": 0.4,
         "passive": {
             "name": "Flame of the Night",
-            "description": "Nox’s candles gather energy from all abilities she uses. For every ability Nox casts a candle is lit. For every candle lit Nox gains +3% magical power. When Nox takes damage one of her candles is blown out.",
+            "description": "Nox's candles gather energy from all abilities she uses. For every ability Nox casts a candle is lit. For every candle lit Nox gains +3% magical power. When Nox takes damage one of her candles is blown out.",
             "stacks": {
                 "current": 0,
                 "max": 4,
@@ -8215,7 +8209,13 @@
                 440
             ],
             "powerDamage": 70,
-            "cooldown": 90,
+            "cooldown": [
+                110,
+                105,
+                100,
+                95,
+                90
+            ],
             "cost": [
                 100,
                 100,
@@ -8763,7 +8763,7 @@
                 260
             ],
             "powerDamage": 40,
-            "cooldown": 12,
+            "cooldown": 14,
             "cost": [
                 60,
                 65,
@@ -9237,7 +9237,7 @@
         "healthPerLevel": 90,
         "mana": 190,
         "manaPerLevel": 34,
-        "speed": 360,
+        "speed": 365,
         "attackSpeed": 0.8,
         "attackSpeedPerLevel": 0.6,
         "damage": 35,
@@ -10693,7 +10693,7 @@
         "healthPerLevel": 104,
         "mana": 200,
         "manaPerLevel": 32,
-        "speed": 365,
+        "speed": 370,
         "attackSpeed": 0.85,
         "attackSpeedPerLevel": 1.2,
         "damage": 38,
