@@ -1,12 +1,13 @@
-[
+ï»¿[
     {
         "name": "Heartseeker",
         "type": "Physical",
         "cost": 2300,
         "passive": "PASSIVE - Every successful Basic Attack gives you 1 stack of Focus. At 5 stacks of Focus, your next Ability consumes the stacks and deals bonus Damage equal to 100% of your Physical Power to the first Enemy God hit.",
         "physicalPower": 30,
-        "movementSpeed": 10,
         "physicalPenetration": 10,
+        "mana": 200,
+        "mpFive": 7,
         "tier": 3,
         "icon": "images/smite/items/heartseeker.jpg"
     },
@@ -170,7 +171,7 @@
         "name": "Qin's Sais",
         "type": "Physical",
         "cost": 2700,
-        "passive": "PASSIVE - On Basic Attack hits, deal Physical Damage equal to 3% of the target’s maximum Health. If the target has over 2000 health, your basic attack bonus damage scales up. Capping at 5% max health on 2750 hp targets. This only affects gods.",
+        "passive": "PASSIVE - On Basic Attack hits, deal Physical Damage equal to 3% of the target's maximum Health. If the target has over 2000 health, your basic attack bonus damage scales up. Capping at 5% max health on 2750 hp targets. This only affects gods.",
         "physicalPower": 40,
         "attackSpeed": 15,
         "maxHealthDamage": 3,
@@ -697,7 +698,7 @@
         "name": "Shaman's Ring",
         "type": "Magical",
         "cost": 2400,
-        "passive": "Passive - Dealing 100 Damage to Enemy Gods gives you a Stack. At 50 Stacks, Shaman’s Ring Evolves, gaining a new Passive that allows the wearer to deal an additional 10% Damage to targets hit by the wearer’s Abilities",
+        "passive": "Passive - Dealing 100 Damage to Enemy Gods gives you a Stack. At 50 Stacks, Shaman's Ring Evolves, gaining a new Passive that allows the wearer to deal an additional 10% Damage to targets hit by the wearer's Abilities",
         "movementSpeed": 10,
         "magicalPower": 100,
         "tier": 3,
@@ -883,8 +884,8 @@
     {
         "name": "Ethereal Staff",
         "type": "Magical",
-        "cost": 2700,
-        "passive": "PASSIVE – Whenever you damage an enemy god you steal 8% maximum mana as well as 4% maximum health from the target. The Stats remain stolen for 45s and targets affected can have multiple Buffs and Debuffs at once. This can only occur once every 15 seconds.",
+        "cost": 2600,
+        "passive": "PASSIVE - Whenever you damage an enemy god you steal 8% maximum mana as well as 5% maximum health from the target. The Stats remain stolen for 45s and targets affected can have multiple Buffs and Debuffs at once. This can only occur once every 15 seconds.",
         "health": 200,
         "magicalPower": 90,
         "crowdControl": 20,
@@ -928,7 +929,7 @@
         "name": "Soul Reaver",
         "type": "Magical",
         "cost": 2750,
-        "passive": "PASSIVE – Your abilities deal an additional 2% of the targets maximum Health as Magical Damage. If the target has over 2000 Health, your ability bonus damage scales up. This effect reaches a maximum of 8% Maximum Health damage at 2750 Health.",
+        "passive": "PASSIVE - Your abilities deal an additional 2% of the targets maximum Health as Magical Damage. If the target has over 2000 Health, your ability bonus damage scales up. This effect reaches a maximum of 7% Maximum Health damage at 2750 Health.",
         "mana": 300,
         "magicalPower": 130,
         "tier": 3,
@@ -1132,6 +1133,7 @@
         "passive": "AURA - Deals 40 magical damage per second to enemies within 25 feet.",
         "health": 300,
         "physicalProtection": 40,
+        "crowdControl": 20,
         "tier": 3,
         "icon": "images/smite/items/mystical mail.jpg"
     },
@@ -2096,8 +2098,8 @@
     {
         "name": "Oni Hunter's Garb",
         "type": "Physical",
-        "cost": 1900,
-        "passive": "PASSIVE - When 3 or more enemy gods are within 55 units of you, you gain a 5% Damage Mitigation Buff.",
+        "cost": 2100,
+        "passive": "PASSIVE - When 3 or more enemy gods are within 55 units of you, you gain a 3% Damage Mitigation Buff. This caps at 3 stacks.",
         "magicalProtection": 60,
         "mpFive": 30,
         "health": 100,
