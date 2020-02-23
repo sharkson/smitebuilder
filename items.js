@@ -10,7 +10,7 @@
         "type": "Both"
     },
     {
-        "cost": 750,
+        "cost": 1400,
         "health": 200,
         "icon": "images/smite/items/steel-mail.jpg",
         "id": 7527,
@@ -20,7 +20,7 @@
         "type": "Both"
     },
     {
-        "cost": 700,
+        "cost": 2100,
         "health": 250,
         "icon": "images/smite/items/sovereignty.jpg",
         "id": 7528,
@@ -31,7 +31,7 @@
         "type": "Both"
     },
     {
-        "cost": 1050,
+        "cost": 2450,
         "crowdControl": 20,
         "enemyInAura": {
             "toggle": true
@@ -46,7 +46,7 @@
         "type": "Both"
     },
     {
-        "cost": 900,
+        "cost": 2300,
         "health": 300,
         "icon": "images/smite/items/midgardian-mail.jpg",
         "id": 7907,
@@ -57,7 +57,7 @@
         "type": "Both"
     },
     {
-        "cost": 600,
+        "cost": 2000,
         "health": 250,
         "icon": "images/smite/items/emperors-armor.jpg",
         "id": 13189,
@@ -79,7 +79,7 @@
     },
     {
         "attackSpeed": 15,
-        "cost": 650,
+        "cost": 1250,
         "icon": "images/smite/items/balanced-blade.jpg",
         "id": 7574,
         "name": "Balanced Blade",
@@ -89,7 +89,7 @@
     },
     {
         "attackSpeed": 25,
-        "cost": 1100,
+        "cost": 2350,
         "icon": "images/smite/items/the-executioner.jpg",
         "id": 7575,
         "name": "The Executioner",
@@ -100,7 +100,7 @@
     },
     {
         "attackSpeed": 20,
-        "cost": 1450,
+        "cost": 2700,
         "icon": "images/smite/items/qins-sais.jpg",
         "id": 7593,
         "name": "Qin's Sais",
@@ -111,7 +111,7 @@
     },
     {
         "attackSpeed": 25,
-        "cost": 1300,
+        "cost": 2550,
         "icon": "images/smite/items/asi.jpg",
         "id": 17090,
         "name": "Asi",
@@ -136,7 +136,7 @@
         "type": "Magical"
     },
     {
-        "cost": 550,
+        "cost": 1100,
         "health": 100,
         "icon": "images/smite/items/enchanted-trinket.jpg",
         "id": 7609,
@@ -147,7 +147,7 @@
         "type": "Magical"
     },
     {
-        "cost": 850,
+        "cost": 1400,
         "icon": "images/smite/items/talon-trinket.jpg",
         "id": 8574,
         "magicalLifesteal": 8,
@@ -158,7 +158,7 @@
         "type": "Magical"
     },
     {
-        "cost": 1200,
+        "cost": 2300,
         "health": 200,
         "icon": "images/smite/items/pythagorems-piece.jpg",
         "id": 7534,
@@ -171,7 +171,7 @@
         "type": "Magical"
     },
     {
-        "cost": 1100,
+        "cost": 2500,
         "icon": "images/smite/items/bancrofts-talon.jpg",
         "id": 8551,
         "magicalLifesteal": 15,
@@ -183,7 +183,7 @@
         "type": "Magical"
     },
     {
-        "cost": 1400,
+        "cost": 2800,
         "icon": "images/smite/items/typhons-fang.jpg",
         "id": 15579,
         "magicalLifesteal": 15,
@@ -197,7 +197,7 @@
     },
     {
         "cooldownReduction": 10,
-        "cost": 1200,
+        "cost": 2300,
         "health": 150,
         "icon": "images/smite/items/soul-gem.jpg",
         "id": 15582,
@@ -218,7 +218,7 @@
         "type": "Physical"
     },
     {
-        "cost": 800,
+        "cost": 1500,
         "icon": "images/smite/items/warriors-bane.jpg",
         "id": 7522,
         "name": "Warrior's Bane",
@@ -228,7 +228,7 @@
         "type": "Physical"
     },
     {
-        "cost": 850,
+        "cost": 1550,
         "icon": "images/smite/items/heavy-mace.jpg",
         "id": 7828,
         "name": "Heavy Mace",
@@ -238,7 +238,7 @@
         "type": "Physical"
     },
     {
-        "cost": 800,
+        "cost": 2300,
         "icon": "images/smite/items/titans-bane.jpg",
         "id": 7523,
         "name": "Titan's Bane",
@@ -248,7 +248,7 @@
         "type": "Physical"
     },
     {
-        "cost": 800,
+        "cost": 2350,
         "icon": "images/smite/items/brawlers-beat-stick.jpg",
         "id": 7829,
         "name": "Brawler's Beat Stick",
@@ -260,7 +260,7 @@
     },
     {
         "cooldownReduction": 20,
-        "cost": 800,
+        "cost": 2350,
         "icon": "images/smite/items/jotunns-wrath.jpg",
         "id": 7904,
         "mana": 150,
@@ -272,7 +272,7 @@
     },
     {
         "attackSpeed": 20,
-        "cost": 850,
+        "cost": 2400,
         "icon": "images/smite/items/the-crusher.jpg",
         "id": 11111,
         "name": "The Crusher",
@@ -293,7 +293,7 @@
         "type": "Physical"
     },
     {
-        "cost": 600,
+        "cost": 1200,
         "icon": "images/smite/items/charged-morningstar.jpg",
         "id": 8560,
         "mana": 150,
@@ -305,7 +305,7 @@
     },
     {
         "cooldownReduction": 5,
-        "cost": 600,
+        "cost": 1200,
         "icon": "images/smite/items/hydras-star.jpg",
         "id": 8568,
         "mpFive": 7,
@@ -317,7 +317,7 @@
     },
     {
         "cooldownReduction": 10,
-        "cost": 1400,
+        "cost": 2600,
         "icon": "images/smite/items/transcendence.jpg",
         "id": 8547,
         "mana": 300,
@@ -339,7 +339,7 @@
     },
     {
         "cooldownReduction": 10,
-        "cost": 950,
+        "cost": 2150,
         "icon": "images/smite/items/hydras-lament.jpg",
         "id": 8550,
         "mpFive": 10,
@@ -350,7 +350,7 @@
         "type": "Physical"
     },
     {
-        "cost": 1900,
+        "cost": 3100,
         "icon": "images/smite/items/heartseeker.jpg",
         "id": 12680,
         "mana": 200,
@@ -363,53 +363,6 @@
         "type": "Physical"
     },
     {
-        "cost": 800,
-        "health": 100,
-        "icon": "images/smite/items/vampiric-shroud.jpg",
-        "id": 8247,
-        "magicalPower": 20,
-        "name": "Vampiric Shroud",
-        "passive": "PASSIVE - Damaging any enemies with an ability gives you bonus 6 health and 3 mana. Can only trigger once per target per ability.",
-        "physicalProtection": 10,
-        "tier": 1,
-        "type": "Magical"
-    },
-    {
-        "cost": 800,
-        "health": 100,
-        "icon": "images/smite/items/deaths-toll.jpg",
-        "id": 8268,
-        "name": "Death's Toll",
-        "passive": "PASSIVE - Hitting an enemy with a Basic Attack restores 8 Health and 4 Mana. Basic Attacks that hit all enemies in melee range restore 4 Health and 2 Mana on every enemy after the first.",
-        "physicalPower": 10,
-        "tier": 1,
-        "type": "Physical"
-    },
-    {
-        "cost": 800,
-        "health": 100,
-        "icon": "images/smite/items/mark-of-the-vanguard.jpg",
-        "id": 8538,
-        "name": "Mark of the Vanguard",
-        "passive": "PASSIVE - All damage taken is reduced by 4.",
-        "physicalProtection": 10,
-        "tier": 1,
-        "type": "Both"
-    },
-    {
-        "cost": 800,
-        "health": 100,
-        "icon": "images/smite/items/watchers-gift.jpg",
-        "id": 9089,
-        "magicalProtection": 5,
-        "mpFive": 5,
-        "name": "Watcher's Gift",
-        "passive": "PASSIVE - Being within assist range of a minion or jungle camp monster death without dealing the killing blow awards 5 bonus gold, and also restores +12 Health and +10 Mana. ",
-        "physicalProtection": 5,
-        "tier": 1,
-        "type": "Both"
-    },
-    {
         "cost": 500,
         "icon": "images/smite/items/boots.jpg",
         "id": 9624,
@@ -417,10 +370,10 @@
         "name": "Boots",
         "shoes": true,
         "tier": 1,
-        "type": "Both"
+        "type": "Physical"
     },
     {
-        "cost": 400,
+        "cost": 900,
         "icon": "images/smite/items/combat-boots.jpg",
         "id": 9625,
         "movementSpeed": 12,
@@ -431,7 +384,7 @@
         "type": "Physical"
     },
     {
-        "cost": 700,
+        "cost": 1600,
         "icon": "images/smite/items/warrior-tabi.jpg",
         "id": 9626,
         "movementSpeed": 18,
@@ -443,7 +396,7 @@
     },
     {
         "attackSpeed": 25,
-        "cost": 650,
+        "cost": 1550,
         "icon": "images/smite/items/ninja-tabi.jpg",
         "id": 9627,
         "mana": 100,
@@ -455,7 +408,7 @@
         "type": "Physical"
     },
     {
-        "cost": 650,
+        "cost": 1550,
         "crowdControl": 20,
         "health": 100,
         "icon": "images/smite/items/reinforced-greaves.jpg",
@@ -478,7 +431,7 @@
         "type": "Physical"
     },
     {
-        "cost": 700,
+        "cost": 1600,
         "icon": "images/smite/items/talaria-boots.jpg",
         "id": 9630,
         "movementSpeed": 25,
@@ -498,10 +451,10 @@
         "name": "Shoes",
         "shoes": true,
         "tier": 1,
-        "type": "Both"
+        "type": "Magical"
     },
     {
-        "cost": 400,
+        "cost": 900,
         "icon": "images/smite/items/magic-shoes.jpg",
         "id": 9632,
         "magicalPower": 20,
@@ -512,7 +465,7 @@
         "type": "Magical"
     },
     {
-        "cost": 650,
+        "cost": 1550,
         "icon": "images/smite/items/shoes-of-the-magi.jpg",
         "id": 9633,
         "magicalPower": 75,
@@ -524,7 +477,7 @@
     },
     {
         "cooldownReduction": 10,
-        "cost": 700,
+        "cost": 1600,
         "icon": "images/smite/items/shoes-of-focus.jpg",
         "id": 9634,
         "magicalPower": 55,
@@ -536,7 +489,7 @@
         "type": "Magical"
     },
     {
-        "cost": 650,
+        "cost": 1550,
         "crowdControl": 20,
         "health": 100,
         "icon": "images/smite/items/reinforced-shoes.jpg",
@@ -559,7 +512,7 @@
         "type": "Magical"
     },
     {
-        "cost": 700,
+        "cost": 1600,
         "icon": "images/smite/items/travelers-shoes.jpg",
         "id": 9637,
         "magicalPower": 25,
@@ -582,7 +535,7 @@
         "type": "Physical"
     },
     {
-        "cost": 800,
+        "cost": 1500,
         "criticalChance": 10,
         "icon": "images/smite/items/short-sword.jpg",
         "id": 9813,
@@ -592,7 +545,7 @@
         "type": "Physical"
     },
     {
-        "cost": 1500,
+        "cost": 3000,
         "criticalChance": 25,
         "icon": "images/smite/items/deathbringer.jpg",
         "id": 7545,
@@ -603,7 +556,7 @@
         "type": "Physical"
     },
     {
-        "cost": 800,
+        "cost": 2300,
         "criticalChance": 30,
         "icon": "images/smite/items/rage.jpg",
         "id": 8546,
@@ -623,7 +576,7 @@
     },
     {
         "cooldownReduction": 10,
-        "cost": 1150,
+        "cost": 2650,
         "criticalChance": 25,
         "icon": "images/smite/items/malice.jpg",
         "id": 9405,
@@ -644,7 +597,7 @@
         "type": "Physical"
     },
     {
-        "cost": 800,
+        "cost": 1400,
         "icon": "images/smite/items/cursed-gauntlet.jpg",
         "id": 9826,
         "name": "Cursed Gauntlet",
@@ -654,7 +607,7 @@
         "type": "Physical"
     },
     {
-        "cost": 450,
+        "cost": 1050,
         "icon": "images/smite/items/bound-gauntlet.jpg",
         "id": 9827,
         "mana": 75,
@@ -666,7 +619,7 @@
     },
     {
         "cooldownReduction": 10,
-        "cost": 1250,
+        "cost": 2300,
         "icon": "images/smite/items/soul-eater.jpg",
         "id": 7539,
         "mana": 200,
@@ -683,7 +636,7 @@
         "type": "Physical"
     },
     {
-        "cost": 900,
+        "cost": 2300,
         "icon": "images/smite/items/devourers-gauntlet.jpg",
         "id": 7914,
         "name": "Devourer's Gauntlet",
@@ -703,7 +656,7 @@
         "type": "Physical"
     },
     {
-        "cost": 1400,
+        "cost": 2800,
         "icon": "images/smite/items/bloodforge.jpg",
         "id": 9236,
         "name": "Bloodforge",
@@ -711,16 +664,6 @@
         "physicalLifesteal": 15,
         "physicalPower": 75,
         "tier": 3,
-        "type": "Physical"
-    },
-    {
-        "cost": 1,
-        "icon": "images/smite/items/devourers-gauntlet.jpg",
-        "id": 15736,
-        "name": "Devourer's Gauntlet",
-        "physicalLifesteal": 24,
-        "physicalPower": 65,
-        "tier": 4,
         "type": "Physical"
     },
     {
@@ -734,7 +677,7 @@
         "type": "Both"
     },
     {
-        "cost": 600,
+        "cost": 1150,
         "health": 100,
         "icon": "images/smite/items/adventurers-blade.jpg",
         "id": 8239,
@@ -745,7 +688,7 @@
     },
     {
         "attackSpeed": 10,
-        "cost": 700,
+        "cost": 1250,
         "health": 75,
         "icon": "images/smite/items/cursed-blade.jpg",
         "id": 18190,
@@ -757,7 +700,7 @@
     {
         "attackSpeed": 20,
         "cooldownReduction": 10,
-        "cost": 900,
+        "cost": 2050,
         "enemyInAura": {
             "toggle": true
         },
@@ -771,7 +714,7 @@
         "type": "Both"
     },
     {
-        "cost": 700,
+        "cost": 1850,
         "crowdControl": 20,
         "health": 300,
         "icon": "images/smite/items/winged-blade.jpg",
@@ -784,7 +727,7 @@
     },
     {
         "cooldownReduction": 10,
-        "cost": 700,
+        "cost": 1850,
         "health": 300,
         "icon": "images/smite/items/relic-dagger.jpg",
         "id": 13187,
@@ -796,7 +739,7 @@
     },
     {
         "attackSpeed": 30,
-        "cost": 1050,
+        "cost": 2200,
         "health": 100,
         "icon": "images/smite/items/toxic-blade.jpg",
         "id": 14846,
@@ -818,7 +761,7 @@
         "type": "Physical"
     },
     {
-        "cost": 700,
+        "cost": 1350,
         "health": 150,
         "icon": "images/smite/items/heavy-hammer.jpg",
         "id": 9831,
@@ -828,7 +771,7 @@
         "type": "Physical"
     },
     {
-        "cost": 650,
+        "cost": 1300,
         "health": 200,
         "icon": "images/smite/items/shillelagh.jpg",
         "id": 14083,
@@ -839,7 +782,7 @@
         "type": "Physical"
     },
     {
-        "cost": 950,
+        "cost": 2300,
         "health": 300,
         "icon": "images/smite/items/frostbound-hammer.jpg",
         "id": 7589,
@@ -850,7 +793,7 @@
         "type": "Physical"
     },
     {
-        "cost": 1050,
+        "cost": 2400,
         "health": 200,
         "icon": "images/smite/items/runeforged-hammer.jpg",
         "id": 8959,
@@ -861,7 +804,7 @@
         "type": "Physical"
     },
     {
-        "cost": 900,
+        "cost": 2200,
         "health": 350,
         "icon": "images/smite/items/blackthorn-hammer.jpg",
         "id": 14096,
@@ -883,7 +826,7 @@
         "type": "Physical"
     },
     {
-        "cost": 500,
+        "cost": 1150,
         "icon": "images/smite/items/tower-shield.jpg",
         "id": 8566,
         "name": "Tower Shield",
@@ -893,7 +836,7 @@
         "type": "Physical"
     },
     {
-        "cost": 950,
+        "cost": 1600,
         "enemyInAura": {
             "toggle": true
         },
@@ -908,7 +851,7 @@
     },
     {
         "cooldownReduction": 10,
-        "cost": 1050,
+        "cost": 1700,
         "icon": "images/smite/items/gladiators-shield.jpg",
         "id": 14085,
         "name": "Gladiator's Shield",
@@ -920,7 +863,7 @@
     },
     {
         "attackSpeed": 10,
-        "cost": 1050,
+        "cost": 1700,
         "icon": "images/smite/items/berserkers-shield.jpg",
         "id": 16544,
         "name": "Berserker's Shield",
@@ -931,7 +874,7 @@
         "type": "Physical"
     },
     {
-        "cost": 1250,
+        "cost": 2400,
         "icon": "images/smite/items/shifters-shield.jpg",
         "id": 8549,
         "name": "Shifter's Shield",
@@ -942,7 +885,7 @@
         "type": "Physical"
     },
     {
-        "cost": 1000,
+        "cost": 2600,
         "enemyInAura": {
             "toggle": true
         },
@@ -966,7 +909,7 @@
         "type": "Both"
     },
     {
-        "cost": 450,
+        "cost": 1050,
         "icon": "images/smite/items/silver-breastplate.jpg",
         "id": 9838,
         "mana": 200,
@@ -977,7 +920,7 @@
         "type": "Both"
     },
     {
-        "cost": 1150,
+        "cost": 2200,
         "icon": "images/smite/items/hide-of-the-nemean-lion.jpg",
         "id": 7578,
         "mana": 200,
@@ -990,7 +933,7 @@
     },
     {
         "cooldownReduction": 20,
-        "cost": 1250,
+        "cost": 2300,
         "icon": "images/smite/items/breastplate-of-valor.jpg",
         "id": 7641,
         "mana": 300,
@@ -1001,7 +944,7 @@
         "type": "Both"
     },
     {
-        "cost": 1050,
+        "cost": 2100,
         "crowdControl": 20,
         "icon": "images/smite/items/spectral-armor.jpg",
         "id": 12664,
@@ -1014,7 +957,7 @@
         "type": "Both"
     },
     {
-        "cost": 1000,
+        "cost": 2050,
         "enemyInAura": {
             "toggle": true
         },
@@ -1041,7 +984,7 @@
     },
     {
         "cooldownReduction": 7,
-        "cost": 850,
+        "cost": 1500,
         "icon": "images/smite/items/cloak-of-concentration.jpg",
         "id": 9360,
         "magicalProtection": 30,
@@ -1051,7 +994,7 @@
         "type": "Both"
     },
     {
-        "cost": 500,
+        "cost": 1150,
         "health": 200,
         "icon": "images/smite/items/clerics-cloak.jpg",
         "id": 9842,
@@ -1062,7 +1005,7 @@
         "type": "Both"
     },
     {
-        "cost": 900,
+        "cost": 1550,
         "health": 125,
         "icon": "images/smite/items/armored-cloak.jpg",
         "id": 9843,
@@ -1074,7 +1017,7 @@
         "type": "Both"
     },
     {
-        "cost": 1000,
+        "cost": 2150,
         "health": 300,
         "icon": "images/smite/items/magis-cloak.jpg",
         "id": 7935,
@@ -1086,7 +1029,7 @@
         "type": "Both"
     },
     {
-        "cost": 900,
+        "cost": 2450,
         "health": 250,
         "icon": "images/smite/items/hide-of-the-urchin.jpg",
         "id": 9338,
@@ -1109,7 +1052,7 @@
     },
     {
         "cooldownReduction": 10,
-        "cost": 1000,
+        "cost": 2500,
         "crowdControl": 20,
         "icon": "images/smite/items/spirit-robe.jpg",
         "id": 9361,
@@ -1122,7 +1065,7 @@
     },
     {
         "cooldownReduction": 10,
-        "cost": 1400,
+        "cost": 2900,
         "icon": "images/smite/items/mantle-of-discord.jpg",
         "id": 12666,
         "magicalProtection": 60,
@@ -1143,7 +1086,7 @@
         "type": "Both"
     },
     {
-        "cost": 600,
+        "cost": 1250,
         "health": 125,
         "icon": "images/smite/items/silver-talisman.jpg",
         "id": 9846,
@@ -1153,7 +1096,7 @@
         "type": "Both"
     },
     {
-        "cost": 1050,
+        "cost": 2300,
         "crowdControl": 20,
         "health": 250,
         "icon": "images/smite/items/bulwark-of-hope.jpg",
@@ -1165,7 +1108,7 @@
         "type": "Both"
     },
     {
-        "cost": 1000,
+        "cost": 2250,
         "enemyInAura": {
             "toggle": true
         },
@@ -1179,7 +1122,7 @@
         "type": "Both"
     },
     {
-        "cost": 850,
+        "cost": 2100,
         "health": 250,
         "icon": "images/smite/items/heartward-amulet.jpg",
         "id": 11116,
@@ -1190,7 +1133,7 @@
         "type": "Both"
     },
     {
-        "cost": 900,
+        "cost": 2150,
         "health": 300,
         "icon": "images/smite/items/talisman-of-energy.jpg",
         "id": 15619,
@@ -1220,7 +1163,7 @@
     },
     {
         "attackSpeed": 10,
-        "cost": 500,
+        "cost": 1100,
         "icon": "images/smite/items/enchanted-ring.jpg",
         "id": 9848,
         "magicalPower": 40,
@@ -1230,7 +1173,7 @@
     },
     {
         "attackSpeed": 30,
-        "cost": 1200,
+        "cost": 2300,
         "icon": "images/smite/items/demonic-grip.jpg",
         "id": 8564,
         "magicalPower": 75,
@@ -1241,7 +1184,7 @@
     },
     {
         "attackSpeed": 25,
-        "cost": 1600,
+        "cost": 2700,
         "icon": "images/smite/items/telkhines-ring.jpg",
         "id": 9351,
         "magicalPower": 100,
@@ -1252,7 +1195,7 @@
     },
     {
         "attackSpeed": 25,
-        "cost": 1600,
+        "cost": 2700,
         "icon": "images/smite/items/hastened-ring.jpg",
         "id": 14840,
         "magicalPower": 70,
@@ -1264,7 +1207,7 @@
     },
     {
         "attackSpeed": 20,
-        "cost": 1500,
+        "cost": 2600,
         "icon": "images/smite/items/ring-of-hecate.jpg",
         "id": 18191,
         "magicalLifesteal": 12,
@@ -1292,7 +1235,7 @@
         "type": "Magical"
     },
     {
-        "cost": 850,
+        "cost": 1500,
         "icon": "images/smite/items/spell-focus.jpg",
         "id": 9850,
         "magicalPenetration": 10,
@@ -1302,7 +1245,7 @@
         "type": "Magical"
     },
     {
-        "cost": 750,
+        "cost": 1400,
         "icon": "images/smite/items/enchanted-spear.jpg",
         "id": 9851,
         "magicalPenetration": 1,
@@ -1312,7 +1255,7 @@
         "type": "Magical"
     },
     {
-        "cost": 900,
+        "cost": 2300,
         "icon": "images/smite/items/divine-ruin.jpg",
         "id": 7832,
         "magicalPenetration": 1,
@@ -1324,7 +1267,7 @@
     },
     {
         "cooldownReduction": 10,
-        "cost": 1200,
+        "cost": 2600,
         "icon": "images/smite/items/spear-of-desolation.jpg",
         "id": 12670,
         "magicalPenetration": 1,
@@ -1335,7 +1278,7 @@
         "type": "Magical"
     },
     {
-        "cost": 1050,
+        "cost": 2550,
         "icon": "images/smite/items/obsidian-shard.jpg",
         "id": 18179,
         "magicalPenetration": 20,
@@ -1346,7 +1289,7 @@
         "type": "Magical"
     },
     {
-        "cost": 1050,
+        "cost": 2450,
         "icon": "images/smite/items/spear-of-the-magus.jpg",
         "id": 18180,
         "magicalPenetration": 1,
@@ -1355,17 +1298,6 @@
         "passive": "PASSIVE - Subsequent hits of the same ability deal 6% increased damage, stacking 6 times.",
         "tier": 3,
         "type": "Magical"
-    },
-    {
-        "cost": 590,
-        "health": 125,
-        "icon": "images/smite/items/travelers-cloak.jpg",
-        "id": 9854,
-        "magicalProtection": 10,
-        "name": "Traveler's Cloak",
-        "physicalProtection": 40,
-        "tier": 1,
-        "type": "Both"
     },
     {
         "cost": 650,
@@ -1378,7 +1310,7 @@
         "type": "Magical"
     },
     {
-        "cost": 700,
+        "cost": 1350,
         "health": 100,
         "icon": "images/smite/items/sorcerers-staff.jpg",
         "id": 9856,
@@ -1389,7 +1321,7 @@
         "type": "Magical"
     },
     {
-        "cost": 850,
+        "cost": 1500,
         "health": 100,
         "icon": "images/smite/items/rod-of-healing.jpg",
         "id": 9857,
@@ -1401,7 +1333,7 @@
         "type": "Magical"
     },
     {
-        "cost": 700,
+        "cost": 1350,
         "crowdControl": 5,
         "health": 150,
         "icon": "images/smite/items/fortified-scepter.jpg",
@@ -1412,7 +1344,7 @@
         "type": "Magical"
     },
     {
-        "cost": 1350,
+        "cost": 2700,
         "crowdControl": 10,
         "health": 200,
         "icon": "images/smite/items/gem-of-isolation.jpg",
@@ -1424,7 +1356,7 @@
         "type": "Magical"
     },
     {
-        "cost": 1300,
+        "cost": 2650,
         "health": 150,
         "icon": "images/smite/items/warlocks-staff.jpg",
         "id": 7917,
@@ -1446,7 +1378,7 @@
         "type": "Magical"
     },
     {
-        "cost": 1250,
+        "cost": 2600,
         "crowdControl": 20,
         "health": 200,
         "icon": "images/smite/items/ethereal-staff.jpg",
@@ -1458,7 +1390,7 @@
         "type": "Magical"
     },
     {
-        "cost": 1100,
+        "cost": 2600,
         "health": 200,
         "icon": "images/smite/items/rod-of-asclepius.jpg",
         "id": 9345,
@@ -1480,7 +1412,7 @@
         "type": "Magical"
     },
     {
-        "cost": 700,
+        "cost": 1350,
         "icon": "images/smite/items/book-of-souls.jpg",
         "id": 9859,
         "magicalPower": 55,
@@ -1490,7 +1422,7 @@
         "type": "Magical"
     },
     {
-        "cost": 1300,
+        "cost": 2650,
         "icon": "images/smite/items/book-of-thoth.jpg",
         "id": 7334,
         "magicalPower": 80,
@@ -1511,7 +1443,7 @@
         "type": "Magical"
     },
     {
-        "cost": 950,
+        "cost": 2300,
         "icon": "images/smite/items/polynomicon.jpg",
         "id": 7597,
         "magicalLifesteal": 12,
@@ -1523,7 +1455,7 @@
         "type": "Magical"
     },
     {
-        "cost": 1500,
+        "cost": 2850,
         "icon": "images/smite/items/soul-reaver.jpg",
         "id": 9128,
         "magicalPenetration": 10,
@@ -1535,14 +1467,15 @@
         "type": "Magical"
     },
     {
-        "cost": 1250,
+        "cost": 2600,
         "icon": "images/smite/items/book-of-the-dead.jpg",
         "id": 14080,
+        "magicalPower": 100,
         "mana": 200,
         "name": "Book of the Dead",
         "passive": "PASSIVE - If you drop below 40% Health, you gain a shield equal to 20% of your maximum Mana. This shield lasts 6s. This effect can only occur once every 90s.",
         "tier": 3,
-        "type": "Both"
+        "type": "Magical"
     },
     {
         "cost": 550,
@@ -1555,7 +1488,7 @@
         "type": "Magical"
     },
     {
-        "cost": 1050,
+        "cost": 1600,
         "icon": "images/smite/items/cursed-orb.jpg",
         "id": 7924,
         "mana": 75,
@@ -1576,7 +1509,7 @@
         "type": "Magical"
     },
     {
-        "cost": 850,
+        "cost": 1400,
         "icon": "images/smite/items/restored-artifact.jpg",
         "id": 9861,
         "magicalPower": 60,
@@ -1586,7 +1519,7 @@
         "type": "Magical"
     },
     {
-        "cost": 1600,
+        "cost": 3000,
         "icon": "images/smite/items/rod-of-tahuti.jpg",
         "id": 7600,
         "magicalPower": 160,
@@ -1598,7 +1531,7 @@
     },
     {
         "cooldownReduction": 20,
-        "cost": 1300,
+        "cost": 2700,
         "icon": "images/smite/items/chronos-pendant.jpg",
         "id": 7784,
         "magicalPower": 100,
@@ -1609,7 +1542,7 @@
         "type": "Magical"
     },
     {
-        "cost": 1400,
+        "cost": 3000,
         "icon": "images/smite/items/doom-orb.jpg",
         "id": 16882,
         "mana": 200,
@@ -1630,7 +1563,7 @@
         "type": "Magical"
     },
     {
-        "cost": 1200,
+        "cost": 2600,
         "icon": "images/smite/items/charons-coin.jpg",
         "id": 18183,
         "magicalPenetration": 20,
@@ -1660,7 +1593,7 @@
         "type": "Physical"
     },
     {
-        "cost": 750,
+        "cost": 1400,
         "icon": "images/smite/items/warded-shield.jpg",
         "id": 9835,
         "magicalProtection": 35,
@@ -1670,7 +1603,7 @@
         "type": "Physical"
     },
     {
-        "cost": 750,
+        "cost": 2150,
         "enemyInAura": {
             "toggle": true
         },
@@ -1686,7 +1619,7 @@
     },
     {
         "cooldownReduction": 10,
-        "cost": 750,
+        "cost": 2150,
         "icon": "images/smite/items/ancile.jpg",
         "id": 13277,
         "magicalProtection": 50,
@@ -1697,7 +1630,7 @@
         "type": "Physical"
     },
     {
-        "cost": 1100,
+        "cost": 2500,
         "health": 100,
         "icon": "images/smite/items/caduceus-shield.jpg",
         "id": 18195,
@@ -1720,7 +1653,7 @@
         "type": "Magical"
     },
     {
-        "cost": 600,
+        "cost": 1200,
         "icon": "images/smite/items/jade-mountain-helm.jpg",
         "id": 10602,
         "magicalPower": 20,
@@ -1730,7 +1663,7 @@
         "type": "Magical"
     },
     {
-        "cost": 1000,
+        "cost": 1600,
         "health": 50,
         "icon": "images/smite/items/dynasty-plate-helm.jpg",
         "id": 10605,
@@ -1741,7 +1674,7 @@
         "type": "Magical"
     },
     {
-        "cost": 950,
+        "cost": 2150,
         "icon": "images/smite/items/celestial-legion-helm.jpg",
         "id": 10600,
         "magicalPower": 60,
@@ -1761,7 +1694,7 @@
         "type": "Magical"
     },
     {
-        "cost": 850,
+        "cost": 2050,
         "icon": "images/smite/items/lotus-crown.jpg",
         "id": 11110,
         "magicalPower": 30,
@@ -1773,7 +1706,7 @@
         "type": "Magical"
     },
     {
-        "cost": 900,
+        "cost": 2100,
         "enemyInAura": {
             "toggle": true
         },
@@ -1788,7 +1721,7 @@
         "type": "Magical"
     },
     {
-        "cost": 1000,
+        "cost": 2600,
         "crowdControl": 20,
         "health": 100,
         "icon": "images/smite/items/tyrannical-plate-helm.jpg",
@@ -1815,21 +1748,21 @@
         "id": 10662,
         "name": "Short Bow",
         "tier": 1,
-        "type": "Both"
+        "type": "Physical"
     },
     {
         "attackSpeed": 20,
-        "cost": 550,
+        "cost": 1200,
         "icon": "images/smite/items/charged-bow.jpg",
         "id": 10687,
         "name": "Charged Bow",
         "passive": "PASSIVE - Every fourth Basic Attack triggers a chain lightning, damaging the target and up to 4 nearby enemies for 15 Physical Damage. This cannot trigger more than once every 1s.",
         "tier": 2,
-        "type": "Both"
+        "type": "Physical"
     },
     {
         "attackSpeed": 20,
-        "cost": 550,
+        "cost": 1200,
         "icon": "images/smite/items/hunters-bow.jpg",
         "id": 14848,
         "name": "Hunter's Bow",
@@ -1839,17 +1772,17 @@
     },
     {
         "attackSpeed": 40,
-        "cost": 900,
+        "cost": 2100,
         "icon": "images/smite/items/odysseus-bow.jpg",
         "id": 10482,
         "name": "Odysseus' Bow",
         "passive": "PASSIVE - Every fourth Basic Attack triggers a chain lightning, damaging the target and up to 4 nearby enemies for 15 damage +60% of your total Basic Attack Power.",
         "tier": 3,
-        "type": "Both"
+        "type": "Physical"
     },
     {
         "attackSpeed": 30,
-        "cost": 1250,
+        "cost": 2450,
         "icon": "images/smite/items/ichaival.jpg",
         "id": 10664,
         "name": "Ichaival",
@@ -1868,7 +1801,7 @@
     },
     {
         "attackSpeed": 35,
-        "cost": 1000,
+        "cost": 2200,
         "icon": "images/smite/items/silverbranch-bow.jpg",
         "id": 14084,
         "name": "Silverbranch Bow",
@@ -1880,7 +1813,7 @@
     },
     {
         "attackSpeed": 30,
-        "cost": 1000,
+        "cost": 2200,
         "icon": "images/smite/items/atalantas-bow.jpg",
         "id": 14849,
         "movementSpeed": 10,
@@ -1899,29 +1832,6 @@
         "type": "Physical"
     },
     {
-        "cost": 800,
-        "icon": "images/smite/items/bluestone-pendant.jpg",
-        "id": 11122,
-        "mana": 50,
-        "mpFive": 5,
-        "name": "Bluestone Pendant",
-        "passive": "PASSIVE - Enemies hit by your damaging Abilities take an additional 30 Physical Damage over 2s. (Max 2 Stacks)",
-        "physicalPower": 15,
-        "tier": 1,
-        "type": "Physical"
-    },
-    {
-        "cost": 800,
-        "icon": "images/smite/items/soul-stone.jpg",
-        "id": 11123,
-        "magicalPower": 20,
-        "mana": 100,
-        "name": "Soul Stone",
-        "passive": "PASSIVE - Gain 1 stack every time you hit an enemy with a basic attack. If you have 5 stacks, the next time you deal damage with an ability the stacks are consumed and you gain 40 mana, and that ability and any abilities used in the next 3s will deal bonus damage equal to having +40 Magical Power for those abilities.",
-        "tier": 1,
-        "type": "Magical"
-    },
-    {
         "cost": 600,
         "health": 100,
         "hpFive": 10,
@@ -1932,7 +1842,7 @@
         "type": "Both"
     },
     {
-        "cost": 800,
+        "cost": 1400,
         "health": 200,
         "hpFive": 15,
         "icon": "images/smite/items/emerald-talisman.jpg",
@@ -1944,7 +1854,7 @@
         "type": "Both"
     },
     {
-        "cost": 650,
+        "cost": 1250,
         "health": 200,
         "hpFive": 10,
         "icon": "images/smite/items/emerald-mail.jpg",
@@ -1954,7 +1864,7 @@
         "type": "Both"
     },
     {
-        "cost": 850,
+        "cost": 2250,
         "health": 400,
         "hpFive": 25,
         "icon": "images/smite/items/stone-of-gaia.jpg",
@@ -1967,7 +1877,7 @@
     },
     {
         "cooldownReduction": 10,
-        "cost": 750,
+        "cost": 2000,
         "health": 300,
         "hpFive": 15,
         "icon": "images/smite/items/shield-of-regrowth.jpg",
@@ -1980,7 +1890,7 @@
     },
     {
         "cooldownReduction": 10,
-        "cost": 1000,
+        "cost": 2250,
         "health": 400,
         "hpFive": 10,
         "icon": "images/smite/items/mail-of-renewal.jpg",
@@ -1991,7 +1901,7 @@
         "type": "Both"
     },
     {
-        "cost": 1100,
+        "cost": 2350,
         "health": 300,
         "hpFive": 15,
         "icon": "images/smite/items/gauntlet-of-thebes.jpg",
@@ -2022,7 +1932,7 @@
     },
     {
         "attackSpeed": 10,
-        "cost": 850,
+        "cost": 1500,
         "criticalChance": 10,
         "icon": "images/smite/items/8-pointed-shuriken.jpg",
         "id": 12668,
@@ -2033,7 +1943,7 @@
     },
     {
         "attackSpeed": 15,
-        "cost": 1000,
+        "cost": 2500,
         "criticalChance": 20,
         "icon": "images/smite/items/wind-demon.jpg",
         "id": 12674,
@@ -2045,7 +1955,7 @@
     },
     {
         "attackSpeed": 15,
-        "cost": 1000,
+        "cost": 2500,
         "criticalChance": 15,
         "icon": "images/smite/items/poisoned-star-.jpg",
         "id": 13427,
@@ -2067,7 +1977,7 @@
         "type": "Physical"
     },
     {
-        "cost": 600,
+        "cost": 1300,
         "icon": "images/smite/items/thousand-fold-blade.jpg",
         "id": 12672,
         "movementSpeed": 5,
@@ -2077,7 +1987,7 @@
         "type": "Physical"
     },
     {
-        "cost": 1200,
+        "cost": 2500,
         "icon": "images/smite/items/stone-cutting-sword.jpg",
         "id": 12673,
         "movementSpeed": 7,
@@ -2096,7 +2006,7 @@
         "type": "Physical"
     },
     {
-        "cost": 1200,
+        "cost": 2500,
         "health": 150,
         "icon": "images/smite/items/masamune.jpg",
         "id": 12677,
@@ -2118,7 +2028,7 @@
     },
     {
         "attackSpeed": 20,
-        "cost": 1200,
+        "cost": 2500,
         "icon": "images/smite/items/hastened-katana.jpg",
         "id": 14850,
         "movementSpeed": 10,
@@ -2130,7 +2040,7 @@
     },
     {
         "attackSpeed": 15,
-        "cost": 900,
+        "cost": 2200,
         "icon": "images/smite/items/golden-blade.jpg",
         "id": 16592,
         "movementSpeed": 10,
@@ -2151,7 +2061,7 @@
         "type": "Both"
     },
     {
-        "cost": 600,
+        "cost": 1250,
         "icon": "images/smite/items/spellbound-kusari.jpg",
         "id": 12676,
         "magicalProtection": 40,
@@ -2162,7 +2072,7 @@
     },
     {
         "cooldownReduction": 10,
-        "cost": 950,
+        "cost": 2200,
         "health": 150,
         "icon": "images/smite/items/genjis-guard.jpg",
         "id": 12678,
@@ -2174,7 +2084,7 @@
         "type": "Both"
     },
     {
-        "cost": 850,
+        "cost": 2100,
         "health": 100,
         "icon": "images/smite/items/oni-hunters-garb.jpg",
         "id": 12679,
@@ -2187,7 +2097,7 @@
     },
     {
         "cooldownReduction": 10,
-        "cost": 950,
+        "cost": 2200,
         "crowdControl": 20,
         "icon": "images/smite/items/shoguns-kusari.jpg",
         "id": 14178,
@@ -2206,7 +2116,7 @@
         "name": "Magic Acorn",
         "passive": "This item can be upgraded from anywhere and replaces Boots for Ratatoskr.",
         "tier": 1,
-        "type": "Both"
+        "type": "Physical"
     },
     {
         "cost": 700,
@@ -2219,13 +2129,13 @@
         "type": "Physical"
     },
     {
-        "cost": 900,
+        "cost": 1600,
         "icon": "images/smite/items/acorn-of-yggdrasil.jpg",
         "id": 12980,
-        "movementSpeed": 0,
+        "movementSpeed": 20,
         "name": "Acorn of Yggdrasil",
         "passive": "PASSIVE - Anytime Ratatoskr uses an ability that successfully hits any target, he is healed. ",
-        "physicalPower": 0,
+        "physicalPower": 50,
         "tier": 3,
         "type": "Physical"
     },
@@ -2240,7 +2150,7 @@
         "type": "Magical"
     },
     {
-        "cost": 750,
+        "cost": 1350,
         "enemyInAura": {
             "toggle": true
         },
@@ -2255,7 +2165,7 @@
         "type": "Magical"
     },
     {
-        "cost": 800,
+        "cost": 1400,
         "icon": "images/smite/items/sages-stone.jpg",
         "id": 14072,
         "magicalPower": 40,
@@ -2265,7 +2175,7 @@
         "type": "Magical"
     },
     {
-        "cost": 1100,
+        "cost": 1700,
         "icon": "images/smite/items/stone-of-binding.jpg",
         "id": 14175,
         "magicalPower": 30,
@@ -2277,7 +2187,7 @@
         "type": "Magical"
     },
     {
-        "cost": 900,
+        "cost": 2250,
         "enemyInAura": {
             "toggle": true
         },
@@ -2293,7 +2203,7 @@
     },
     {
         "cooldownReduction": 10,
-        "cost": 1200,
+        "cost": 2600,
         "icon": "images/smite/items/stone-of-fal.jpg",
         "id": 14079,
         "magicalPower": 100,
@@ -2304,66 +2214,35 @@
         "type": "Magical"
     },
     {
-        "cost": 800,
-        "health": 100,
-        "icon": "images/smite/items/war-flag.jpg",
-        "id": 14089,
-        "mpFive": 5,
-        "name": "War Flag",
-        "passive": "PASSIVE - Being in range of minion or jungle camp death without dealing the killing the blow restores 5 Health and 5 Mana to all allies within 55 units and also provides allies with a stacking self buff of 1% Movement Speed and 1% Attack Speed. Lasts 6s and stacks up to 10 times. ",
-        "physicalPower": 10,
-        "stacks": {
-            "current": 0,
-            "max": 10,
-            "stacks": {
-                "attackSpeed": 1,
-                "movementSpeed": 1
-            },
-            "type": "temporary"
-        },
-        "tier": 1,
-        "type": "Physical"
-    },
-    {
-        "cooldownReduction": 10,
-        "cost": 800,
-        "icon": "images/smite/items/sands-of-time.jpg",
-        "id": 14090,
-        "magicalPower": 20,
-        "mpFive": 5,
-        "name": "Sands of Time",
-        "passive": "PASSIVE - This item grants 2 MP5 per 10% of your missing Mana",
-        "tier": 1,
-        "type": "Magical"
-    },
-    {
-        "cost": 800,
-        "health": 100,
-        "hpFive": 10,
-        "icon": "images/smite/items/swift-wing.jpg",
-        "id": 14091,
-        "movementSpeed": 5,
-        "name": "Swift Wing",
-        "passive": "PASSIVE - Whenever you leave the fountain, you gain 40% movespeed for 15s. You will lose this speed early if you enter combat.",
-        "tier": 1,
-        "type": "Both"
-    },
-    {
         "cost": 700,
+        "health": 100,
         "icon": "images/smite/items/guardians-blessing.jpg",
         "id": 15473,
+        "magicalProtection": 5,
         "name": "Guardian's Blessing",
-        "passive": "+100 Health\r\n+5 Physical Protection and Magical Protection\r\n+7 HP5 & 7 MP5 while within 60ft of an ally god\r\n+3 Gold per Minion Assisted\r\n\r\nROLE QUEST: SUPPORT\r\nAssist with Minion kills to gain stacks. Each Assist is worth 1 stack. At 50 stacks Guardian's Blessing Evolves, gaining 4 Gold Per 5s.",
+        "passive": "+7 HP5 & 7 MP5 while within 60ft of an ally god +3 Gold per Minion Assisted ROLE QUEST: SUPPORT Assist with Minion kills to gain stacks. Each Assist is worth 1 stack. At 50 stacks Guardian's Blessing Evolves, gaining 4 Gold Per 5s.",
+        "physicalProtection": 5,
         "tier": 1,
+        "toggleStats": {
+            "hpFive": 7,
+            "mpFive": 7,
+            "toggle": false
+        },
         "type": "Both"
     },
     {
         "cost": 700,
+        "health": 75,
         "icon": "images/smite/items/warriors-blessing.jpg",
         "id": 15479,
         "name": "Warrior's Blessing",
-        "passive": "+75 Health\n+3 Reduction of All Damage Taken\n+40 Health And Mana Restored Upon Damaging An Enemy God, 10s Cooldown\n\nROLE QUEST: SOLO\nDealing damage to an enemy god provides 1 stack. This effect can only occur once every 10s. Getting a Kill or Assist on an Enemy god provides 3 stacks. At 15 Stacks Warrior's Blessing Evolves, gaining +15 Physical and Magical Protection.",
+        "passive": "+3 Reduction of All Damage Taken+40 Health And Mana Restored Upon Damaging An Enemy God, 10s CooldownROLE QUEST: SOLODealing damage to an enemy god provides 1 stack. This effect can only occur once every 10s. Getting a Kill or Assist on an Enemy god provides 3 stacks. At 15 Stacks Warrior's Blessing Evolves, gaining +15 Physical and Magical Protection.",
         "tier": 1,
+        "toggleStats": {
+            "magicalProtection": 15,
+            "physicalProtection": 15,
+            "toggle": false
+        },
         "type": "Both"
     },
     {
@@ -2373,33 +2252,54 @@
         "name": "Mage's Blessing",
         "passive": "+10 Bonus Ability Damage\n+10 Physical Power\n+20 Magical Power\n+2 MP5 Per 10% Missing Mana\n\nROLE QUEST: MID\nKill or Assist Lane Minions or Enemy gods to gain stacks. Lane Minions are worth 1 Stack and Enemy gods are worth 5 Stacks. At 75 Stacks Mage's Blessing Evolves, gaining 10% Cooldown Reduction.",
         "tier": 1,
+        "toggleStats": {
+            "cooldownReduction": 10,
+            "toggle": false
+        },
         "type": "Both"
     },
     {
         "cost": 700,
+        "health": 50,
         "icon": "images/smite/items/assassins-blessing.jpg",
         "id": 15486,
         "name": "Assassin's Blessing",
         "passive": "+50 Health\n+40% Damage vs. Jungle Monsters\n+7% Health and 25 Mana Restored on Killing a Jungle Monster\r\nROLE QUEST: JUNGLE\nKill or Assist Jungle Monsters or Enemy Gods to gain stacks. Jungle Monsters are worth 1 stack and Enemy Gods are worth 5 stacks. At 50 Stacks Assassin's Blessing Evolves, gaining +5 Penetration and 5% Movement Speed.",
         "tier": 1,
+        "toggleStats": {
+            "movementSpeed": 5,
+            "toggle": false
+        },
         "type": "Both"
     },
     {
         "cost": 700,
         "icon": "images/smite/items/hunters-blessing.jpg",
         "id": 15489,
+        "mpFive": 10,
         "name": "Hunter's Blessing",
         "passive": "+15 Basic Attack Damage\n+10 MP5 \n\nROLE QUEST: CARRY\nKill or Assist Lane Minions or Enemy gods to gain stacks. Lane Minions are worth 1 Stack and Enemy gods are worth 5 Stacks. At 75 Stacks Hunter's Blessing Evolves, gaining 15% Attack Speed and an additional 15 Bonus Basic Attack Damage.",
         "tier": 1,
+        "toggleStats": {
+            "attackSpeed": 15,
+            "toggle": false
+        },
         "type": "Both"
     },
     {
+        "cooldownReduction": 10,
         "cost": 700,
+        "hpFive": 10,
         "icon": "images/smite/items/specialists-blessing.jpg",
         "id": 15571,
+        "mpFive": 20,
         "name": "Specialist's Blessing",
-        "passive": "+10 HP5\n+20 MP5\n+10% Cooldown Reduction\n\nROLE QUEST: UTILITY\nDamage enemies or Heal allies to gain stacks. Each time an enemy is damaged or an ally god is healed by your abilities, gain 1 stack. Each ability can only trigger 3 stacks. At 75 Stacks Specialist's Blessing Evolves, gaining 10% Movement Speed.",
+        "passive": "ROLE QUEST: UTILITYDamage enemies or Heal allies to gain stacks. Each time an enemy is damaged or an ally god is healed by your abilities, gain 1 stack. Each ability can only trigger 3 stacks. At 75 Stacks Specialist's Blessing Evolves, gaining 10% Movement Speed.",
         "tier": 1,
+        "toggleStats": {
+            "movementSpeed": 10,
+            "toggle": false
+        },
         "type": "Both"
     },
     {
@@ -2413,11 +2313,19 @@
     },
     {
         "cost": 700,
+        "health": 100,
         "icon": "images/smite/items/defenders-blessing.jpg",
         "id": 15597,
+        "magicalProtection": 10,
         "name": "Defender's Blessing",
         "passive": "+100 Health\n+10 Physical Protection\n+10 Magical Protection\n\nROLE QUEST: TANK\nMitigate damage to gain Stacks. Mitigating 50 damage provides 1 Stack. At 75 Stacks Defender's Blessing Evolves, gaining +150 Health and Mana.",
+        "physicalProtection": 10,
         "tier": 1,
+        "toggleStats": {
+            "health": 150,
+            "mana": 150,
+            "toggle": false
+        },
         "type": "Both"
     },
     {
@@ -2431,7 +2339,7 @@
         "type": "Both"
     },
     {
-        "cost": 700,
+        "cost": 1200,
         "crowdControl": 10,
         "health": 50,
         "icon": "images/smite/items/protectors-mask.jpg",
@@ -2445,7 +2353,7 @@
     },
     {
         "cooldownReduction": 10,
-        "cost": 700,
+        "cost": 1200,
         "icon": "images/smite/items/messengers-mask.jpg",
         "id": 16395,
         "movementSpeed": 10,
@@ -2455,7 +2363,7 @@
         "type": "Physical"
     },
     {
-        "cost": 700,
+        "cost": 1200,
         "icon": "images/smite/items/fighters-mask.jpg",
         "id": 16397,
         "magicalPower": 60,
@@ -2467,7 +2375,7 @@
     },
     {
         "cooldownReduction": 10,
-        "cost": 1300,
+        "cost": 2500,
         "icon": "images/smite/items/bumbas-mask.jpg",
         "id": 8987,
         "name": "Bumba's Mask",
@@ -2477,7 +2385,7 @@
         "type": "Physical"
     },
     {
-        "cost": 1300,
+        "cost": 2500,
         "icon": "images/smite/items/rangdas-mask.jpg",
         "id": 14098,
         "magicalPower": 100,
@@ -2488,7 +2396,7 @@
         "type": "Magical"
     },
     {
-        "cost": 1100,
+        "cost": 2300,
         "crowdControl": 20,
         "health": 200,
         "icon": "images/smite/items/lonos-mask.jpg",
@@ -2511,7 +2419,7 @@
     },
     {
         "cooldownReduction": 10,
-        "cost": 700,
+        "cost": 1600,
         "icon": "images/smite/items/honed-edge.jpg",
         "id": 17351,
         "name": "Honed Edge",
@@ -2521,7 +2429,7 @@
     },
     {
         "cooldownReduction": 10,
-        "cost": 700,
+        "cost": 1600,
         "icon": "images/smite/items/knights-shield.jpg",
         "id": 17352,
         "name": "Knight's Shield",
@@ -2531,7 +2439,7 @@
     },
     {
         "cooldownReduction": 10,
-        "cost": 700,
+        "cost": 1600,
         "icon": "images/smite/items/apprentice-staff.jpg",
         "id": 17353,
         "magicalPower": 50,
@@ -2541,7 +2449,7 @@
     },
     {
         "cooldownReduction": 10,
-        "cost": 1400,
+        "cost": 3000,
         "icon": "images/smite/items/staff-of-myrddin.jpg",
         "id": 17354,
         "magicalPenetration": 10,
@@ -2553,7 +2461,7 @@
     },
     {
         "cooldownReduction": 20,
-        "cost": 800,
+        "cost": 2400,
         "icon": "images/smite/items/pridwen.jpg",
         "id": 17355,
         "magicalProtection": 30,
@@ -2565,7 +2473,7 @@
     },
     {
         "cooldownReduction": 10,
-        "cost": 1000,
+        "cost": 2600,
         "icon": "images/smite/items/arondight.jpg",
         "id": 17356,
         "name": "Arondight",
@@ -2576,7 +2484,7 @@
     },
     {
         "cooldownReduction": 20,
-        "cost": 1200,
+        "cost": 2800,
         "criticalChance": 20,
         "icon": "images/smite/items/fail-not.jpg",
         "id": 17357,
