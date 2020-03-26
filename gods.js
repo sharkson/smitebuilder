@@ -3501,7 +3501,7 @@
                     }
                 ],
                 "current": ""
-            },
+            }
         },
         "physicalProtection": 11,
         "physicalProtectionPerLevel": 2.9,
