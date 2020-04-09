@@ -87,7 +87,7 @@
             "name": "Radiant Glory"
         },
         "attackSpeed": 0.95,
-        "attackSpeedPerLevel": 0.012,
+        "attackSpeedPerLevel": 1.2,
         "attackType": "Melee",
         "damage": 38,
         "damagePerLevel": 2,
@@ -211,7 +211,7 @@
             "powerDamage": 65
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.012,
+        "attackSpeedPerLevel": 1.2,
         "attackType": "Ranged",
         "damage": 34,
         "damagePerLevel": 7.5,
@@ -341,7 +341,7 @@
             "powerDamage": 70
         },
         "attackSpeed": 0.95,
-        "attackSpeedPerLevel": 0.016,
+        "attackSpeedPerLevel": 1.6,
         "attackType": "Ranged",
         "damage": 38,
         "damagePerLevel": 2.2,
@@ -527,7 +527,7 @@
             "name": "Heavenly Reflection"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.012,
+        "attackSpeedPerLevel": 1.2,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2,
@@ -644,7 +644,7 @@
             "powerDamage": 80
         },
         "attackSpeed": 0.9,
-        "attackSpeedPerLevel": 0.015,
+        "attackSpeedPerLevel": 1.5,
         "attackType": "Ranged",
         "damage": 40,
         "damagePerLevel": 2.5,
@@ -1146,7 +1146,7 @@
             "name": "Serenade"
         },
         "attackSpeed": 0.95,
-        "attackSpeedPerLevel": 0.016,
+        "attackSpeedPerLevel": 1.6,
         "attackType": "Ranged",
         "damage": 40,
         "damagePerLevel": 2.6,
@@ -1379,7 +1379,7 @@
             "name": "Bolster Defenses"
         },
         "attackSpeed": 0.9,
-        "attackSpeedPerLevel": 0.011,
+        "attackSpeedPerLevel": 1.1,
         "attackType": "Melee",
         "damage": 38,
         "damagePerLevel": 7.75,
@@ -1511,7 +1511,7 @@
             }
         },
         "attackSpeed": 0.95,
-        "attackSpeedPerLevel": 0.016,
+        "attackSpeedPerLevel": 1.6,
         "attackType": "Ranged",
         "damage": 35,
         "damagePerLevel": 2.5,
@@ -1596,7 +1596,7 @@
             "name": "Entangling Vines (Ferocious Roar)"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.012,
+        "attackSpeedPerLevel": 1.2,
         "attackType": "Melee",
         "damage": 38,
         "damagePerLevel": 7.5,
@@ -1702,7 +1702,7 @@
             "name": "Confound"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.012,
+        "attackSpeedPerLevel": 1.2,
         "attackType": "Melee",
         "damage": 35,
         "damagePerLevel": 7.5,
@@ -1838,7 +1838,7 @@
             "powerDamage": 50
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.019,
+        "attackSpeedPerLevel": 1.9,
         "attackType": "Melee",
         "damage": 38,
         "damagePerLevel": 2.16,
@@ -2045,7 +2045,7 @@
             "name": "Eat Minion"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.016,
+        "attackSpeedPerLevel": 1.6,
         "attackType": "Melee",
         "damage": 38,
         "damagePerLevel": 2.2,
@@ -2388,7 +2388,7 @@
             "name": "Bludgeon"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.012,
+        "attackSpeedPerLevel": 1.2,
         "attackType": "Melee",
         "damage": 36,
         "damagePerLevel": 2,
@@ -2515,7 +2515,7 @@
             "powerDamage": 50
         },
         "attackSpeed": 0.9,
-        "attackSpeedPerLevel": 0.011,
+        "attackSpeedPerLevel": 1.1,
         "attackType": "Melee",
         "damage": 38,
         "damagePerLevel": 7.5,
@@ -2746,7 +2746,7 @@
             "ticks": 1
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.01,
+        "attackSpeedPerLevel": 1.0,
         "attackType": "Melee",
         "damage": 38,
         "damagePerLevel": 7.5,
@@ -2854,7 +2854,7 @@
             "powerDamage": 75
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.014,
+        "attackSpeedPerLevel": 1.4,
         "attackType": "Ranged",
         "damage": 37,
         "damagePerLevel": 2.5,
@@ -2977,7 +2977,7 @@
             "powerDamage": 70
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.01,
+        "attackSpeedPerLevel": 1.0,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2.1,
@@ -3091,7 +3091,7 @@
             "name": "Moonlit Waltz"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.01,
+        "attackSpeedPerLevel": 1.0,
         "attackType": "Ranged",
         "damage": 32,
         "damagePerLevel": 7.25,
@@ -3217,7 +3217,7 @@
             }
         },
         "attackSpeed": 0.95,
-        "attackSpeedPerLevel": 0.016,
+        "attackSpeedPerLevel": 1.6,
         "attackType": "Ranged",
         "damage": 36,
         "damagePerLevel": 2.6,
@@ -3338,7 +3338,7 @@
             "powerDamage": 70
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.014,
+        "attackSpeedPerLevel": 1.4,
         "attackType": "Ranged",
         "damage": 35,
         "damagePerLevel": 2.35,
@@ -3588,7 +3588,7 @@
             }
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.012,
+        "attackSpeedPerLevel": 1.2,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2,
@@ -3704,7 +3704,7 @@
             "name": "Share the Love"
         },
         "attackSpeed": 0.95,
-        "attackSpeedPerLevel": 0.017,
+        "attackSpeedPerLevel": 1.7,
         "attackType": "Ranged",
         "damage": 35,
         "damagePerLevel": 2.3,
@@ -3987,7 +3987,7 @@
             "powerDamage": 55
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.01,
+        "attackSpeedPerLevel": 1.0,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2,
@@ -4081,7 +4081,7 @@
             "name": "Coerce"
         },
         "attackSpeed": 0.9,
-        "attackSpeedPerLevel": 0.011,
+        "attackSpeedPerLevel": 1.1,
         "attackType": "Melee",
         "damage": 37,
         "damagePerLevel": 7.75,
@@ -4188,7 +4188,7 @@
             "name": "Seething Howl"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.017,
+        "attackSpeedPerLevel": 1.7,
         "attackType": "Melee",
         "damage": 38,
         "damagePerLevel": 2.3,
@@ -4285,7 +4285,7 @@
             "name": "Pulse"
         },
         "attackSpeed": 0.95,
-        "attackSpeedPerLevel": 0.019,
+        "attackSpeedPerLevel": 1.9,
         "attackType": "Melee",
         "damage": 35,
         "damagePerLevel": 7.5,
@@ -4397,7 +4397,7 @@
             "name": "Ohm"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.012,
+        "attackSpeedPerLevel": 1.2,
         "attackType": "Melee",
         "damage": 38,
         "damagePerLevel": 7.75,
@@ -4497,7 +4497,7 @@
             "powerDamage": 50
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.012,
+        "attackSpeedPerLevel": 1.2,
         "attackType": "Melee",
         "damage": 38,
         "damagePerLevel": 7.5,
@@ -4724,7 +4724,7 @@
             }
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.013,
+        "attackSpeedPerLevel": 1.3,
         "attackType": "Ranged",
         "damage": 36,
         "damagePerLevel": 2.5,
@@ -4838,7 +4838,7 @@
             "name": "Shroud of Darkness"
         },
         "attackSpeed": 0.95,
-        "attackSpeedPerLevel": 0.01,
+        "attackSpeedPerLevel": 1.0,
         "attackType": "Ranged",
         "damage": 32,
         "damagePerLevel": 7.5,
@@ -5043,7 +5043,7 @@
             "name": "Gjallarhorn"
         },
         "attackSpeed": 0.96,
-        "attackSpeedPerLevel": 0.014,
+        "attackSpeedPerLevel": 1.4,
         "attackType": "Ranged",
         "damage": 32,
         "damagePerLevel": 3,
@@ -5449,7 +5449,7 @@
             "name": "Fracture"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.012,
+        "attackSpeedPerLevel": 1.2,
         "attackType": "Melee",
         "damage": 37,
         "damagePerLevel": 2.1,
@@ -5552,7 +5552,7 @@
             "name": "Mark of the Golden Crow"
         },
         "attackSpeed": 0.95,
-        "attackSpeedPerLevel": 0.011,
+        "attackSpeedPerLevel": 1.1,
         "attackType": "Ranged",
         "damage": 40,
         "damagePerLevel": 2.8,
@@ -5667,7 +5667,7 @@
             "powerDamage": 95
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.019,
+        "attackSpeedPerLevel": 1.9,
         "attackType": "Melee",
         "damage": 38,
         "damagePerLevel": 2.16,
@@ -5906,7 +5906,7 @@
             "powerDamage": 90
         },
         "attackSpeed": 0.95,
-        "attackSpeedPerLevel": 0.016,
+        "attackSpeedPerLevel": 1.6,
         "attackType": "Ranged",
         "damage": 36,
         "damagePerLevel": 2.4,
@@ -6125,7 +6125,7 @@
             "name": "Explosive Bolts"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.014,
+        "attackSpeedPerLevel": 1.4,
         "attackType": "Ranged",
         "damage": 38,
         "damagePerLevel": 2.7,
@@ -6237,7 +6237,7 @@
             "powerDamage": 45
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.01,
+        "attackSpeedPerLevel": 1.0,
         "attackType": "Ranged",
         "damage": 28,
         "damagePerLevel": 12,
@@ -6450,7 +6450,7 @@
             "ticks": 10
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.012,
+        "attackSpeedPerLevel": 1.2,
         "attackType": "Melee",
         "damage": 38,
         "damagePerLevel": 7.5,
@@ -6780,7 +6780,7 @@
             "powerDamage": 50
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.012,
+        "attackSpeedPerLevel": 1.2,
         "attackType": "Melee",
         "damage": 38,
         "damagePerLevel": 7.5,
@@ -6876,7 +6876,7 @@
             "name": "Shell Spikes"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.012,
+        "attackSpeedPerLevel": 1.2,
         "attackType": "Melee",
         "damage": 38,
         "damagePerLevel": 7.5,
@@ -6993,7 +6993,7 @@
             "powerDamage": 100
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.019,
+        "attackSpeedPerLevel": 1.9,
         "attackType": "Melee",
         "damage": 38,
         "damagePerLevel": 2.4,
@@ -7104,7 +7104,7 @@
             "powerDamage": 70
         },
         "attackSpeed": 0.95,
-        "attackSpeedPerLevel": 0.013,
+        "attackSpeedPerLevel": 1.3,
         "attackType": "Ranged",
         "damage": 38,
         "damagePerLevel": 2.6,
@@ -7583,7 +7583,7 @@
             "powerDamage": 80
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.016,
+        "attackSpeedPerLevel": 1.6,
         "attackType": "Ranged",
         "damage": 38,
         "damagePerLevel": 2.5,
@@ -7820,7 +7820,7 @@
             "powerDamage": 50
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.012,
+        "attackSpeedPerLevel": 1.2,
         "attackType": "Melee",
         "damage": 37,
         "damagePerLevel": 2,
@@ -8044,7 +8044,7 @@
             "name": "Clay Soldiers"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.017,
+        "attackSpeedPerLevel": 1.7,
         "attackType": "Ranged",
         "damage": 35,
         "damagePerLevel": 7.5,
@@ -8144,7 +8144,7 @@
             "name": "Raven Shout"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.011,
+        "attackSpeedPerLevel": 1.1,
         "attackType": "Melee",
         "damage": 38,
         "damagePerLevel": 2,
@@ -8262,7 +8262,7 @@
             }
         },
         "attackSpeed": 1.05,
-        "attackSpeedPerLevel": 0.016,
+        "attackSpeedPerLevel": 1.6,
         "attackType": "Ranged",
         "damage": 30.4,
         "damagePerLevel": 9.5,
@@ -8364,7 +8364,7 @@
             "powerDamage": 75
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.014,
+        "attackSpeedPerLevel": 1.4,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2.25,
@@ -8707,7 +8707,7 @@
             }
         },
         "attackSpeed": 0.87,
-        "attackSpeedPerLevel": 0.01,
+        "attackSpeedPerLevel": 1.0,
         "attackType": "Ranged",
         "damage": 35,
         "damagePerLevel": 7.5,
@@ -9035,7 +9035,7 @@
             "name": "Pick Me Up"
         },
         "attackSpeed": 0.95,
-        "attackSpeedPerLevel": 0.016,
+        "attackSpeedPerLevel": 1.6,
         "attackType": "Ranged",
         "damage": 40,
         "damagePerLevel": 2.5,
@@ -9289,7 +9289,7 @@
             }
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.017,
+        "attackSpeedPerLevel": 1.7,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2.2,
@@ -9615,7 +9615,7 @@
             "powerDamage": 25
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.019,
+        "attackSpeedPerLevel": 1.9,
         "attackType": "Melee",
         "damage": 37,
         "damagePerLevel": 2.3,
@@ -9721,7 +9721,7 @@
             "name": "Rune of the Hunt"
         },
         "attackSpeed": 0.95,
-        "attackSpeedPerLevel": 0.015,
+        "attackSpeedPerLevel": 1.5,
         "attackType": "Ranged",
         "damage": 35,
         "damagePerLevel": 2.5,
@@ -9843,7 +9843,7 @@
             "powerDamage": 40
         },
         "attackSpeed": 0.85,
-        "attackSpeedPerLevel": 0.012,
+        "attackSpeedPerLevel": 1.2,
         "attackType": "Melee",
         "damage": 38,
         "damagePerLevel": 7.5,
@@ -9983,7 +9983,7 @@
             "ticks": 2
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.018,
+        "attackSpeedPerLevel": 1.8,
         "attackType": "Ranged",
         "damage": 34,
         "damagePerLevel": 7.25,
@@ -10436,7 +10436,7 @@
             "ticks": 2
         },
         "attackSpeed": 0.9,
-        "attackSpeedPerLevel": 0.013,
+        "attackSpeedPerLevel": 1.3,
         "attackType": "Melee",
         "damage": 38,
         "damagePerLevel": 7.75,
@@ -10554,7 +10554,7 @@
             "name": "Scent of Death"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.017,
+        "attackSpeedPerLevel": 1.7,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2.3,
@@ -10777,7 +10777,7 @@
             "name": "Tectonic Rift"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.014,
+        "attackSpeedPerLevel": 1.4,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2.4,
@@ -10889,7 +10889,7 @@
             "powerDamage": 60
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.012,
+        "attackSpeedPerLevel": 1.2,
         "attackType": "Ranged",
         "damage": 32,
         "damagePerLevel": 7.5,
@@ -11076,7 +11076,7 @@
             "name": "Expose Weakness (Invigorate)"
         },
         "attackSpeed": 0.95,
-        "attackSpeedPerLevel": 0.014,
+        "attackSpeedPerLevel": 1.4,
         "attackType": "Ranged",
         "damage": 38,
         "damagePerLevel": 2.4,
@@ -11184,7 +11184,7 @@
             "powerDamage": 70
         },
         "attackSpeed": 0.9,
-        "attackSpeedPerLevel": 0.013,
+        "attackSpeedPerLevel": 1.3,
         "attackType": "Melee",
         "damage": 37,
         "damagePerLevel": 2,
@@ -11312,7 +11312,7 @@
             "powerDamage": 40
         },
         "attackSpeed": 0.9,
-        "attackSpeedPerLevel": 0.01,
+        "attackSpeedPerLevel": 1.0,
         "attackType": "Ranged",
         "damage": 34,
         "damagePerLevel": 7.5,
@@ -11420,7 +11420,7 @@
             "name": "Poison Darts"
         },
         "attackSpeed": 0.95,
-        "attackSpeedPerLevel": 0.01,
+        "attackSpeedPerLevel": 1.0,
         "attackType": "Ranged",
         "damage": 37,
         "damagePerLevel": 2.5,
@@ -11541,7 +11541,7 @@
             "name": "Hook Slam"
         },
         "attackSpeed": 0.9,
-        "attackSpeedPerLevel": 0.011,
+        "attackSpeedPerLevel": 1.1,
         "attackType": "Melee",
         "damage": 35,
         "damagePerLevel": 7.75,
@@ -11634,7 +11634,7 @@
             "powerDamage": 40
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.012,
+        "attackSpeedPerLevel": 1.2,
         "attackType": "Ranged",
         "damage": 34,
         "damagePerLevel": 7.5,
@@ -11754,7 +11754,7 @@
             "powerDamage": 70
         },
         "attackSpeed": 0.85,
-        "attackSpeedPerLevel": 0.01,
+        "attackSpeedPerLevel": 1.0,
         "attackType": "Melee",
         "damage": 38,
         "damagePerLevel": 7.75,
