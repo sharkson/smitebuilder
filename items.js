@@ -1207,7 +1207,7 @@
     },
     {
         "attackSpeed": 20,
-        "cost": 2600,
+        "cost": 2500,
         "icon": "images/smite/items/ring-of-hecate.jpg",
         "id": 18191,
         "magicalLifesteal": 12,
@@ -2206,7 +2206,7 @@
         "cost": 2600,
         "icon": "images/smite/items/stone-of-fal.jpg",
         "id": 14079,
-        "magicalPower": 100,
+        "magicalPower": 80,
         "magicalProtection": 40,
         "name": "Stone of Fal",
         "passive": "PASSIVE - You gain 20% of the Magical protections of the nearby allied god with the highest Magical protections within 70ft.",

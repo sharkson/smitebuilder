@@ -2746,7 +2746,7 @@
             "ticks": 1
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 1.0,
+        "attackSpeedPerLevel": 1,
         "attackType": "Melee",
         "damage": 38,
         "damagePerLevel": 7.5,
@@ -2977,7 +2977,7 @@
             "powerDamage": 70
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 1.0,
+        "attackSpeedPerLevel": 1,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2.1,
@@ -3091,7 +3091,7 @@
             "name": "Moonlit Waltz"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 1.0,
+        "attackSpeedPerLevel": 1,
         "attackType": "Ranged",
         "damage": 32,
         "damagePerLevel": 7.25,
@@ -3483,24 +3483,24 @@
             "level": 5,
             "name": "Time Lord",
             "select": {
+                "current": "",
                 "options": [
                     {
                         "label": "Off"
                     },
                     {
-                        "label": "Section I",
-                        "hpFiveFromPercentMaxHealth": 0.015
+                        "hpFiveFromPercentMaxHealth": 0.015,
+                        "label": "Section I"
                     },
                     {
                         "label": "Section III",
                         "magicalPowerPercentage": 0.25
                     },
                     {
-                        "label": "Section IV",
-                        "basicAttackPowerPercentContribution": 0.45
+                        "basicAttackPowerPercentContribution": 0.45,
+                        "label": "Section IV"
                     }
-                ],
-                "current": ""
+                ]
             }
         },
         "physicalProtection": 11,
@@ -3987,7 +3987,7 @@
             "powerDamage": 55
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 1.0,
+        "attackSpeedPerLevel": 1,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2,
@@ -4838,7 +4838,7 @@
             "name": "Shroud of Darkness"
         },
         "attackSpeed": 0.95,
-        "attackSpeedPerLevel": 1.0,
+        "attackSpeedPerLevel": 1,
         "attackType": "Ranged",
         "damage": 32,
         "damagePerLevel": 7.5,
@@ -6237,7 +6237,7 @@
             "powerDamage": 45
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 1.0,
+        "attackSpeedPerLevel": 1,
         "attackType": "Ranged",
         "damage": 28,
         "damagePerLevel": 12,
@@ -7376,6 +7376,94 @@
         "type": "Mage"
     },
     {
+        "name": "Mulan",
+        "id": 3881,
+        "title": "The Ascendant Warrior",
+        "pantheon": "Chinese",
+        "type": "Warrior",
+        "attackType": "Melee",
+        "powerType": "Physical",
+        "pros": "High Area Damage",
+        "health": 480,
+        "healthPerLevel": 82,
+        "mana": 220,
+        "manaPerLevel": 38,
+        "speed": 375,
+        "attackSpeed": 1,
+        "attackSpeedPerLevel": 0.01,
+        "damage": 39,
+        "damagePerLevel": 2.2,
+        "physicalProtection": 18,
+        "physicalProtectionPerLevel": 3,
+        "magicalProtection": 30,
+        "magicalProtectionPerLevel": 0.9,
+        "hpFive": 9,
+        "hpFivePerLevel": 0.7,
+        "mpFive": 4.7,
+        "mpFivePerLevel": 0.4,
+        "icon": "images/smite/gods/mulan.jpg",
+        "passive": {
+            "level": 5,
+            "name": "Training Arc",
+            "icon": "images/smite/abilities/training-arc.jpg",
+            "description": "Mulan utilizes a Sword, Spear and Bow with her abilities and can gain Skill towards them by damaging enemy gods. Her expertise in each weapon provides different bonuses. Mulan also gains a buff every 10 seconds that reduces the cooldown of the next non-ultimate ability used by 2 seconds."
+        },
+        "abilityOne": {
+            "level": 5,
+            "name": "Cross Strike",
+            "icon": "images/smite/abilities/cross-strike.jpg",
+            "description": "Mulan swings her sword with precision, striking twice and dealing damage to all enemies hit.\n\nSkilled - Mulan gains an Attack Speed increase after using this ability.\nAdept - Mulan strikes a third time in a large cone in front of her.\nMastered - Mulan gains 5% Attack Speed.",
+            "cooldown": [
+                16,
+                15,
+                14,
+                13,
+                12
+            ],
+            "cost": [
+                60,
+                65,
+                70,
+                75,
+                80
+            ],
+            "toggleStats": {
+                "attackSpeed": 25,
+                "toggle": false
+            }
+        },
+        "abilityTwo": {
+            "level": 5,
+            "name": "Spear Thrust",
+            "icon": "images/smite/abilities/spear-thrust.jpg",
+            "description": "Mulan brings forth her spear striking in front of her, dealing damage and slowing all enemies hit.\n\nSkilled - Mulan heals for up to 3 enemies hit.\nAdept - Mulan strikes a second time further in front of her, dealing bonus damage if she hits the same enemy.\nMastered - Mulan gains 5% Power.",
+            "cooldown": 14,
+            "cost": [
+                50,
+                55,
+                60,
+                65,
+                70
+            ]
+        },
+        "abilityThree": {
+            "level": 5,
+            "name": "Grapple",
+            "icon": "images/smite/abilities/grapple.jpg",
+            "description": "Mulan readies herself and fires an arrow with a rope attached to it. If she hits an enemy god she stuns them, dealing damage and pulling them towards her while dashing and hitting them again for extra damage.\n\nSkilled - Mulan gains a Protection buff after hitting an enemy god.\nAdept - Mulan is able to dash to walls.\nMastered - Mulan gains 5% Movement Speed.",
+            "cooldown": 16,
+            "cost": 60
+        },
+        "abilityFour": {
+            "level": 5,
+            "name": "Divine Mastery",
+            "icon": "images/smite/abilities/divine-mastery.jpg",
+            "description": "Mulan brings forth her entire arsenal dashing forwards with sword slashes, dealing damage and rooting enemies for 1s.\n\nIf she hits an enemy god during the dash, Mulan uses her new divine energy to knock up enemies with her spear before firing a large projectile attack with her bow.\n\nDealing damage with any part of this ability gains Skill towards the weapon used.",
+            "cooldown": 100,
+            "cost": 100
+        }
+    },
+    {
         "abilityFour": {
             "cooldown": 90,
             "cost": [
@@ -8009,7 +8097,7 @@
             "powerDamage": 10,
             "ticks": 1,
             "toggleStats": {
-                "attackSpeed": 10,
+                "movementSpeed": 10,
                 "toggle": false
             }
         },
@@ -8696,7 +8784,7 @@
             "level": 5,
             "name": "Trident",
             "toggleStats": {
-                "attackSpeed": [
+                "movementSpeed": [
                     10,
                     15,
                     20,
@@ -8707,7 +8795,7 @@
             }
         },
         "attackSpeed": 0.87,
-        "attackSpeedPerLevel": 1.0,
+        "attackSpeedPerLevel": 1,
         "attackType": "Ranged",
         "damage": 35,
         "damagePerLevel": 7.5,
@@ -9904,9 +9992,9 @@
                     300,
                     350
                 ],
+                "damageMultiplier": 0.3,
                 "powerDamage": 50,
-                "ticks": 7,
-                "damageMultiplier": 0.3
+                "ticks": 7
             }
         },
         "abilityOne": {
@@ -11312,7 +11400,7 @@
             "powerDamage": 40
         },
         "attackSpeed": 0.9,
-        "attackSpeedPerLevel": 1.0,
+        "attackSpeedPerLevel": 1,
         "attackType": "Ranged",
         "damage": 34,
         "damagePerLevel": 7.5,
@@ -11420,7 +11508,7 @@
             "name": "Poison Darts"
         },
         "attackSpeed": 0.95,
-        "attackSpeedPerLevel": 1.0,
+        "attackSpeedPerLevel": 1,
         "attackType": "Ranged",
         "damage": 37,
         "damagePerLevel": 2.5,
@@ -11754,7 +11842,7 @@
             "powerDamage": 70
         },
         "attackSpeed": 0.85,
-        "attackSpeedPerLevel": 1.0,
+        "attackSpeedPerLevel": 1,
         "attackType": "Melee",
         "damage": 38,
         "damagePerLevel": 7.75,
