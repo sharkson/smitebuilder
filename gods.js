@@ -1871,6 +1871,146 @@
         "type": "Assassin"
     },
     {
+        "name": "Baba Yaga",
+        "id": 3925,
+        "title": "Witch of the Woods",
+        "pantheon": "Slavic",
+        "type": "Mage",
+        "attackType": "Ranged",
+        "powerType": "Magical",
+        "pros": "",
+        "health": 400,
+        "healthPerLevel": 73,
+        "mana": 280,
+        "manaPerLevel": 50,
+        "speed": 365,
+        "attackSpeed": 0.95,
+        "attackSpeedPerLevel": 1,
+        "damage": 35.0,
+        "damagePerLevel": 7.5,
+        "physicalProtection": 11,
+        "physicalProtectionPerLevel": 2.7,
+        "magicalProtection": 30,
+        "magicalProtectionPerLevel": 0.9,
+        "hpFive": 8,
+        "hpFivePerLevel": 0.5,
+        "mpFive": 5,
+        "mpFivePerLevel": 0.6,
+        "icon": "images/smite/gods/baba-yaga.jpg",
+        "passive": {
+            "level": 5,
+            "name": "Creeping Cabin",
+            "icon": "images/smite/abilities/creeping-cabin.jpg",
+            "description": "Baba Yaga's Cabin accumulates up to 100 essence over time, when it moves, and if enemy gods get too close. Baba Yaga can approach the Cabin and use this essence to gain evolving item stacks. Items with a low stack count take more energy. If Baba Yaga has item this energy instead heals Baba Yaga for 0.8% max health per tick."
+        },
+        "abilityOne": {
+            "level": 5,
+            "name": "Wild Witchcraft",
+            "icon": "images/smite/abilities/wild-witchcraft.jpg",
+            "description": "Baba Yaga throws forward magic imbued with chaotic qualities. The magic will travel in the path of a random shape (Left Corner, Right Corner, Split, or Oval) and leave behind a random magical field on the ground it flew over for 4s. The fields can boost friendly Protections, boost friendly Movement Speed, lower enemy Movement Speed, or Silence enemies.",
+            "cooldown": 12,
+            "cost": [
+                70,
+                75,
+                80,
+                85,
+                90
+            ],
+            "damage": [
+                75,
+                125,
+                175,
+                225,
+                275
+            ],
+            "powerDamage": 75,
+            "toggleStats": {
+                "movementSpeed": [
+                    20,
+                    22.5,
+                    25,
+                    27.5,
+                    30
+                ],
+                "toggle": false
+            }
+        },
+        "abilityTwo": {
+            "level": 5,
+            "name": "Baba's Brew",
+            "icon": "images/smite/abilities/babas-brew.jpg",
+            "description": "Baba Yaga throws together random ingredients to brew a Potion. Each Eye of Newt increases the Potion's Damage by 7.5%. Each Dragon Scale adds a 12.5% slow to enemies hit for 2.5s. Each Wolf Tooth adds a 7.5% Attack Speed slow and Power reduction to enemies hit for 5s. Baba Yaga can store a single Potion in her consumable slot refiring/canceling this ability. She can pull it out at any time to throw it.",
+            "cooldown": [
+                16,
+                16,
+                15,
+                15,
+                14
+            ],
+            "cost": [
+                60,
+                65,
+                70,
+                75,
+                80
+            ],
+            "damage": [
+                55,
+                95,
+                135,
+                175,
+                215
+            ],
+            "powerDamage": 60
+        },
+        "abilityThree": {
+            "level": 5,
+            "name": "Blast Off!",
+            "icon": "images/smite/abilities/blast-off.jpg",
+            "description": "Baba Yaga crawls inside her Mortar for protection. While inside the mortar she gains Damage Reduction, Knockup Protection, and begins to build up explosive magic. After 1s the magic explodes, launching Baba Yaga and her Mortar in the direction she is facing. Enemies near the Mortar when it explodes take damage.",
+            "cooldown": 16,
+            "cost": [
+                60,
+                65,
+                70,
+                75,
+                80
+            ],
+            "damage": [
+                80,
+                125,
+                170,
+                215,
+                260
+            ],
+            "powerDamage": 85
+        },
+        "abilityFour": {
+            "level": 5,
+            "name": "Home Sweet Home",
+            "icon": "images/smite/abilities/home-sweet-home.jpg",
+            "description": "Baba Yaga calls down her Cabin, causing it to crash onto her and launch nearby enemies away. Baba Yaga commands the cabin for up to 8s, using it as a protective shield to create and throw 4 Witchfire Bolts from the inside. When the thrown Witchfire lands, it explodes dealing damage to enemies in the area while leaving behind a creeping patch of fire that chases nearby enemies. Enemies caught in the creeping fire take burn damage every 0.4s.",
+            "cooldown": 90,
+            "cost": [
+                60,
+                65,
+                70,
+                75,
+                80
+            ],
+            "secondaryDamage": {
+                "damage": [
+                    100,
+                    145,
+                    190,
+                    235,
+                    280
+                ],
+                "powerDamage": 50
+            }
+        }
+    },
+    {
         "abilityFour": {
             "cooldown": 90,
             "cost": 95,
