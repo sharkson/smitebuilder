@@ -443,7 +443,7 @@
             }
         },
         "attackSpeed": 0.86,
-        "attackSpeedPerLevel": 0.008,
+        "attackSpeedPerLevel": 0.8,
         "attackType": "Ranged",
         "damage": 35,
         "damagePerLevel": 7.5,
@@ -773,7 +773,7 @@
             "name": "Mummify"
         },
         "attackSpeed": 0.86,
-        "attackSpeedPerLevel": 0.009,
+        "attackSpeedPerLevel": 0.9,
         "attackType": "Ranged",
         "damage": 35,
         "damagePerLevel": 7.5,
@@ -920,7 +920,7 @@
             }
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.02,
+        "attackSpeedPerLevel": 2,
         "attackType": "Melee",
         "damage": 35,
         "damagePerLevel": 12,
@@ -1043,7 +1043,7 @@
             "powerDamage": 80
         },
         "attackSpeed": 0.87,
-        "attackSpeedPerLevel": 0.008,
+        "attackSpeedPerLevel": 0.8,
         "attackType": "Ranged",
         "damage": 32,
         "damagePerLevel": 7.25,
@@ -1271,7 +1271,7 @@
             }
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.02,
+        "attackSpeedPerLevel": 2,
         "attackType": "Melee",
         "damage": 38,
         "damagePerLevel": 2.2,
@@ -2087,7 +2087,7 @@
             "powerDamage": 70
         },
         "attackSpeed": 0.88,
-        "attackSpeedPerLevel": 0.009,
+        "attackSpeedPerLevel": 0.9,
         "attackType": "Melee",
         "damage": 37,
         "damagePerLevel": 7.5,
@@ -2296,7 +2296,7 @@
             "powerDamage": 70
         },
         "attackSpeed": 0.9,
-        "attackSpeedPerLevel": 0.007,
+        "attackSpeedPerLevel": 0.7,
         "attackType": "Magical",
         "damage": 34,
         "damagePerLevel": 7.5,
@@ -2404,7 +2404,7 @@
             "ticks": 4
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.02,
+        "attackSpeedPerLevel": 2,
         "attackType": "Melee",
         "damage": 37,
         "damagePerLevel": 2.21,
@@ -2764,7 +2764,7 @@
             "powerDamage": 130
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.02,
+        "attackSpeedPerLevel": 2,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2.3,
@@ -3599,7 +3599,7 @@
             }
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.008,
+        "attackSpeedPerLevel": 0.8,
         "attackType": "Ranged",
         "damage": 40,
         "damagePerLevel": 7.5,
@@ -3936,7 +3936,7 @@
             "name": "One Thousand Cuts"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.02,
+        "attackSpeedPerLevel": 2,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2.25,
@@ -4029,7 +4029,7 @@
             "powerDamage": 60
         },
         "attackSpeed": 0.9,
-        "attackSpeedPerLevel": 0.009,
+        "attackSpeedPerLevel": 0.9,
         "attackType": "Ranged",
         "damage": 34,
         "damagePerLevel": 7.5,
@@ -4748,7 +4748,7 @@
             "powerDamage": 60
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.009,
+        "attackSpeedPerLevel": 0.9,
         "attackType": "Melee",
         "damage": 37,
         "damagePerLevel": 2,
@@ -5086,7 +5086,7 @@
             "name": "Atlas of the Yellow River"
         },
         "attackSpeed": 0.86,
-        "attackSpeedPerLevel": 0.008,
+        "attackSpeedPerLevel": 0.8,
         "attackType": "Ranged",
         "damage": 34,
         "damagePerLevel": 7.25,
@@ -5272,7 +5272,7 @@
             "name": "Hinder (Cleanse)"
         },
         "attackSpeed": 0.86,
-        "attackSpeedPerLevel": 0.008,
+        "attackSpeedPerLevel": 0.8,
         "attackType": "Ranged",
         "damage": 33,
         "damagePerLevel": 7.5,
@@ -5376,7 +5376,7 @@
             "powerDamage": 75
         },
         "attackSpeed": 0.9,
-        "attackSpeedPerLevel": 0.009,
+        "attackSpeedPerLevel": 0.9,
         "attackType": "Ranged",
         "damage": 34,
         "damagePerLevel": 7.25,
@@ -5484,7 +5484,7 @@
             "powerDamage": 50
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.008,
+        "attackSpeedPerLevel": 0.8,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2,
@@ -6163,7 +6163,7 @@
             "powerDamage": 80
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.008,
+        "attackSpeedPerLevel": 0.8,
         "attackType": "Ranged",
         "damage": 34,
         "damagePerLevel": 7.25,
@@ -6471,7 +6471,7 @@
             "name": "Lash"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.022,
+        "attackSpeedPerLevel": 2.2,
         "attackType": "Melee",
         "damage": 37,
         "damagePerLevel": 2.32,
@@ -6810,7 +6810,7 @@
             "name": "Slipstream"
         },
         "attackSpeed": 0.87,
-        "attackSpeedPerLevel": 0.008,
+        "attackSpeedPerLevel": 0.8,
         "attackType": "Ranged",
         "damage": 34,
         "damagePerLevel": 7.25,
@@ -7369,7 +7369,7 @@
             }
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.024,
+        "attackSpeedPerLevel": 2.4,
         "attackType": "Melee",
         "damage": 38,
         "damagePerLevel": 2.13,
@@ -7481,7 +7481,7 @@
             "powerDamage": 60
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.008,
+        "attackSpeedPerLevel": 0.8,
         "attackType": "Ranged",
         "damage": 34,
         "damagePerLevel": 7.5,
@@ -7530,7 +7530,7 @@
         "manaPerLevel": 38,
         "speed": 375,
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.01,
+        "attackSpeedPerLevel": 1,
         "damage": 39,
         "damagePerLevel": 2.2,
         "physicalProtection": 18,
@@ -7691,7 +7691,7 @@
             }
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.021,
+        "attackSpeedPerLevel": 2.1,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2.2,
@@ -7921,7 +7921,7 @@
             "powerDamage": 30
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.022,
+        "attackSpeedPerLevel": 2.2,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2.25,
@@ -8165,7 +8165,7 @@
             "powerDamage": 100
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.008,
+        "attackSpeedPerLevel": 0.8,
         "attackType": "Ranged",
         "damage": 34,
         "damagePerLevel": 7.5,
@@ -8694,7 +8694,7 @@
             "name": "Eruption"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.02,
+        "attackSpeedPerLevel": 2,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2.25,
@@ -8800,7 +8800,7 @@
             "name": "Harvest"
         },
         "attackSpeed": 0.95,
-        "attackSpeedPerLevel": 0.009,
+        "attackSpeedPerLevel": 0.9,
         "attackType": "Magical",
         "damage": 34,
         "damagePerLevel": 8.5,
@@ -9058,7 +9058,7 @@
             "powerDamage": 55
         },
         "attackSpeed": 0.88,
-        "attackSpeedPerLevel": 0.009,
+        "attackSpeedPerLevel": 0.9,
         "attackType": "Ranged",
         "damage": 34,
         "damagePerLevel": 7.5,
@@ -9166,7 +9166,7 @@
             "ticks": 5
         },
         "attackSpeed": 0.87,
-        "attackSpeedPerLevel": 0.008,
+        "attackSpeedPerLevel": 0.8,
         "attackType": "Ranged",
         "damage": 34,
         "damagePerLevel": 7.5,
@@ -9369,7 +9369,7 @@
             "name": "Flurry"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.02,
+        "attackSpeedPerLevel": 2,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2.25,
@@ -9627,7 +9627,7 @@
             "powerDamage": 0
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.008,
+        "attackSpeedPerLevel": 0.8,
         "attackType": "Ranged",
         "damage": 34,
         "damagePerLevel": 7.25,
@@ -9723,7 +9723,7 @@
             "powerDamage": 50
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.022,
+        "attackSpeedPerLevel": 2.2,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2.25,
@@ -10329,7 +10329,7 @@
             "powerDamage": 65
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.009,
+        "attackSpeedPerLevel": 0.9,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2,
@@ -10444,7 +10444,7 @@
             "powerDamage": 60
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.022,
+        "attackSpeedPerLevel": 2.2,
         "attackType": "Melee",
         "damage": 38,
         "damagePerLevel": 2.2,
@@ -10566,7 +10566,7 @@
             "ticks": 5
         },
         "attackSpeed": 0.85,
-        "attackSpeedPerLevel": 0.005,
+        "attackSpeedPerLevel": 0.5,
         "attackType": "Ranged",
         "damage": 35,
         "damagePerLevel": 7.5,
@@ -10890,7 +10890,7 @@
             "name": "Dark Omen"
         },
         "attackSpeed": 0.87,
-        "attackSpeedPerLevel": 0.009,
+        "attackSpeedPerLevel": 0.9,
         "attackType": "Ranged",
         "damage": 34,
         "damagePerLevel": 12,
@@ -11238,7 +11238,7 @@
             }
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.009,
+        "attackSpeedPerLevel": 0.9,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2,
@@ -12077,7 +12077,7 @@
             "name": "Aegis Assault"
         },
         "attackSpeed": 0.87,
-        "attackSpeedPerLevel": 0.009,
+        "attackSpeedPerLevel": 0.9,
         "attackType": "Ranged",
         "damage": 35,
         "damagePerLevel": 7.5,
@@ -12195,7 +12195,7 @@
             "powerDamage": 50
         },
         "attackSpeed": 0.86,
-        "attackSpeedPerLevel": 0.009,
+        "attackSpeedPerLevel": 0.9,
         "attackType": "Ranged",
         "damage": 33,
         "damagePerLevel": 7.5,
