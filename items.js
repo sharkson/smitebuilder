@@ -111,6 +111,7 @@
     },
     {
         "attackSpeed": 25,
+        "physicalPower": 20,
         "cost": 2550,
         "icon": "images/smite/items/asi.jpg",
         "id": 17090,
@@ -1545,6 +1546,7 @@
         "cost": 3000,
         "icon": "images/smite/items/doom-orb.jpg",
         "id": 16882,
+        "magicalPower": 145,
         "mana": 200,
         "movementSpeed": 6,
         "mpFive": 25,
