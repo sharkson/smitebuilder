@@ -2381,7 +2381,7 @@
         "icon": "images/smite/items/bumbas-mask.jpg",
         "id": 8987,
         "name": "Bumba's Mask",
-        "passive": "PASSIVE - GAIN MOBILITY, SACRIFICE DEFENSE & DAMAGE\n<font color='#42F46E'>+35% Movement Speed\n<font color='#F44242'>+15% Damage Taken\n<font color='#F44242'>-15% Damage Dealt",
+        "passive": "PASSIVE - GAIN MOBILITY, SACRIFICE DEFENSE & DAMAGE\n +35% Movement Speed\n +15% Damage Taken\n -15% Damage Dealt",
         "physicalPower": 30,
         "tier": 3,
         "type": "Physical"
@@ -2392,7 +2392,7 @@
         "id": 14098,
         "magicalPower": 100,
         "name": "Rangda's Mask",
-        "passive": "PASSIVE - GAIN DAMAGE, SACRIFICE DEFENSES\nOnly can be bought by Warriors, Guardians\n<font color='#42F46E'>+20% Damage Dealt\n<font color='#F44242'>+25% Damage Taken",
+        "passive": "PASSIVE - GAIN DAMAGE, SACRIFICE DEFENSES\nOnly can be bought by Warriors, Guardians\n +20% Damage Dealt\n +25% Damage Taken",
         "physicalPower": 60,
         "tier": 3,
         "type": "Magical"
@@ -2405,7 +2405,7 @@
         "id": 14541,
         "magicalProtection": 35,
         "name": "Lono's Mask",
-        "passive": "PASSIVE - GAIN DEFENSE, SACRIFICE DAMAGE\nOnly can be bought by Mages, Hunters, Assassins\n<font color='#42F46E'>-20% Damage Taken\n<font color='#F44242'>-20% Damage Dealt\n<font color='#F44242'>-20% Healing Done",
+        "passive": "PASSIVE - GAIN DEFENSE, SACRIFICE DAMAGE\nOnly can be bought by Mages, Hunters, Assassins\n -20% Damage Taken\n -20% Damage Dealt\n -20% Healing Done",
         "physicalProtection": 35,
         "tier": 3,
         "type": "Both"
