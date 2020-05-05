@@ -2551,10 +2551,14 @@
             "icon": "images/smite/abilities/master-of-war.jpg",
             "level": 5,
             "name": "Master of War",
-            "toggleStats": {
-                "attackSpeed": 0,
-                "toggle": false
-            }
+            "stacks": {
+			    "current": 0,
+			    "max": 5,
+			    "stacks": {
+				    "physicalProtection": 5
+                    "magicalProtection": 5,
+			    },
+		    },
         },
         "physicalProtection": 18,
         "physicalProtectionPerLevel": 3,
