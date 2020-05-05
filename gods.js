@@ -2556,7 +2556,8 @@
 			    "max": 5,
 			    "stacks": {
 				    "physicalProtection": 5
-                    "magicalProtection": 5,
+                                    "magicalProtection": 5,
+				    "movementSpeed": 3
 			    },
 		    },
         },
@@ -3254,7 +3255,7 @@
         "name": "Chang'e",
         "pantheon": "Chinese",
         "passive": {
-            "description": "Chang'e can purchase or sell items from anywhere and her Jade Rabbit companion will fetch them. When the Rabbit reaches the store then returns, the transaction completes. Only one item can be purchased or sold in this way at a time. Chang'e also gains +25% movement speed with no backpedal penalty when using her dances.",
+            "description": "Chang'e can purchase or sell items from anywhere and her Jade Rabbit companion will fetch them. When the Rabbit reaches the store then returns, the transaction completes. Only one item can be purchased or d in this way at a time. Chang'e also gains +25% movement speed with no backpedal penalty when using her dances.",
             "icon": "images/smite/abilities/jade-rabbit.jpg",
             "level": 5,
             "name": "Jade Rabbit"
