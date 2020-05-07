@@ -2555,7 +2555,7 @@
 			    "current": 0,
 			    "max": 5,
 			    "stacks": {
-				    "physicalProtection": 5
+				    "physicalProtection": 5,
 				    "magicalProtection": 5,
 				    "movementSpeed": 3
 			    },
