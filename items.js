@@ -562,13 +562,13 @@
         "icon": "images/smite/items/rage.jpg",
         "id": 8546,
         "name": "Rage",
-        "passive": "PASSIVE - Killing or getting an assist on an enemy god gives you 1 stack. Each stack provides 2% Critical Strike Chance. Stacks are permanent and stack up to 5 times.  ",
+        "passive": "PASSIVE - Killing or getting an assist on an enemy god gives you 1 stack. Each stack provides 3% Critical Strike Chance. Stacks are permanent and stack up to 5 times. ",
         "physicalPower": 20,
         "stacks": {
             "current": 0,
-            "max": 0,
+            "max": 5,
             "stacks": {
-                "criticalChance": 2
+                "criticalChance": 3
             },
             "type": "permanent"
         },
