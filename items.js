@@ -2385,7 +2385,7 @@
         "physicalPower": 30,
         "magicalPower": 65,
         "tier": 3,
-        "type": "Physical"
+        "type": "Both"
     },
     {
         "cost": 2500,
@@ -2396,7 +2396,7 @@
         "physicalPower": 60,
         "magicalPower": 100,
         "tier": 3,
-        "type": "Magical"
+        "type": "Both"
     },
     {
         "cost": 2300,
