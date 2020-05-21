@@ -2383,6 +2383,7 @@
         "name": "Bumba's Mask",
         "passive": "PASSIVE - GAIN MOBILITY, SACRIFICE DEFENSE & DAMAGE\n +35% Movement Speed\n +15% Damage Taken\n -15% Damage Dealt",
         "physicalPower": 30,
+        "magicalPower": 65,
         "tier": 3,
         "type": "Physical"
     },
@@ -2390,10 +2391,10 @@
         "cost": 2500,
         "icon": "images/smite/items/rangdas-mask.jpg",
         "id": 14098,
-        "magicalPower": 100,
         "name": "Rangda's Mask",
         "passive": "PASSIVE - GAIN DAMAGE, SACRIFICE DEFENSES\nOnly can be bought by Warriors, Guardians\n +20% Damage Dealt\n +25% Damage Taken",
         "physicalPower": 60,
+        "magicalPower": 100,
         "tier": 3,
         "type": "Magical"
     },
@@ -2403,10 +2404,10 @@
         "health": 200,
         "icon": "images/smite/items/lonos-mask.jpg",
         "id": 14541,
-        "magicalProtection": 35,
         "name": "Lono's Mask",
         "passive": "PASSIVE - GAIN DEFENSE, SACRIFICE DAMAGE\nOnly can be bought by Mages, Hunters, Assassins\n -20% Damage Taken\n -20% Damage Dealt\n -20% Healing Done",
         "physicalProtection": 35,
+        "magicalProtection": 35,
         "tier": 3,
         "type": "Both"
     },
