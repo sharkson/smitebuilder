@@ -744,7 +744,7 @@
         "movementSpeed": 5,
         "name": "Ancient Blade",
         "tier": 1,
-        "type": "Both"
+        "type": "Physical"
     },
     {
         "cost": 1200,
@@ -765,7 +765,7 @@
         "movementSpeed": 5,
         "name": "Cursed Blade",
         "tier": 2,
-        "type": "Both"
+        "type": "Physical"
     },
     {
         "attackSpeed": 20,
@@ -818,7 +818,7 @@
         "passive": "PASSIVE - Enemies hit by your basic attacks gain 20% reduced healing, stacking up to 2 times and lasting 8s.",
         "physicalPenetration": 15,
         "tier": 3,
-        "type": "Both"
+        "type": "Physical"
     },
     {
         "cost": 650,
@@ -1857,7 +1857,7 @@
         "id": 10662,
         "name": "Short Bow",
         "tier": 1,
-        "type": "Both"
+        "type": "Physical"
     },
     {
         "attackSpeed": 20,
@@ -1867,7 +1867,7 @@
         "name": "Charged Bow",
         "passive": "PASSIVE -Every fourth Basic Attack triggers a chain lightning, damaging the target and up to 4 nearby enemies for 15 damage +30% of your total Basic Attack Power.",
         "tier": 2,
-        "type": "Both"
+        "type": "Physical"
     },
     {
         "attackSpeed": 20,
@@ -1887,7 +1887,7 @@
         "name": "Odysseus' Bow",
         "passive": "PASSIVE - Every fourth Basic Attack triggers a chain lightning, damaging the target and up to 4 nearby enemies for 15 damage +60% of your total Basic Attack Power.",
         "tier": 3,
-        "type": "Both"
+        "type": "Physical"
     },
     {
         "attackSpeed": 30,
