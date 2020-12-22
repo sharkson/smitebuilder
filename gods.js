@@ -2364,10 +2364,29 @@
                 75,
                 80
             ],
+            "damage": [
+                60,
+                95,
+                130,
+                165,
+                200
+            ],
+            "powerDamage": 65,
             "description": "Bastet sends a cat forward at her enemies. If a cat finds an enemy it ensnares them, damaging them and rooting them for .5s. The cat persists for 4s or until defeated, continuing to attack nearby enemies. The cats attacks will apply a 2s slow to the enemy.\n\nIf Guardians of Bast is active, she will command her guardians to also charge forward.",
             "icon": "images/smite/abilities/ensnaring-claw.jpg",
             "level": 5,
-            "name": "Ensnaring Claw"
+            "name": "Ensnaring Claw",
+            "secondaryDamage": {
+                "damage": [
+                    20,
+                    25,
+                    30,
+                    35,
+                    40
+                ],
+                "powerDamage": 30
+            },
+            ticks: 4
         },
         "abilityTwo": {
             "cooldown": 13,
