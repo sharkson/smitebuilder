@@ -89,18 +89,6 @@
     },
     {
         "attackSpeed": 25,
-        "cost": 2550,
-        "icon": "images/smite/items/asi.jpg",
-        "id": 9348,
-        "name": "*Asi",
-        "passive": "PASSIVE - If you drop below 35% Health, you gain an additional 25% Physical Lifesteal for 5 seconds.  Can only occur once every 15 seconds.",
-        "physicalLifesteal": 15,
-        "physicalPenetration": 10,
-        "tier": 2,
-        "type": "Physical"
-    },
-    {
-        "attackSpeed": 25,
         "cost": 2350,
         "icon": "images/smite/items/the-executioner.jpg",
         "id": 7575,
@@ -176,7 +164,7 @@
         "icon": "images/smite/items/pythagorems-piece.jpg",
         "id": 7534,
         "magicalLifesteal": 12,
-        "magicalPenetration": 10,
+        "magicalPenetrationPercent": 10,
         "magicalPower": 40,
         "name": "Pythagorem's Piece",
         "passive": "AURA - Allied gods within 70 units have their Magical Lifesteal increased by 12% and their Magical Power increased by 30 or their Physical Lifesteal increased by 10% and their Physical Power increased by 20.",
@@ -200,7 +188,7 @@
         "icon": "images/smite/items/typhons-fang.jpg",
         "id": 15579,
         "magicalLifesteal": 15,
-        "magicalPenetration": 10,
+        "magicalPenetrationPercent": 10,
         "magicalPower": 70,
         "mana": 200,
         "name": "Typhon's Fang",
@@ -235,6 +223,7 @@
         "icon": "images/smite/items/warriors-bane.jpg",
         "id": 7522,
         "name": "Warrior's Bane",
+        "physicalPenetrationPercent": 10,
         "physicalPower": 20,
         "tier": 2,
         "type": "Physical"
@@ -255,6 +244,7 @@
         "id": 7523,
         "name": "Titan's Bane",
         "passive": "PASSIVE - Your first ability cast gains 20% Physical Penetration. This can only occur once every 10 seconds.",
+        "physicalPenetrationPercent": 20,
         "physicalPower": 40,
         "tier": 3,
         "type": "Physical"
@@ -367,6 +357,7 @@
         "mpFive": 20,
         "name": "Heartseeker",
         "passive": "PASSIVE - Your abilities deal an additional 2% of the targets maximum Health as Physical Damage. If you have over 200 Physical Power, your ability bonus damage scales up. This effect reaches a maximum of 5% Maximum Health damage at 400 Physical Power. Subsequent hits on the same target do 75% bonus damage for the next 3s.",
+        "physicalPenetrationPercent": 10,
         "physicalPower": 65,
         "tier": 3,
         "type": "Physical"
@@ -696,6 +687,7 @@
         "name": "Soul Eater",
         "passive": "PASSIVE - Your abilities heal you for 5% of damage dealt. Each time anything dies within 80 units you gain a stack. Gods, Large Jungle monsters and Bosses provide 5 stacks. At 75 Stacks Soul Eater Evolves, gaining 15 Physical Power, 5% Physical Lifesteal, and causing abilities to heal you for 20% of damage dealt.",
         "physicalLifesteal": 10,
+        "physicalPenetrationPercent": 10,
         "physicalPower": 20,
         "tier": 3,
         "toggleStats": {
@@ -978,6 +970,7 @@
         "id": 16544,
         "name": "Berserker's Shield",
         "passive": "PASSIVE - If you drop below 40% HP you become Berserk for 5s. Berserk provides 20 Physical Power and 20% Attack Speed.",
+        "physicalPenetrationPercent": 10,
         "physicalPower": 40,
         "physicalProtection": 30,
         "tier": 3,
@@ -1322,7 +1315,7 @@
         "cost": 150,
         "icon": "images/smite/items/spell-focus.jpg",
         "id": 9850,
-        "magicalPenetration": 10,
+        "magicalPenetrationPercent": 10,
         "magicalPower": 45,
         "name": "Spell Focus",
         "tier": 2,
@@ -1365,7 +1358,7 @@
         "cost": 2550,
         "icon": "images/smite/items/obsidian-shard.jpg",
         "id": 18179,
-        "magicalPenetration": 20,
+        "magicalPenetrationPercent": 20,
         "magicalPower": 70,
         "name": "Obsidian Shard",
         "passive": "PASSIVE - Your first ability cast gains 10% Magical Penetration. This can only occur once every 10 seconds.",
@@ -1455,7 +1448,7 @@
         "health": 150,
         "icon": "images/smite/items/warlocks-staff.jpg",
         "id": 7917,
-        "magicalPenetration": 10,
+        "magicalPenetrationPercent": 10,
         "magicalPower": 85,
         "mana": 200,
         "name": "Warlock's Staff",
@@ -1494,18 +1487,6 @@
         "name": "Rod of Asclepius",
         "passive": "AURA - Allied gods within 70 units have their Healing increased by 10%. If you have taken or dealt damage in the last 5s, their Healing is increased by an additional 15%. This does not stack with similar Auras.",
         "tier": 3,
-        "type": "Magical"
-    },
-    {
-        "cost": 1150,
-        "health": 225,
-        "icon": "images/smite/items/warlocks-staff.jpg",
-        "id": 15724,
-        "magicalPenetration": 10,
-        "magicalPower": 145,
-        "mana": 200,
-        "name": "Warlock's Staff",
-        "tier": 4,
         "type": "Magical"
     },
     {
@@ -1564,7 +1545,7 @@
         "cost": 2850,
         "icon": "images/smite/items/soul-reaver.jpg",
         "id": 9128,
-        "magicalPenetration": 10,
+        "magicalPenetrationPercent": 10,
         "magicalPower": 95,
         "mana": 300,
         "name": "Soul Reaver",
@@ -1675,7 +1656,7 @@
         "hpFive": 7,
         "icon": "images/smite/items/charons-coin.jpg",
         "id": 18183,
-        "magicalPenetration": 20,
+        "magicalPenetrationPercent": 20,
         "magicalPower": 80,
         "mpFive": 20,
         "name": "Charon's Coin",
@@ -1915,6 +1896,7 @@
         "id": 14084,
         "name": "Silverbranch Bow",
         "passive": "PASSIVE - For each 0.02 Attack Speed you go over cap you gain 2 Physical Power.",
+        "physicalPenetrationPercent": 10,
         "physicalPower": 30,
         "tier": 3,
         "type": "Physical"
@@ -1926,6 +1908,7 @@
         "id": 14849,
         "name": "Atalanta's Bow",
         "passive": "PASSIVE - Upon getting a kill or assist on an Enemy god you gain Atalanta's Agility for 10s. This effect increases your Attack Speed by 20% and decreases the Movement Penalty for attacking, backpedaling, and strafing by 30%.",
+        "physicalPenetrationPercent": 20,
         "physicalPower": 25,
         "tier": 3,
         "type": "Physical"
@@ -2073,6 +2056,12 @@
         "passive": "PASSIVE - Your Critical Hits provide you with 10% Physical Penetration and increase your Attack Speed and Movement Speed by 20% for 5s.",
         "physicalPower": 25,
         "tier": 3,
+        "toggleStats": {
+            "attackSpeed": 20,
+            "movementSpeed": 20,
+            "physicalPenetrationPercent": 10,
+            "toggle": false
+        },
         "type": "Physical"
     },
     {
@@ -2163,6 +2152,7 @@
         "name": "Serrated Edge",
         "passive": "PASSIVE - For every non-ultimate ability on cooldown you gain a stack of Cruelty. Each stack provides 10 Basic Attack Power and 3% Physical Lifesteal.",
         "physicalLifesteal": 10,
+        "physicalPenetrationPercent": 20,
         "physicalPower": 25,
         "tier": 3,
         "type": "Physical"
@@ -2552,7 +2542,7 @@
         "cost": 3000,
         "icon": "images/smite/items/staff-of-myrddin.jpg",
         "id": 17354,
-        "magicalPenetration": 10,
+        "magicalPenetrationPercent": 10,
         "magicalPower": 110,
         "name": "Staff of Myrddin",
         "passive": "PASSIVE - When your Ultimate ability has finished casting, your next non-ultimate ability cast within the next 10s will have no cooldown but will only deal 70% of its normal damage and healing. This can only occur once every 45 seconds.",
@@ -2590,6 +2580,7 @@
         "id": 17357,
         "name": "Fail-not",
         "passive": "PASSIVE - When your Ultimate ability has finished casting, your next ability or basic attack within 8s that damages an enemy god marks them, increasing the chance you and your allies can land a Critical Strike by 15% for 10 seconds. This can only occur once every 45 seconds.",
+        "physicalPenetrationPercent": 10,
         "physicalPower": 45,
         "tier": 3,
         "type": "Physical"
