@@ -92,22 +92,6 @@
     },
     {
         "attackSpeed": 25,
-        "cost": 1700,
-        "icon": "images/smite/items/asi.jpg",
-        "id": 9348,
-        "name": "*Asi",
-        "passive": "PASSIVE - If you drop below 35% Health, you gain an additional 25% Physical Lifesteal for 5 seconds.  Can only occur once every 15 seconds.",
-        "physicalLifesteal": 15,
-        "physicalPenetration": 10,
-        "tier": 2,
-        "toggleStats": {
-            "physicalLifesteal": 25,
-            "toggle": false
-        },
-        "type": "Physical"
-    },
-    {
-        "attackSpeed": 25,
         "cost": 2250,
         "icon": "images/smite/items/the-executioner.jpg",
         "id": 7575,
@@ -2391,24 +2375,6 @@
         "passive": "PASSIVE - You gain 20% of the Magical protections of the nearby allied god with the highest Magical protections within 70ft.",
         "tier": 3,
         "type": "Magical"
-    },
-    {
-        "cost": 800,
-        "health": 100,
-        "icon": "images/smite/items/war-flag.jpg",
-        "id": 14089,
-        "mpFive": 5,
-        "name": "*War Flag",
-        "passive": "PASSIVE - Being in range of minion or jungle camp death without dealing the killing the blow restores 5 Health and 5 Mana to all allies within 55 units and also provides allies with a stacking self buff of 1% Movement Speed and 1% Attack Speed. Lasts 6s and stacks up to 10 times. ",
-        "physicalPower": 10,
-        "stacks": {
-            "current": 0,
-            "max": 10,
-            "stacks": {},
-            "type": "temporary"
-        },
-        "tier": 1,
-        "type": "Physical"
     },
     {
         "cooldownReduction": 10,
