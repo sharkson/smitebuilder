@@ -404,53 +404,6 @@
         "type": "Physical"
     },
     {
-        "cost": 800,
-        "health": 100,
-        "icon": "images/smite/items/vampiric-shroud.jpg",
-        "id": 8247,
-        "magicalPower": 20,
-        "name": "Vampiric Shroud",
-        "passive": "PASSIVE - Damaging any enemies with an ability gives you bonus 6 health and 3 mana. Can only trigger once per target per ability.",
-        "physicalProtection": 10,
-        "tier": 1,
-        "type": "Magical"
-    },
-    {
-        "cost": 800,
-        "health": 100,
-        "icon": "images/smite/items/deaths-toll.jpg",
-        "id": 8268,
-        "name": "Death's Toll",
-        "passive": "PASSIVE - Hitting an enemy with a Basic Attack restores 8 Health and 4 Mana. Basic Attacks that hit all enemies in melee range restore 4 Health and 2 Mana on every enemy after the first.",
-        "physicalPower": 10,
-        "tier": 1,
-        "type": "Physical"
-    },
-    {
-        "cost": 800,
-        "health": 100,
-        "icon": "images/smite/items/mark-of-the-vanguard.jpg",
-        "id": 8538,
-        "name": "Mark of the Vanguard",
-        "passive": "PASSIVE - All damage taken is reduced by 4.",
-        "physicalProtection": 10,
-        "tier": 1,
-        "type": "Both"
-    },
-    {
-        "cost": 800,
-        "health": 100,
-        "icon": "images/smite/items/watchers-gift.jpg",
-        "id": 9089,
-        "magicalProtection": 5,
-        "mpFive": 5,
-        "name": "Watcher's Gift",
-        "passive": "PASSIVE - Being within assist range of a minion or jungle camp monster death without dealing the killing blow awards 5 bonus gold, and also restores +12 Health and +10 Mana. ",
-        "physicalProtection": 5,
-        "tier": 1,
-        "type": "Both"
-    },
-    {
         "cost": 500,
         "icon": "images/smite/items/boots.jpg",
         "id": 9624,
@@ -1984,41 +1937,6 @@
         "type": "Physical"
     },
     {
-        "cost": 800,
-        "icon": "images/smite/items/bluestone-pendant.jpg",
-        "id": 11122,
-        "mana": 50,
-        "mpFive": 5,
-        "name": "Bluestone Pendant",
-        "passive": "PASSIVE - Enemies hit by your damaging Abilities take an additional 30 Physical Damage over 2s. (Max 2 Stacks)",
-        "physicalPower": 15,
-        "stacks": {
-            "current": 2,
-            "max": 2,
-            "stacks": {},
-            "type": "permanent"
-        },
-        "tier": 1,
-        "type": "Physical"
-    },
-    {
-        "cost": 800,
-        "icon": "images/smite/items/soul-stone.jpg",
-        "id": 11123,
-        "magicalPower": 20,
-        "mana": 100,
-        "name": "Soul Stone",
-        "passive": "PASSIVE - Gain 1 stack every time you hit an enemy with a basic attack. If you have 5 stacks, the next time you deal damage with an ability the stacks are consumed and you gain 40 mana, and that ability and any abilities used in the next 3s will deal bonus damage equal to having +40 Magical Power for those abilities.",
-        "stacks": {
-            "current": 0,
-            "max": 0,
-            "stacks": {},
-            "type": "temporary"
-        },
-        "tier": 1,
-        "type": "Magical"
-    },
-    {
         "cost": 600,
         "health": 100,
         "hpFive": 10,
@@ -2395,176 +2313,6 @@
         "type": "Magical"
     },
     {
-        "cooldownReduction": 10,
-        "cost": 800,
-        "icon": "images/smite/items/sands-of-time.jpg",
-        "id": 14090,
-        "magicalPower": 20,
-        "mpFive": 5,
-        "name": "Sands of Time",
-        "passive": "PASSIVE - This item grants 2 MP5 per 10% of your missing Mana",
-        "tier": 1,
-        "type": "Magical"
-    },
-    {
-        "cost": 800,
-        "health": 100,
-        "hpFive": 10,
-        "icon": "images/smite/items/swift-wing.jpg",
-        "id": 14091,
-        "movementSpeed": 5,
-        "name": "Swift Wing",
-        "passive": "PASSIVE - Whenever you leave the fountain, you gain 40% movespeed for 15s. You will lose this speed early if you enter combat.",
-        "tier": 1,
-        "type": "Both"
-    },
-    {
-        "cost": 700,
-        "icon": "images/smite/items/guardians-blessing.jpg",
-        "id": 15473,
-        "name": "Guardian's Blessing",
-        "passive": "+100 Health\n+10 Physical Protection and Magical Protection\n+7 HP5 & 7 MP5 while within 60ft of an ally god\n+3 Gold per Minion Assisted\n\nROLE QUEST: SUPPORT\nAssist with Minion kills to gain stacks. Each Assist is worth 1 stack. At 50 stacks Guardian's Blessing Evolves, gaining 4 Gold Per 5s.",
-        "stacks": {
-            "current": 50,
-            "evolved": {
-                "icon": "images/smite/items/evolved-guardians-blessing.jpg"
-            },
-            "max": 50,
-            "stacks": {},
-            "type": "permanent"
-        },
-        "tier": 1,
-        "type": "Both"
-    },
-    {
-        "cost": 700,
-        "icon": "images/smite/items/warriors-blessing.jpg",
-        "id": 15479,
-        "name": "Warrior's Blessing",
-        "passive": "+75 Health\n+10 Physical & Magical Protection\n+25 Health Stolen And Mana Restored Upon Damaging An Enemy God, 10s Cooldown\n\nROLE QUEST: SOLO\nDealing damage to an enemy god provides 1 stack. This effect can only occur once every 10s. Getting a Kill or Assist on an Enemy god provides 3 stacks. At 15 Stacks Warrior's Blessing Evolves, gaining +15 Physical and Magical Protection.",
-        "stacks": {
-            "current": 15,
-            "evolved": {
-                "icon": "images/smite/items/evolved-warriors-blessing.jpg"
-            },
-            "max": 15,
-            "stacks": {},
-            "type": "permanent"
-        },
-        "tier": 1,
-        "type": "Both"
-    },
-    {
-        "cost": 700,
-        "icon": "images/smite/items/mages-blessing.jpg",
-        "id": 15482,
-        "name": "Mage's Blessing",
-        "passive": "+10 Bonus Ability Damage\n+10 Physical Power\n+30 Magical Power\n+2 MP5 Per 10% Missing Mana\n\nROLE QUEST: MID\nKill or Assist Lane Minions or Enemy gods to gain stacks. Lane Minions are worth 1 Stack and Enemy gods are worth 5 Stacks. At 75 Stacks Mage's Blessing Evolves, gaining 10% Cooldown Reduction.",
-        "stacks": {
-            "current": 75,
-            "evolved": {
-                "cooldownReduction": 10,
-                "icon": "images/smite/items/evolved-mages-blessing.jpg"
-            },
-            "max": 75,
-            "stacks": {},
-            "type": "permanent"
-        },
-        "tier": 1,
-        "type": "Both"
-    },
-    {
-        "cost": 700,
-        "icon": "images/smite/items/assassins-blessing.jpg",
-        "id": 15486,
-        "name": "Assassin's Blessing",
-        "passive": "+7 Power \n+100 Health \n+30% Damage vs. Jungle Monsters \n+8% Health and 25 Mana Restored on Killing a Jungle Monster\n\nROLE QUEST: JUNGLE Kill or Assist Jungle Monsters or Enemy Gods to gain stacks. Jungle Monsters are worth 1 stack and Enemy Gods are worth 5 stacks. At 50 Stacks Assassin's Blessing Evolves, gaining +5 Penetration, and 5% Movement Speed.",
-        "stacks": {
-            "current": 50,
-            "evolved": {
-                "icon": "images/smite/items/evolved-assassins-blessing.jpg"
-            },
-            "max": 50,
-            "stacks": {},
-            "type": "permanent"
-        },
-        "tier": 1,
-        "type": "Both"
-    },
-    {
-        "basicAttackFlatIncrease": 15,
-        "cost": 700,
-        "icon": "images/smite/items/hunters-blessing.jpg",
-        "id": 15489,
-        "name": "Hunter's Blessing",
-        "passive": "+15 Basic Attack Damage\n+10 MP5 \n\nROLE QUEST: CARRY\nKill or Assist Lane Minions or Enemy gods to gain stacks. Lane Minions are worth 1 Stack and Enemy gods are worth 5 Stacks. At 75 Stacks Hunter's Blessing Evolves, gaining 15% Attack Speed and an additional 15 Bonus Basic Attack Damage.",
-        "stacks": {
-            "current": 75,
-            "evolved": {
-                "icon": "images/smite/items/evolved-hunters-blessing.jpg"
-            },
-            "max": 75,
-            "stacks": {},
-            "type": "permanent"
-        },
-        "tier": 1,
-        "type": "Both"
-    },
-    {
-        "cost": 700,
-        "icon": "images/smite/items/specialists-blessing.jpg",
-        "id": 15571,
-        "name": "Specialist's Blessing",
-        "passive": "+10 HP5\n+20 MP5\n+10% Cooldown Reduction\n\nROLE QUEST: UTILITY\nDamage enemies or Heal allies to gain stacks. Each time an enemy is damaged or an ally god is healed by your abilities, gain 1 stack. Each ability can only trigger 3 stacks. At 75 Stacks Specialist's Blessing Evolves, gaining 10% Movement Speed.",
-        "stacks": {
-            "current": 75,
-            "evolved": {
-                "icon": "images/smite/items/evolved-specialists-blessing.jpg"
-            },
-            "max": 75,
-            "stacks": {},
-            "type": "permanent"
-        },
-        "tier": 1,
-        "type": "Both"
-    },
-    {
-        "cost": 700,
-        "icon": "images/smite/items/attackers-blessing.jpg",
-        "id": 15577,
-        "name": "Attacker's Blessing",
-        "passive": "+20 Physical Power\n+25 Magical Power\n\nROLE QUEST: DAMAGE\nDamage lane minions and Enemy gods to gain stacks. Dealing 100 damage to Lane Minions provide 1 Stack and Dealing 100 damage to Enemy gods provide 3 Stacks. At 100 Stacks Attacker's Blessing Evolves, gaining 10 Penetration.",
-        "stacks": {
-            "current": 100,
-            "evolved": {
-                "icon": "images/smite/items/evolved-attackers-blessing.jpg"
-            },
-            "max": 100,
-            "stacks": {},
-            "type": "permanent"
-        },
-        "tier": 1,
-        "type": "Both"
-    },
-    {
-        "cost": 700,
-        "icon": "images/smite/items/defenders-blessing.jpg",
-        "id": 15597,
-        "name": "Defender's Blessing",
-        "passive": "+100 Health\n+10 Physical Protection\n+10 Magical Protection\n\nROLE QUEST: TANK\nMitigate damage to gain Stacks. Mitigating 50 damage provides 1 Stack. At 75 Stacks Defender's Blessing Evolves, gaining +150 Health and Mana.",
-        "stacks": {
-            "current": 75,
-            "evolved": {
-                "icon": "images/smite/items/evolved-defenders-blessing.jpg"
-            },
-            "max": 75,
-            "stacks": {},
-            "type": "permanent"
-        },
-        "tier": 1,
-        "type": "Both"
-    },
-    {
         "cost": 500,
         "health": 50,
         "icon": "images/smite/items/mask.jpg",
@@ -2598,7 +2346,7 @@
         "physicalPower": 30,
         "restrictedRoles": "assassin,hunter,mage",
         "tier": 2,
-        "type": "Magical"
+        "type": "Both"
     },
     {
         "cooldownReduction": 10,
@@ -2833,7 +2581,7 @@
         "passive": "PASSIVE - Hitting an enemy with a Basic Attack restores 2 Health (+0.75% of your Maximum Health) and 1 Mana (+1.5% of your Maximum Mana). Basic Attacks that deal AoE damage restore half as much for each enemy hit after the first. Can be upgraded at level 20.",
         "physicalPower": 10,
         "tier": 1,
-        "type": "Magical"
+        "type": "Both"
     },
     {
         "cost": 2250,
@@ -2846,7 +2594,7 @@
         "physicalPower": 65,
         "starter": true,
         "tier": 2,
-        "type": "Magical"
+        "type": "Both"
     },
     {
         "attackSpeed": 30,
@@ -3016,7 +2764,7 @@
         "physicalPower": 60,
         "starter": true,
         "tier": 2,
-        "type": "Magical"
+        "type": "Both"
     },
     {
         "cooldownReduction": 20,
@@ -3147,7 +2895,7 @@
         },
         "starter": true,
         "tier": 2,
-        "type": "Magical"
+        "type": "Both"
     },
     {
         "cost": 2100,
@@ -3161,7 +2909,7 @@
         "physicalPower": 40,
         "starter": true,
         "tier": 2,
-        "type": "Magical"
+        "type": "Both"
     },
     {
         "cost": 500,
@@ -3260,7 +3008,7 @@
         "physicalPower": 10,
         "physicalProtection": 15,
         "tier": 1,
-        "type": "Magical"
+        "type": "Both"
     },
     {
         "cost": 2250,
@@ -3274,7 +3022,7 @@
         "physicalProtection": 30,
         "starter": true,
         "tier": 2,
-        "type": "Magical"
+        "type": "Both"
     },
     {
         "cost": 2250,
@@ -3288,7 +3036,7 @@
         "physicalProtection": 70,
         "starter": true,
         "tier": 2,
-        "type": "Magical"
+        "type": "Both"
     },
     {
         "attackSpeed": 5,
@@ -3399,7 +3147,7 @@
         "passive": "PASSIVE - You deal 30% increased damage to Jungle Monsters. Upon defeating a Large Jungle Monster you place a ward at its location that lasts for 30 seconds. Can be upgraded at level 20.",
         "physicalPower": 10,
         "tier": 1,
-        "type": "Magical"
+        "type": "Both"
     },
     {
         "attackSpeed": 15,
@@ -3413,7 +3161,7 @@
         "physicalProtection": 25,
         "starter": true,
         "tier": 2,
-        "type": "Magical"
+        "type": "Both"
     },
     {
         "attackSpeed": 35,
@@ -3427,7 +3175,7 @@
         "physicalProtection": 35,
         "starter": true,
         "tier": 2,
-        "type": "Magical"
+        "type": "Both"
     },
     {
         "cost": 700,
