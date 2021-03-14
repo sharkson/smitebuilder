@@ -2868,6 +2868,7 @@
         "type": "Physical"
     },
     {
+        "basicAttackFlatIncrease": 15,
         "cost": 700,
         "health": 50,
         "icon": "images/smite/items/gilded-arrow.jpg",
@@ -2879,6 +2880,7 @@
         "type": "Both"
     },
     {
+        "basicAttackFlatIncrease": 80,
         "cost": 2200,
         "health": 100,
         "icon": "images/smite/items/diamond-arrow.jpg",
@@ -2896,6 +2898,7 @@
         "type": "Both"
     },
     {
+        "basicAttackFlatIncrease": 60,
         "cost": 2200,
         "health": 150,
         "icon": "images/smite/items/ornate-arrow.jpg",
@@ -2955,6 +2958,7 @@
         "type": "Both"
     },
     {
+        "basicAttackFlatIncrease": 10,
         "cost": 750,
         "icon": "images/smite/items/manikin-scepter.jpg",
         "id": 19500,
@@ -2965,6 +2969,7 @@
         "type": "Both"
     },
     {
+        "basicAttackFlatIncrease": 50,
         "cost": 2250,
         "health": 100,
         "icon": "images/smite/items/manikin-mace.jpg",
@@ -2977,6 +2982,7 @@
         "type": "Both"
     },
     {
+        "basicAttackFlatIncrease": 75,
         "cost": 2250,
         "icon": "images/smite/items/manikin-hidden-blade.jpg",
         "id": 19641,
