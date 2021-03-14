@@ -345,7 +345,8 @@
         "stacks": {
             "current": 50,
             "evolved": {
-                "cooldownReduction": 10
+                "cooldownReduction": 10,
+                "icon": "images/smite/items/evolved-transcendence.jpg"
             },
             "max": 50,
             "stacks": {
@@ -709,6 +710,7 @@
         "stacks": {
             "current": 75,
             "evolved": {
+                "icon": "images/smite/items/evolved-soul-eater.jpg",
                 "physicalLifesteal": 5,
                 "physicalPower": 15
             },
@@ -1159,7 +1161,9 @@
         "physicalProtection": 30,
         "stacks": {
             "current": 7,
-            "evolved": {},
+            "evolved": {
+                "icon": "images/smite/items/evolved-hide-of-the-urchin.jpg"
+            },
             "max": 7,
             "stacks": {
                 "magicalProtection": 3,
@@ -1569,6 +1573,7 @@
         "stacks": {
             "current": 75,
             "evolved": {
+                "icon": "images/smite/items/evolved-book-of-thoth.jpg",
                 "manaToMagicalPower": 3
             },
             "max": 75,
@@ -1717,7 +1722,9 @@
         "passive": "PASSIVE - On god kill or assist a coin is flipped. If heads, you gain a stack of 7 HP5. If tails, you gain a stack of 2% Movement Speed. Each effect can stack up to 4 times and at 8 stacks this item evolves. You also gain 1 gold every time the coin is flipped.",
         "stacks": {
             "current": 8,
-            "evolved": {},
+            "evolved": {
+                "icon": "images/smite/items/evolved-charons-coin.jpg"
+            },
             "max": 8,
             "stacks": {},
             "type": "permanent"
@@ -2081,6 +2088,7 @@
         "stacks": {
             "current": 50,
             "evolved": {
+                "icon": "images/smite/items/evolved-gauntlet-of-thebes.jpg",
                 "magicalProtection": 10,
                 "physicalProtection": 10
             },
@@ -2408,7 +2416,9 @@
         "passive": "+100 Health\n+10 Physical Protection and Magical Protection\n+7 HP5 & 7 MP5 while within 60ft of an ally god\n+3 Gold per Minion Assisted\n\nROLE QUEST: SUPPORT\nAssist with Minion kills to gain stacks. Each Assist is worth 1 stack. At 50 stacks Guardian's Blessing Evolves, gaining 4 Gold Per 5s.",
         "stacks": {
             "current": 50,
-            "evolved": {},
+            "evolved": {
+                "icon": "images/smite/items/evolved-guardians-blessing.jpg"
+            },
             "max": 50,
             "stacks": {},
             "type": "permanent"
@@ -2424,7 +2434,9 @@
         "passive": "+75 Health\n+10 Physical & Magical Protection\n+25 Health Stolen And Mana Restored Upon Damaging An Enemy God, 10s Cooldown\n\nROLE QUEST: SOLO\nDealing damage to an enemy god provides 1 stack. This effect can only occur once every 10s. Getting a Kill or Assist on an Enemy god provides 3 stacks. At 15 Stacks Warrior's Blessing Evolves, gaining +15 Physical and Magical Protection.",
         "stacks": {
             "current": 15,
-            "evolved": {},
+            "evolved": {
+                "icon": "images/smite/items/evolved-warriors-blessing.jpg"
+            },
             "max": 15,
             "stacks": {},
             "type": "permanent"
@@ -2441,7 +2453,8 @@
         "stacks": {
             "current": 75,
             "evolved": {
-                "cooldownReduction": 10
+                "cooldownReduction": 10,
+                "icon": "images/smite/items/evolved-mages-blessing.jpg"
             },
             "max": 75,
             "stacks": {},
@@ -2458,7 +2471,9 @@
         "passive": "+7 Power \n+100 Health \n+30% Damage vs. Jungle Monsters \n+8% Health and 25 Mana Restored on Killing a Jungle Monster\n\nROLE QUEST: JUNGLE Kill or Assist Jungle Monsters or Enemy Gods to gain stacks. Jungle Monsters are worth 1 stack and Enemy Gods are worth 5 stacks. At 50 Stacks Assassin's Blessing Evolves, gaining +5 Penetration, and 5% Movement Speed.",
         "stacks": {
             "current": 50,
-            "evolved": {},
+            "evolved": {
+                "icon": "images/smite/items/evolved-assassins-blessing.jpg"
+            },
             "max": 50,
             "stacks": {},
             "type": "permanent"
@@ -2475,7 +2490,9 @@
         "passive": "+15 Basic Attack Damage\n+10 MP5 \n\nROLE QUEST: CARRY\nKill or Assist Lane Minions or Enemy gods to gain stacks. Lane Minions are worth 1 Stack and Enemy gods are worth 5 Stacks. At 75 Stacks Hunter's Blessing Evolves, gaining 15% Attack Speed and an additional 15 Bonus Basic Attack Damage.",
         "stacks": {
             "current": 75,
-            "evolved": {},
+            "evolved": {
+                "icon": "images/smite/items/evolved-hunters-blessing.jpg"
+            },
             "max": 75,
             "stacks": {},
             "type": "permanent"
@@ -2491,7 +2508,9 @@
         "passive": "+10 HP5\n+20 MP5\n+10% Cooldown Reduction\n\nROLE QUEST: UTILITY\nDamage enemies or Heal allies to gain stacks. Each time an enemy is damaged or an ally god is healed by your abilities, gain 1 stack. Each ability can only trigger 3 stacks. At 75 Stacks Specialist's Blessing Evolves, gaining 10% Movement Speed.",
         "stacks": {
             "current": 75,
-            "evolved": {},
+            "evolved": {
+                "icon": "images/smite/items/evolved-specialists-blessing.jpg"
+            },
             "max": 75,
             "stacks": {},
             "type": "permanent"
@@ -2507,7 +2526,9 @@
         "passive": "+20 Physical Power\n+25 Magical Power\n\nROLE QUEST: DAMAGE\nDamage lane minions and Enemy gods to gain stacks. Dealing 100 damage to Lane Minions provide 1 Stack and Dealing 100 damage to Enemy gods provide 3 Stacks. At 100 Stacks Attacker's Blessing Evolves, gaining 10 Penetration.",
         "stacks": {
             "current": 100,
-            "evolved": {},
+            "evolved": {
+                "icon": "images/smite/items/evolved-attackers-blessing.jpg"
+            },
             "max": 100,
             "stacks": {},
             "type": "permanent"
@@ -2523,7 +2544,9 @@
         "passive": "+100 Health\n+10 Physical Protection\n+10 Magical Protection\n\nROLE QUEST: TANK\nMitigate damage to gain Stacks. Mitigating 50 damage provides 1 Stack. At 75 Stacks Defender's Blessing Evolves, gaining +150 Health and Mana.",
         "stacks": {
             "current": 75,
-            "evolved": {},
+            "evolved": {
+                "icon": "images/smite/items/evolved-defenders-blessing.jpg"
+            },
             "max": 75,
             "stacks": {},
             "type": "permanent"
