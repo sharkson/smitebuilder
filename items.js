@@ -330,6 +330,10 @@
         "passive": "PASSIVE - For 8 seconds after using an ability, your next basic attack will deal an additional 10% damage. The effect can only occur every 3 seconds.",
         "physicalPower": 20,
         "tier": 2,
+        "toggleStats": {
+            "basicAttackPercentIncrease": 10,
+            "toggle": false
+        },
         "type": "Physical"
     },
     {
@@ -367,6 +371,10 @@
         "passive": "PASSIVE - For 8s after using an ability, your next Basic Attack will deal an additional 40% damage. Abilities that function like basic attacks do not benefit from this.\nPASSIVE - This item grants 2.5 MP5 per 10% of your missing Mana.",
         "physicalPower": 40,
         "tier": 3,
+        "toggleStats": {
+            "basicAttackPercentIncrease": 40,
+            "toggle": false
+        },
         "type": "Physical"
     },
     {
