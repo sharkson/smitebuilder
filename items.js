@@ -1964,6 +1964,7 @@
         "icon": "images/smite/items/silverbranch-bow.jpg",
         "id": 14084,
         "name": "Silverbranch Bow",
+        "overcapAttackSppedToPhysicalPower": 0.01,
         "passive": "PASSIVE - For each 0.02 Attack Speed you go over cap you gain 2 Physical Power.",
         "physicalPenetrationPercent": 10,
         "physicalPower": 30,
