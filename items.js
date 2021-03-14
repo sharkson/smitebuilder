@@ -628,6 +628,7 @@
     {
         "cost": 2950,
         "criticalChance": 25,
+        "criticalStrikeDamage": 30,
         "icon": "images/smite/items/deathbringer.jpg",
         "id": 7545,
         "name": "Deathbringer",
