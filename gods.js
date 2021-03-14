@@ -3894,7 +3894,7 @@
     },
     {
         "abilityFour": {
-            "cooldown": 90,
+            "cooldown": 100,
             "cost": [
                 80,
                 90,
@@ -3935,7 +3935,7 @@
             "icon": "images/smite/abilities/heart-bomb.jpg",
             "level": 5,
             "name": "Heart Bomb",
-            "powerDamage": 80,
+            "powerDamage": 75,
             "ticks": 2
         },
         "abilityThree": {
@@ -4111,7 +4111,7 @@
             "icon": "images/smite/abilities/uproarious-rocket.jpg",
             "level": 5,
             "name": "Uproarious Rocket",
-            "powerDamage": 110
+            "powerDamage": 100
         },
         "abilityOne": {
             "cooldown": 12,
@@ -10067,10 +10067,10 @@
             ],
             "damage": [
                 85,
-                135,
-                185,
-                235,
-                285
+				130,
+				175,
+				220,
+				265
             ],
             "description": "Set amasses his hatred, throwing it forward. Enemies caught in its path are damaged and slowed for 3s.\n\nSet's spawn are commanded when Set fires this attack, dashing towards a location Set determines. Enemies hit by a Spawn's dash take damage and are slowed for 3s. Any dash after the first will deal 40% damage. ",
             "icon": "images/smite/abilities/skewer.jpg",
@@ -11409,6 +11409,112 @@
         "title": "Arbiter of the Damned",
         "type": "Mage"
     },
+	{
+		"abilityFour": {
+			"cooldown": 0,
+			"cost": 0,
+			"description": "Tiamat is able to summon one of her children onto the battlefield.\n\nSummon Serpents: Serpents that travel down lanes and act as minions.\n\nSummon Beast: Kusarikku who stands guard waiting for enemy gods.\n\nSummon Storm: Umu Dabrutu, the storm that chases enemies.",
+			"icon": "images/smite/abilities/children-of-creation.jpg",
+			"level": 5,
+			"name": "Children of Creation"
+		},
+		"abilityOne": {
+			"cooldown": 10,
+			"cost": [
+				55,
+				60,
+				65,
+				70,
+				75
+			],
+			"damage": [
+				60,
+				70,
+				80,
+				90,
+				100
+			],
+			"description": "Tiamat gathers power, allowing her to fire orbs of energy at the end of the channel. Each orb damages enemies and stops on enemy gods.\n\nHitting the same enemy deals 15% less damage each time, to a minimum of 70% reduction.\n\nThis ability can fire additional projectiles at ranks 3 and 5.",
+			"icon": "images/smite/abilities/primordial-onslaught.jpg",
+			"level": 5,
+			"name": "Primordial Onslaught",
+			"powerDamage": 55
+		},
+		"abilityThree": {
+			"cooldown": [
+				22,
+				20,
+				18,
+				16,
+				14
+			],
+			"cost": 40,
+			"damage": [
+				40,
+				80,
+				120,
+				160,
+				200
+			],
+			"description": "Tiamat dives into the fight landing on all fours, dealing damage and switching to her Ground stance. This ability also provides Tiamat one Hardened Scale.",
+			"icon": "images/smite/abilities/grounding-dive.jpg",
+			"level": 5,
+			"name": "Grounding Dive",
+			"powerDamage": 40
+		},
+		"abilityTwo": {
+			"cooldown": [
+				16,
+				15,
+				14,
+				13,
+				12
+			],
+			"cost": [
+				65,
+				70,
+				75,
+				80,
+				85
+			],
+			"description": "Tiamat creates an energy field dealing low damage to enemies in the entire area and then a larger amount in the inner area. The inner area of the field also stuns enemies for a short duration.",
+			"icon": "images/smite/abilities/ruination.jpg",
+			"level": 5,
+			"name": "Ruination"
+		},
+		"attackSpeed": 0.88,
+		"attackSpeedPerLevel": 0.8999999999999999,
+		"attackType": "Ranged",
+		"damage": 34.0,
+		"damagePerLevel": 7.5,
+		"health": 400,
+		"healthPerLevel": 77,
+		"hpFive": 7,
+		"hpFivePerLevel": 0.5,
+		"icon": "images/smite/gods/tiamat.jpg",
+		"id": 3990,
+		"magicalProtection": 30,
+		"magicalProtectionPerLevel": 0.9,
+		"mana": 300,
+		"manaPerLevel": 55,
+		"mpFive": 5,
+		"mpFivePerLevel": 0.44,
+		"name": "Tiamat",
+		"pantheon": "Babylonian",
+		"passive": {
+			"description": "While in Flying stance Tiamat gains health from nearby ally and enemy deaths, less from minions. In Ground stance she gains up to 5 Hardened Scales, damage mitigation that breaks after a certain amount of damage is taken. Normal minions do not provide Hardened Scales.",
+			"icon": "images/smite/abilities/death-begets-life.jpg",
+			"level": 5,
+			"name": "Death Begets Life"
+		},
+		"physicalProtection": 13,
+		"physicalProtectionPerLevel": 2.7,
+		"powerType": "Magical",
+		"pros": "High Area Damage",
+		"speed": 360,
+		"title": "Goddess of the Salt Sea",
+		"type": "Mage"
+	},
     {
         "abilityFour": {
             "cooldown": 90,
