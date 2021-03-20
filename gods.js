@@ -596,11 +596,11 @@
             "name": "Shifting Sands",
             "toggleStats": {
                 "basicAttackPercentIncrease": [
-                    8,
-                    11,
-                    14,
-                    17,
-                    20
+                    0.08,
+                    0.11,
+                    0.14,
+                    0.17,
+                    0.20
                 ],
                 "toggle": false
             }
@@ -1534,7 +1534,11 @@
             "description": "Artemis deals 15% increased Basic Attack damage to gods and 30% to minions who are afflicted by Crowd Control. ",
             "icon": "images/smite/abilities/still-target.jpg",
             "level": 5,
-            "name": "Still Target"
+            "name": "Still Target",
+            "toggleStats": {
+                "basicAttackPercentIncrease": .15,
+                "toggle": false
+            },
         },
         "physicalProtection": 12,
         "physicalProtectionPerLevel": 3,
