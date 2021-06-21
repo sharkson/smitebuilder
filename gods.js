@@ -23,7 +23,7 @@
             "powerDamage": 100
         },
         "abilityOne": {
-            "cooldown": 15,
+            "cooldown": 14,
             "cost": [
                 60,
                 65,
@@ -213,7 +213,7 @@
         "attackSpeed": 1,
         "attackSpeedPerLevel": 1.2,
         "attackType": "Ranged",
-        "damage": 34,
+        "damage": 34.0,
         "damagePerLevel": 7.5,
         "health": 360,
         "healthPerLevel": 71,
@@ -231,7 +231,7 @@
         "pantheon": "Hindu",
         "passive": {
             "damage": 5,
-            "description": "After hitting with 4 Basic Attacks, Agni will gain a Buff. On the next cast of Flame Wave or Rain Fire, all enemies hit by those abilities will be additionally set ablaze, taking damage every .5s for 3s.",
+            "description": "Hitting an enemy with a Basic Attack provides 1 stack of Combustion. Hitting an enemy god provides 2. At 4 stacks Agni's next Flame Wave or Rain Fire will ignite all enemies hit, dealing damage every .5s for 3s.",
             "icon": "images/smite/abilities/combustion.jpg",
             "level": 5,
             "name": "Combustion",
@@ -266,7 +266,7 @@
         "abilityOne": {
             "cooldown": 12,
             "cost": 40,
-            "description": "Bees swarm at the ground target location, creating a new Hive that provides movement and Attack Speed Buffs to Ah Muzen Cab. He also heals for a small amount every second while he remains close to the Hives. Hives reveal enemies within 20 units of them. The Hives can only be destroyed by Basic Attacks (maximum 6 Hives).",
+            "description": "Bees swarm at the ground target location, creating a new Hive that provides movement and Attack Speed Buffs to Ah Muzen Cab. He also heals for a small amount every second while he remains close to the Hives. Hives reveal enemies within 20 units of them. The Hives can only be destroyed by Basic Attacks (maximum 7 Hives).",
             "icon": "images/smite/abilities/hive.jpg",
             "level": 5,
             "name": "Hive",
@@ -358,7 +358,7 @@
         "mpFive": 4.4,
         "mpFivePerLevel": 0.38,
         "name": "Ah Muzen Cab",
-        "pantheon": "Mayan",
+        "pantheon": "Maya",
         "passive": {
             "damage": 9,
             "description": "Enemies afflicted by Bees! take damage every .5s for 2s, are revealed on the minimap, and swarm nearby enemies. Basic Attacks refresh and extend the duration of Bees! by 1s. This damage does not trigger Item effects. ",
@@ -378,7 +378,7 @@
     },
     {
         "abilityFour": {
-            "cooldown": 100,
+            "cooldown": 90,
             "cost": 100,
             "description": "Ah Puch unleashes an army of Wraiths from the Ninth Hell that swarm forward and reduce healing and deal damage to enemies they collide with.",
             "icon": "images/smite/abilities/empty-the-crypts.jpg",
@@ -445,9 +445,9 @@
         "attackSpeed": 0.86,
         "attackSpeedPerLevel": 0.8,
         "attackType": "Ranged",
-        "damage": 35,
+        "damage": 35.0,
         "damagePerLevel": 7.5,
-        "health": 400,
+        "health": 450,
         "healthPerLevel": 75,
         "hpFive": 6,
         "hpFivePerLevel": 0.45,
@@ -460,14 +460,14 @@
         "mpFive": 4.9,
         "mpFivePerLevel": 0.42,
         "name": "Ah Puch",
-        "pantheon": "Mayan",
+        "pantheon": "Maya",
         "passive": {
-            "description": "Ah Puch is closely attuned with the dead and may exhume corpses at his will. When walking over a decaying corpse, Ah Puch lowers the cooldown of Undead Surge and Corpse Explosion by 2s, restores 5% of his maximum Health and 3% of his maximum Mana.",
+            "description": "Ah Puch is closely attuned with the dead and may exhume corpses at his will. When walking over a decaying corpse, Ah Puch lowers the cooldown of Undead Surge and Corpse Explosion by 2s, restores 7% of his maximum Health and 3% of his maximum Mana.",
             "icon": "images/smite/abilities/hollow-ground.jpg",
             "level": 5,
             "name": "Hollow Ground"
         },
-        "physicalProtection": 9,
+        "physicalProtection": 13,
         "physicalProtectionPerLevel": 2.7,
         "powerType": "Magical",
         "pros": "High Area Damage",
@@ -567,7 +567,7 @@
     },
     {
         "abilityFour": {
-            "cooldown": 75,
+            "cooldown": 90,
             "cost": [
                 80,
                 90,
@@ -647,7 +647,7 @@
             "icon": "images/smite/abilities/impale.jpg",
             "level": 5,
             "name": "Impale",
-            "powerDamage": 80
+            "powerDamage": 75
         },
         "attackSpeed": 0.9,
         "attackSpeedPerLevel": 1.5,
@@ -779,9 +779,9 @@
             "name": "Mummify"
         },
         "attackSpeed": 0.86,
-        "attackSpeedPerLevel": 0.9,
+        "attackSpeedPerLevel": 0.8999999999999999,
         "attackType": "Ranged",
-        "damage": 35,
+        "damage": 35.0,
         "damagePerLevel": 7.5,
         "health": 380,
         "healthPerLevel": 70,
@@ -805,8 +805,7 @@
             "stacks": {
                 "current": 0,
                 "max": "3",
-                "stacks": {
-                }
+                "stacks": {}
             }
         },
         "physicalProtection": 10,
@@ -927,9 +926,9 @@
             }
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 2,
+        "attackSpeedPerLevel": 2.0,
         "attackType": "Melee",
-        "damage": 35,
+        "damage": 35.0,
         "damagePerLevel": 12,
         "health": 400,
         "healthPerLevel": 82,
@@ -999,7 +998,7 @@
             }
         },
         "abilityThree": {
-            "cooldown": 12,
+            "cooldown": 14,
             "cost": [
                 70,
                 75,
@@ -1046,7 +1045,7 @@
         "attackSpeed": 0.87,
         "attackSpeedPerLevel": 0.8,
         "attackType": "Ranged",
-        "damage": 32,
+        "damage": 32.0,
         "damagePerLevel": 7.25,
         "health": 380,
         "healthPerLevel": 68,
@@ -1091,7 +1090,7 @@
             "icon": "images/smite/abilities/across-the-sky.jpg",
             "level": 5,
             "name": "Across The Sky",
-            "powerDamage": 40,
+            "powerDamage": 30,
             "ticks": 3
         },
         "abilityOne": {
@@ -1166,7 +1165,7 @@
         "name": "Apollo",
         "pantheon": "Greek",
         "passive": {
-            "description": "After 10 successful Basic Attacks, Apollo gains Audacity, increasing his Attack Speed by 100% for the next 5 Basic Attacks (hit or miss) he makes. Apollo also gains 2 stacks of Audacity for each successful damaging ability on Enemy gods.",
+            "description": "After 10 successful Basic Attacks, Apollo gains Audacity, increasing his Attack Speed by 100% for the next 5 Basic Attacks (hit or miss) he makes. Apollo also gains 1 stack of Audacity for each successful damaging ability on Enemy gods.",
             "icon": "images/smite/abilities/audacity.jpg",
             "level": 5,
             "name": "Audacity"
@@ -1272,7 +1271,7 @@
             }
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 2,
+        "attackSpeedPerLevel": 2.0,
         "attackType": "Melee",
         "damage": 38,
         "damagePerLevel": 2.2,
@@ -1380,9 +1379,9 @@
             "name": "Bolster Defenses"
         },
         "attackSpeed": 0.9,
-        "attackSpeedPerLevel": 1.1,
+        "attackSpeedPerLevel": 1.0999999999999999,
         "attackType": "Melee",
-        "damage": 38,
+        "damage": 38.0,
         "damagePerLevel": 7.75,
         "health": 485,
         "healthPerLevel": 90,
@@ -1468,11 +1467,11 @@
                 70
             ],
             "damage": [
-                80,
-                130,
-                180,
-                230,
-                280
+                90,
+                140,
+                190,
+                240,
+                290
             ],
             "description": "Artemis fires a volley into a ground target, suppressing all of her enemies. Enemies caught within the volley are damaged and are Slowed.",
             "icon": "images/smite/abilities/suppress-the-insolent.jpg",
@@ -1603,7 +1602,7 @@
         "attackSpeed": 1,
         "attackSpeedPerLevel": 1.2,
         "attackType": "Melee",
-        "damage": 38,
+        "damage": 38.0,
         "damagePerLevel": 7.5,
         "health": 500,
         "healthPerLevel": 95,
@@ -1701,15 +1700,23 @@
                 75,
                 80
             ],
+            "damage": [
+                40,
+                65,
+                90,
+                115,
+                140
+            ],
             "description": "Athena releases a shockwave of power from her shield, Taunting enemy gods, and forcing them to fight or chase her.",
             "icon": "images/smite/abilities/confound.jpg",
             "level": 5,
-            "name": "Confound"
+            "name": "Confound",
+            "powerDamage": 20
         },
         "attackSpeed": 1,
         "attackSpeedPerLevel": 1.2,
         "attackType": "Melee",
-        "damage": 35,
+        "damage": 35.0,
         "damagePerLevel": 7.5,
         "health": 500,
         "healthPerLevel": 100,
@@ -1726,7 +1733,7 @@
         "name": "Athena",
         "pantheon": "Greek",
         "passive": {
-            "description": "After using any ability, Athena's next Basic Attack is a ranged attack, hitting all enemies it passes through, and dealing an additional +15% of her Magical Power as damage. Reach's damage will trigger Basic Attack Item Effects, but not Ability ones.",
+            "description": "After using an ability Athena's next Basic Attack is ranged, passes through and hits all enemies, and deals 50% increased damage to the first enemy hit. Reach's damage will trigger Basic Attack Item Effects, but not Ability ones.",
             "icon": "images/smite/abilities/reach.jpg",
             "level": 5,
             "name": "Reach"
@@ -1860,7 +1867,7 @@
         "mpFive": 3.9,
         "mpFivePerLevel": 0.46,
         "name": "Awilix",
-        "pantheon": "Mayan",
+        "pantheon": "Maya",
         "passive": {
             "description": "If Awilix has not taken or dealt damage in the last 5s and she strikes an enemy first, she increases her Physical Power for a short duration.",
             "icon": "images/smite/abilities/initiative.jpg",
@@ -1977,9 +1984,9 @@
             "powerDamage": 70
         },
         "attackSpeed": 0.95,
-        "attackSpeedPerLevel": 1,
+        "attackSpeedPerLevel": 1.0,
         "attackType": "Ranged",
-        "damage": 35,
+        "damage": 35.0,
         "damagePerLevel": 7.5,
         "health": 400,
         "healthPerLevel": 73,
@@ -2027,8 +2034,8 @@
             "powerDamage": 70
         },
         "abilityOne": {
-            "cooldown": 10,
-            "cost": 40,
+            "cooldown": 8,
+            "cost": 20,
             "description": "Bacchus takes a drink from his jug, giving him additional Buffs.",
             "icon": "images/smite/abilities/chug.jpg",
             "level": 5,
@@ -2044,11 +2051,11 @@
                 90
             ],
             "damage": [
-                25,
-                40,
-                55,
-                70,
-                85
+                30,
+                45,
+                60,
+                75,
+                90
             ],
             "description": "Bacchus lets out an obnoxiously loud belch, doing damage every .5s for 2s and reducing enemy healing. If he is Tipsy, enemies are Stunned for 1s. Bacchus is immune to knockback for the duration.",
             "icon": "images/smite/abilities/belch-of-the-gods.jpg",
@@ -2080,9 +2087,9 @@
             "powerDamage": 70
         },
         "attackSpeed": 0.88,
-        "attackSpeedPerLevel": 0.9,
+        "attackSpeedPerLevel": 0.8999999999999999,
         "attackType": "Melee",
-        "damage": 37,
+        "damage": 37.0,
         "damagePerLevel": 7.5,
         "health": 495,
         "healthPerLevel": 86,
@@ -2156,7 +2163,7 @@
             "powerDamage": 60
         },
         "abilityThree": {
-            "cooldown": 14,
+            "cooldown": 12,
             "cost": [
                 60,
                 65,
@@ -2171,7 +2178,7 @@
         },
         "abilityTwo": {
             "cooldown": 15,
-            "cost": 55,
+            "cost": 40,
             "description": "Bakasura grabs a minion and devours it, healing himself and gaining a Protections Buff. Large Jungle monsters must be at 33% Health to be eaten, but will provide 2 minions toward Regurgitate. Up to 6 minions can be stored for Regurgitate.",
             "icon": "images/smite/abilities/eat-minion.jpg",
             "level": 5,
@@ -2204,8 +2211,7 @@
             "stacks": {
                 "current": 0,
                 "max": "3",
-                "stacks": {
-                }
+                "stacks": {}
             }
         },
         "physicalProtection": 13,
@@ -2290,9 +2296,9 @@
             "powerDamage": 70
         },
         "attackSpeed": 0.9,
-        "attackSpeedPerLevel": 0.7,
+        "attackSpeedPerLevel": 0.7000000000000001,
         "attackType": "Ranged",
-        "damage": 34,
+        "damage": 34.0,
         "damagePerLevel": 7.5,
         "health": 380,
         "healthPerLevel": 80,
@@ -2416,7 +2422,7 @@
             "ticks": 4
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 2,
+        "attackSpeedPerLevel": 2.0,
         "attackType": "Melee",
         "damage": 37,
         "damagePerLevel": 2.21,
@@ -2463,7 +2469,7 @@
                 410,
                 500
             ],
-            "description": "Bellona plants a Roman flag, granting Protections and increased Power to allied gods. Enemies directly under where the flag is placed take damage and are Stunned for 1s.",
+            "description": "Bellona plants a Roman flag, granting Protections and increased Power to allied gods. Enemies directly under where the flag is placed take damage and are Stunned for 1.25s.",
             "icon": "images/smite/abilities/eagles-rally.jpg",
             "level": 5,
             "name": "Eagle's Rally",
@@ -2676,9 +2682,9 @@
             "powerDamage": 50
         },
         "attackSpeed": 0.9,
-        "attackSpeedPerLevel": 1.1,
+        "attackSpeedPerLevel": 1.0999999999999999,
         "attackType": "Melee",
-        "damage": 38,
+        "damage": 38.0,
         "damagePerLevel": 7.5,
         "health": 490,
         "healthPerLevel": 90,
@@ -2693,7 +2699,7 @@
         "mpFive": 4.6,
         "mpFivePerLevel": 0.42,
         "name": "Cabrakan",
-        "pantheon": "Mayan",
+        "pantheon": "Maya",
         "passive": {
             "description": "Cabrakan and nearby allies take 5% reduced damage.",
             "icon": "images/smite/abilities/shadow-zone.jpg",
@@ -2785,7 +2791,7 @@
             "powerDamage": 130
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 2,
+        "attackSpeedPerLevel": 2.0,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2.3,
@@ -2802,7 +2808,7 @@
         "mpFive": 4.4,
         "mpFivePerLevel": 0.3,
         "name": "Camazotz",
-        "pantheon": "Mayan",
+        "pantheon": "Maya",
         "passive": {
             "description": "Camazotz has a passive Essence Drinker bonus for Physical Lifesteal and Healing. Also, anytime a god dies they leave behind a pool of their essence in the spot they were slain. Camazotz may stand inside these pools to drink the essence every .5s, replenishing his Health and Mana.",
             "icon": "images/smite/abilities/essence-drinker.jpg",
@@ -2902,15 +2908,14 @@
             "stacks": {
                 "current": 0,
                 "max": "3",
-                "stacks": {
-                }
+                "stacks": {}
             },
             "ticks": 1
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 1,
+        "attackSpeedPerLevel": 1.0,
         "attackType": "Melee",
-        "damage": 38,
+        "damage": 38.0,
         "damagePerLevel": 7.5,
         "health": 490,
         "healthPerLevel": 95,
@@ -2960,7 +2965,7 @@
         "abilityOne": {
             "cooldown": 0,
             "cost": 0,
-            "description": "Cernnunos imbues his glaive with the power of the 4 seasons. Activating this ability rotates him through 4 different bonuses to his basic attacks.\n\nSpring Growth: Bonus Physical Lifesteal\nSummer Heat: Bonus Damage\nAutumn Decay: Debuff for 5s\nWinter Chill: Slows for 1s",
+            "description": "Cernnunos imbues his glaive with the power of the 4 seasons. Activating this ability rotates him through 4 different bonuses to his basic attacks.\n\nSpring Growth: Bonus Physical Lifesteal\nSummer Heat: Bonus Damage\nAutumn Decay: Debuff for 7s\nWinter Chill: Slows for 1s",
             "icon": "images/smite/abilities/shifter-of-seasons.jpg",
             "level": 5,
             "name": "Shifter of Seasons"
@@ -3016,7 +3021,7 @@
             "powerDamage": 75
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 1.4,
+        "attackSpeedPerLevel": 1.4000000000000001,
         "attackType": "Ranged",
         "damage": 37,
         "damagePerLevel": 2.5,
@@ -3140,7 +3145,7 @@
             "powerDamage": 70
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 1,
+        "attackSpeedPerLevel": 1.0,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2.1,
@@ -3157,7 +3162,7 @@
         "mpFive": 4.7,
         "mpFivePerLevel": 0.39,
         "name": "Chaac",
-        "pantheon": "Mayan",
+        "pantheon": "Maya",
         "passive": {
             "description": "After 5 successful Basic Attacks, the next ability Chaac uses costs no Mana and has its cooldown reduced by 2s.",
             "icon": "images/smite/abilities/overflow.jpg",
@@ -3254,9 +3259,9 @@
             "name": "Moonlit Waltz"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 1,
+        "attackSpeedPerLevel": 1.0,
         "attackType": "Ranged",
-        "damage": 32,
+        "damage": 32.0,
         "damagePerLevel": 7.25,
         "health": 410,
         "healthPerLevel": 80,
@@ -3370,10 +3375,10 @@
             "name": "Vicious Barrage",
             "toggleStats": {
                 "attackSpeed": [
-                    20,
-                    30,
                     40,
+                    45,
                     50,
+                    55,
                     60
                 ],
                 "toggle": false
@@ -3468,7 +3473,7 @@
                 145,
                 170
             ],
-            "description": "Chiron gallops forward damaging enemies, knocking up minions, and kicking enemy gods behind him.\nChiron may fire Basic Attacks while charging.",
+            "description": "Chiron gallops forward damaging enemies, knocking up minions, and kicking enemy gods behind him. Chiron is immune to knockups while charging.\nChiron may fire Basic Attacks while charging.",
             "icon": "images/smite/abilities/giddyup.jpg",
             "level": 5,
             "name": "Giddyup!",
@@ -3501,7 +3506,7 @@
             "powerDamage": 80
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 1.4,
+        "attackSpeedPerLevel": 1.4000000000000001,
         "attackType": "Ranged",
         "damage": 35,
         "damagePerLevel": 2.35,
@@ -3520,15 +3525,14 @@
         "name": "Chiron",
         "pantheon": "Greek",
         "passive": {
-            "description": "Every 12s Chiron collects herbs for a poultice. Each time he uses an ability, a poultice is consumed to heal himself or an ally within 30 units, based on who has the lowest health.",
+            "description": "Every 12s Chiron collects herbs for a poultice. Each time he uses an ability, a poultice is consumed to heal himself or an ally within 30 units, based on who has the lowest health. Healed allies also gain Physical and Magical Power.",
             "icon": "images/smite/abilities/herbal-medicine.jpg",
             "level": 5,
             "name": "Herbal Medicine",
             "stacks": {
                 "current": 0,
                 "max": "3",
-                "stacks": {
-                }
+                "stacks": {}
             }
         },
         "physicalProtection": 12,
@@ -3623,9 +3627,9 @@
             }
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.8,
+        "attackSpeedPerLevel": 1.5,
         "attackType": "Ranged",
-        "damage": 40,
+        "damage": 40.0,
         "damagePerLevel": 7.5,
         "health": 400,
         "healthPerLevel": 75,
@@ -3751,9 +3755,9 @@
             "name": "The Mire"
         },
         "attackSpeed": 0.9,
-        "attackSpeedPerLevel": 1.1,
+        "attackSpeedPerLevel": 1.0999999999999999,
         "attackType": "Melee",
-        "damage": 38,
+        "damage": 38.0,
         "damagePerLevel": 7.5,
         "health": 500,
         "healthPerLevel": 95,
@@ -3810,11 +3814,11 @@
             ],
             "cost": 0,
             "damage": [
-                75,
-                135,
-                195,
-                255,
-                315
+                65,
+                125,
+                185,
+                245,
+                305
             ],
             "description": "Cu Chulainn thrusts his spear forward, damaging all enemies in front of him and stunning less powerful minions. Successfully hitting an enemy minion with this ability restores 5 Rage, 8 for a god (to a max of 18). Barbs from his spear stick in opponents and reduce their healing received for 4s.\nIn his Berserk Form, Cu Chulainn instead slams his massive arms down, damaging and rooting all enemies in front of him and this ability costs no Rage.",
             "icon": "images/smite/abilities/barbed-spear.jpg",
@@ -3976,7 +3980,7 @@
             "name": "Share the Love"
         },
         "attackSpeed": 0.95,
-        "attackSpeedPerLevel": 1.7,
+        "attackSpeedPerLevel": 1.7000000000000002,
         "attackType": "Ranged",
         "damage": 35,
         "damagePerLevel": 2.3,
@@ -4002,8 +4006,7 @@
             "stacks": {
                 "current": 0,
                 "max": "8",
-                "stacks": {
-                }
+                "stacks": {}
             }
         },
         "physicalProtection": 11,
@@ -4041,11 +4044,11 @@
                 80
             ],
             "damage": [
-                70,
-                110,
-                150,
-                190,
-                230
+                80,
+                120,
+                160,
+                200,
+                240
             ],
             "description": "Da Ji selects a single allied or enemy target and teleports to their location after a short delay. Upon arriving at the target, she lashes out with her claws, dealing damage and applying the Bleed from Torture Blades to all enemies around her.",
             "icon": "images/smite/abilities/trickster-spirit.jpg",
@@ -4068,7 +4071,7 @@
             "name": "One Thousand Cuts"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 2,
+        "attackSpeedPerLevel": 2.0,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2.25,
@@ -4111,7 +4114,7 @@
                 480,
                 540
             ],
-            "description": "Danzaburou summons a magical leaf which transforms into a large bamboo rocket! While preparing, Danzaburou can aim the rocket within 180 degrees to lock onto Enemy gods or he can refire this ability to become the rocket.\n\nOnce fired the Rocket will pass through and damage Enemy minions, stopping on the first Enemy god hit damaging and stunning them while dealing 50% damage in a larger area. ",
+            "description": "Danzaburou summons a magical leaf which transforms into a large bamboo rocket! While preparing, Danzaburou can aim the rocket within 180 degrees to lock onto Enemy gods or he can refire this ability to become the rocket, also becoming damage immune.\n\nOnce fired the Rocket will pass through and damage Enemy minions, stopping on the first Enemy god hit damaging and stunning them while dealing 50% damage in a larger area. ",
             "icon": "images/smite/abilities/uproarious-rocket.jpg",
             "level": 5,
             "name": "Uproarious Rocket",
@@ -4128,12 +4131,12 @@
             ],
             "damage": [
                 70,
-                125,
-                180,
-                235,
-                290
+                115,
+                160,
+                205,
+                250
             ],
-            "description": "Danzaburou rolls out 3 money bags that pass through and damage Enemy minions but stop on Enemy gods, slowing as they travel. Gods hit are damaged and Intoxicated, dropping a gold coin that Danzaburou or his ally gods can pick up to provide him 10 gold.\n\nWhen a money bag stops moving, it reveals to be an explosive which detonates after a short delay. Subsequent hits of the money bag or explosions deal 20% damage.",
+            "description": "Danzaburou rolls out 3 money bags that pass through and damage Enemy minions but stop on Enemy gods, slowing as they travel. Gods hit are damaged and Intoxicated, dropping a gold coin that Danzaburou or his ally gods can pick up to provide him 10 gold.\n\nWhen a money bag stops moving, it reveals to be an explosive which detonates after a short delay. Subsequent hits of the money bag or explosions deal 15% damage.",
             "icon": "images/smite/abilities/fools-gold.jpg",
             "level": 5,
             "name": "Fool's Gold",
@@ -4142,7 +4145,7 @@
         "abilityThree": {
             "cooldown": 16,
             "cost": 70,
-            "description": "Danzaburou creates a field where he moves faster, is slow immune and takes less damage from basic attacks. Enemies in the field are slowed by 20%. If Danzaburou leaves the field it disappears turning him into a leaf among other decoys that mimic his movement.\nIn this state his movement speed is increased, he is still slow immune and can pass through Enemies. After a short delay from transforming, any hit from Enemy gods or if Danzaburou himself attacks, he will revert back.",
+            "description": "Danzaburou creates a field where he moves faster, is slow immune, takes less basic attack damage, and has no basic attack penalty. Enemies are slowed by 20%. If he leaves the field it fades turning him into a leaf with other decoys that mimic his movement. As a leaf his movement speed is increased, he is slow immune and can pass through enemies and allies. After a short delay from transforming, any hit from Enemy gods or if Danzaburou himself attacks, he will revert back.",
             "icon": "images/smite/abilities/tanuki-trickery.jpg",
             "level": 5,
             "name": "Tanuki Trickery",
@@ -4288,9 +4291,9 @@
             "powerDamage": 60
         },
         "attackSpeed": 0.9,
-        "attackSpeedPerLevel": 0.9,
+        "attackSpeedPerLevel": 0.8999999999999999,
         "attackType": "Ranged",
-        "damage": 34,
+        "damage": 34.0,
         "damagePerLevel": 7.5,
         "health": 370,
         "healthPerLevel": 68,
@@ -4392,7 +4395,7 @@
             "powerDamage": 55
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 1,
+        "attackSpeedPerLevel": 1.0,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2,
@@ -4427,6 +4430,134 @@
     {
         "abilityFour": {
             "cooldown": 90,
+            "cost": [
+                80,
+                90,
+                100,
+                110,
+                120
+            ],
+            "damage": [
+                180,
+                215,
+                250,
+                285,
+                320
+            ],
+            "description": "Eset plants her staff at her target location for 5s. Allies within its radius take less damage. Any damage dealt within the radius charges up the staff. If Eset activates the staff again, it explodes, dealing damage to enemies inside and healing allies.",
+            "icon": "images/smite/abilities/circle-of-protection.jpg",
+            "level": 5,
+            "name": "Circle of Protection",
+            "powerDamage": 50,
+            "toggleStats": {
+                "hpFive": [
+                    90,
+                    115,
+                    140,
+                    165,
+                    190
+                ],
+                "toggle": false
+            }
+        },
+        "abilityOne": {
+            "cooldown": 10,
+            "cost": [
+                80,
+                85,
+                90,
+                95,
+                100
+            ],
+            "damage": [
+                35,
+                55,
+                75,
+                95,
+                115
+            ],
+            "description": "Eset flaps her wings, gaining increased movement speed with no backpedal penalty, and sending forth 4 wing gusts in a line, each dealing Magical Damage to all targets in their path. Eset is immune to Root and Knockback effects while casting.",
+            "icon": "images/smite/abilities/wing-gust.jpg",
+            "level": 5,
+            "name": "Wing Gust",
+            "powerDamage": 40,
+            "toggleStats": {
+                "movementSpeed": 25,
+                "toggle": false
+            }
+        },
+        "abilityThree": {
+            "cooldown": 16,
+            "cost": [
+                60,
+                65,
+                70,
+                75,
+                80
+            ],
+            "description": "Eset Silences and slows enemy gods at her target location. Enemy gods hit also lose a portion of their Magical Protection. If Eset successfully hits an enemy god, allies near the Dispel Magic or Eset gain a shield. If Eset hits multiple enemy gods, the shield is increased by 40% for each enemy hit after the first up to a maximum of 80%.",
+            "icon": "images/smite/abilities/dispel-magic.jpg",
+            "level": 5,
+            "name": "Dispel Magic"
+        },
+        "abilityTwo": {
+            "cooldown": 10,
+            "cost": [
+                70,
+                75,
+                80,
+                85,
+                90
+            ],
+            "damage": [
+                70,
+                110,
+                150,
+                190,
+                230
+            ],
+            "description": "Eset sends forth a ball of spirit energy. As the ball travels, it gains in power up to 1.5x at max. range. At any time, Eset can activate the ability to detonate the ball, dealing Magical Damage and Stunning enemies within 10 units, scaling in duration up to 1.5s at max range.",
+            "icon": "images/smite/abilities/spirit-ball.jpg",
+            "level": 5,
+            "name": "Spirit Ball",
+            "powerDamage": 70
+        },
+        "attackSpeed": 1,
+        "attackSpeedPerLevel": 0.0,
+        "attackType": "Ranged",
+        "damage": 35.0,
+        "damagePerLevel": 7.5,
+        "health": 365,
+        "healthPerLevel": 68,
+        "hpFive": 6,
+        "hpFivePerLevel": 0.45,
+        "icon": "images/smite/gods/eset.jpg",
+        "id": 1918,
+        "magicalProtection": 30,
+        "magicalProtectionPerLevel": 0.9,
+        "mana": 280,
+        "manaPerLevel": 51,
+        "mpFive": 4.8,
+        "mpFivePerLevel": 0.43,
+        "name": "Eset",
+        "pantheon": "Egyptian",
+        "passive": {
+            "description": "Eset shares additional HP5 and MP5 with nearby allies. For every player death within 80 units, her aura gains an additional Stack (max. 10). Upon reaching 10 Stacks, Eset gains an additional 10% Cooldown Reduction. Additionally, Eset's final Basic Attack in her progression has a wider radius (+2).",
+            "icon": "images/smite/abilities/funeral-rites.jpg",
+            "level": 5,
+            "name": "Funeral Rites"
+        },
+        "physicalProtection": 9,
+        "physicalProtectionPerLevel": 2.7,
+        "powerType": "Magical",
+        "pros": "High Area Damage, High Crowd Control",
+        "speed": 360,
+        "title": "Goddess of Magic",
+        "type": "Mage"
+    },
+    {
+        "abilityFour": {
+            "cooldown": 90,
             "cost": 70,
             "description": "Fafnir transforms into a terrifying dragon and is untargetable during the process. When he emerges in dragon form, he regains 200 Mana and nearby enemies become poisoned, taking damage three times over 3s. He remains in this form for a duration or until the ability is activated again. As a dragon, his abilities have additional effects and his basic attack changes to a Dragon Breath that deals damage 3 times per second. Dragon Breath can not proc item hit effects.",
             "icon": "images/smite/abilities/draconic-corruption.jpg",
@@ -4434,7 +4565,13 @@
             "name": "Draconic Corruption"
         },
         "abilityOne": {
-            "cooldown": 15,
+            "cooldown": [
+                15,
+                14.5,
+                14,
+                13.5,
+                13
+            ],
             "cost": [
                 60,
                 65,
@@ -4456,7 +4593,7 @@
             "powerDamage": 50
         },
         "abilityThree": {
-            "cooldown": 18,
+            "cooldown": 15,
             "cost": 60,
             "damage": [
                 80,
@@ -4486,9 +4623,9 @@
             "name": "Coerce"
         },
         "attackSpeed": 0.9,
-        "attackSpeedPerLevel": 1.1,
+        "attackSpeedPerLevel": 1.0999999999999999,
         "attackType": "Melee",
-        "damage": 37,
+        "damage": 37.0,
         "damagePerLevel": 7.75,
         "health": 495,
         "healthPerLevel": 90,
@@ -4559,7 +4696,7 @@
             "icon": "images/smite/abilities/unchained.jpg",
             "level": 5,
             "name": "Unchained",
-            "powerDamage": 80
+            "powerDamage": 95
         },
         "abilityThree": {
             "cooldown": 12,
@@ -4577,7 +4714,7 @@
                 135,
                 165
             ],
-            "description": "Fenrir gains increased protections and pounces to his ground target location.  If there was an enemy in the radius, he strikes them 4 times, dealing damage with each strike and hits enemies around the target for 50% of the damage. While casting this ability Fenrir is immune to knockups.  At full Runes, each strike gains 15% additional Physical Power scaling.",
+            "description": "Fenrir gains increased protections and pounces to his ground target location.  If there was an enemy in the radius, he strikes them 4 times, dealing damage with each strike and hits enemies around the target for 60% of the damage. While casting this ability Fenrir is immune to knockups.  At full Runes, each strike gains 15% additional Physical Power scaling.",
             "icon": "images/smite/abilities/brutalize.jpg",
             "level": 5,
             "name": "Brutalize",
@@ -4587,13 +4724,13 @@
         "abilityTwo": {
             "cooldown": 13,
             "cost": 60,
-            "description": "Fenrir rears back and howls, inspiring himself with a Physical Power and Lifesteal Buff.",
+            "description": "Fenrir rears back and howls, inspiring himself with a Physical Power and Lifesteal Buff. While inspired Fenrir generates 2 runes. ",
             "icon": "images/smite/abilities/seething-howl.jpg",
             "level": 5,
             "name": "Seething Howl"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 1.7,
+        "attackSpeedPerLevel": 1.7000000000000002,
         "attackType": "Melee",
         "damage": 38,
         "damagePerLevel": 2.3,
@@ -4692,7 +4829,7 @@
         "attackSpeed": 0.95,
         "attackSpeedPerLevel": 1.9,
         "attackType": "Melee",
-        "damage": 35,
+        "damage": 35.0,
         "damagePerLevel": 7.5,
         "health": 405,
         "healthPerLevel": 80,
@@ -4804,7 +4941,7 @@
         "attackSpeed": 1,
         "attackSpeedPerLevel": 1.2,
         "attackType": "Melee",
-        "damage": 38,
+        "damage": 38.0,
         "damagePerLevel": 7.75,
         "health": 495,
         "healthPerLevel": 95,
@@ -4904,7 +5041,7 @@
         "attackSpeed": 1,
         "attackSpeedPerLevel": 1.2,
         "attackType": "Melee",
-        "damage": 38,
+        "damage": 38.0,
         "damagePerLevel": 7.5,
         "health": 510,
         "healthPerLevel": 90,
@@ -4939,17 +5076,133 @@
             "cooldown": 90,
             "cost": [
                 80,
+                85,
+                90,
+                95,
+                100
+            ],
+            "description": "Gilgamesh calls upon Shamash to create a ring of wind at a target location for 6s. Enemies inside this ring when it starts take damage and are slowed for 2s. Enemies inside the ring take wind damage every .5s. Enemies who try to escape the ring are heavily slowed. If Gilgamesh damages an enemy trying to flee they are thrown back towards the center of the ring. The wind turns into thread over 6s; damaging, Rooting, and Crippling enemies who are still inside the ring. ",
+            "icon": "images/smite/abilities/winds-of-shamash.jpg",
+            "level": 5,
+            "name": "Winds of Shamash"
+        },
+        "abilityOne": {
+            "cooldown": [
+                14,
+                13,
+                12,
+                11,
+                1
+            ],
+            "cost": [
+                60,
+                65,
+                70,
+                75,
+                80
+            ],
+            "damage": [
+                65,
+                95,
+                125,
+                155,
+                185
+            ],
+            "description": "Gilgamesh ignites his sword with the ferocity of the Sun for 4s. Enemies around the ignition take damage and are slowed for 2s. Gilgamesh's Basic Attack deals bonus damage equal to 3% of his Maximum Health to enemies hit. When Gilgamesh successfully hits an enemy with his Basic Attack the duration of this effect is extended for 0.8s, up to a maximum of 7s.",
+            "icon": "images/smite/abilities/sun-forged-scimitar.jpg",
+            "level": 5,
+            "name": "Sun-forged Scimitar",
+            "powerDamage": 60
+        },
+        "abilityThree": {
+            "cooldown": 16,
+            "cost": 70,
+            "damage": [
+                80,
+                120,
+                160,
+                200,
+                240
+            ],
+            "description": "Gilgamesh leaps into the air, crashing down at a target location. Enemies around the impact take damage. Gilgamesh infuses the ground with energy, causing a beacon to appear for 5s. Allies who run towards the beacon will gain Movement Speed, halving once they enter the beacon. Allies who enter the beacon will gain bonus Lifesteal, boosted by 15% of Gilgamesh's highest Protection.",
+            "icon": "images/smite/abilities/heros-advance.jpg",
+            "level": 5,
+            "name": "Hero's Advance",
+            "powerDamage": 50,
+            "toggleStats": {
+                "movementSpeed": [
+                    25,
+                    27.5,
+                    30,
+                    32.5,
+                    35
+                ],
+                "toggle": false
+            }
+        },
+        "abilityTwo": {
+            "cooldown": 14,
+            "cost": [
+                60,
+                65,
+                70,
+                75,
+                80
+            ],
+            "description": "Gilgamesh drop kicks an area in front of him. Enemies in the area are damaged while the closest enemy is launched through these enemies. The launched enemy takes bonus damage when hitting a minion or takes burst damage and is stunned if hitting a God or a Wall. If the launched enemy hits the Winds of Shamash they are thrown toward the center of the ring. Minions hit by the launched enemy take bonus damage. Gods hit by the launched enemy take burst damage and are stunned.",
+            "icon": "images/smite/abilities/drop-kick.jpg",
+            "level": 5,
+            "name": "Drop Kick"
+        },
+        "attackSpeed": 1,
+        "attackSpeedPerLevel": 1.2,
+        "attackType": "Melee",
+        "damage": 34,
+        "damagePerLevel": 2.3,
+        "health": 480,
+        "healthPerLevel": 85,
+        "hpFive": 10,
+        "hpFivePerLevel": 0.8,
+        "icon": "images/smite/gods/gilgamesh.jpg",
+        "id": 3997,
+        "magicalProtection": 30,
+        "magicalProtectionPerLevel": 0.9,
+        "mana": 210,
+        "manaPerLevel": 35,
+        "mpFive": 4.3,
+        "mpFivePerLevel": 0.39,
+        "name": "Gilgamesh",
+        "pantheon": "Babylonian",
+        "passive": {
+            "description": "Gilgamesh Embarks! At level 5 and 10 Gilgamesh gains a quest. The first quest is to visit a specific location on the map. The second quest is to defeat gods equal to half of an enemy team (rounded up) in a single fight. Each time Gilgamesh completes a quest he is awarded a Tier 1 item or 500 gold if he has a full inventory.",
+            "icon": "images/smite/abilities/epic-of-gilgamesh.jpg",
+            "level": 5,
+            "name": "Epic of Gilgamesh"
+        },
+        "physicalProtection": 18,
+        "physicalProtectionPerLevel": 3,
+        "powerType": "Physical",
+        "pros": "High Defense",
+        "speed": 375,
+        "title": "King Of Uruk",
+        "type": "Warrior"
+    },
+    {
+        "abilityFour": {
+            "cooldown": 90,
+            "cost": [
+                80,
                 90,
                 100,
                 110,
                 120
             ],
             "damage": [
-                85,
-                115,
-                145,
-                175,
-                205
+                75,
+                100,
+                125,
+                150,
+                175
             ],
             "description": "Guan Yu mounts his warhorse and charges for 4s. While mounted, he can steer and attack and is immune to Crowd Control. Enemies hit take damage and are Slowed. Each hit increases damage from consecutive hits against that target by 20%. Enemies hit on the dismount are Stunned. You can dismount at any time by canceling.",
             "icon": "images/smite/abilities/cavalry-charge.jpg",
@@ -4958,7 +5211,7 @@
             "powerDamage": 30
         },
         "abilityOne": {
-            "cooldown": 12,
+            "cooldown": 14,
             "cost": 60,
             "description": "Guan Yu's courageous leadership is infectious and, when focused, heals himself and his allies. Healing friendly gods reduces all Cooldowns by 2s.",
             "icon": "images/smite/abilities/conviction.jpg",
@@ -4991,7 +5244,7 @@
             "ticks": 10
         },
         "abilityTwo": {
-            "cooldown": 12,
+            "cooldown": 14,
             "cost": [
                 60,
                 65,
@@ -5069,7 +5322,7 @@
             "powerDamage": 95
         },
         "abilityOne": {
-            "cooldown": 14,
+            "cooldown": 12,
             "cost": [
                 50,
                 60,
@@ -5155,8 +5408,7 @@
             "stacks": {
                 "current": 0,
                 "max": "5",
-                "stacks": {
-                }
+                "stacks": {}
             }
         },
         "physicalProtection": 11,
@@ -5244,9 +5496,9 @@
             "name": "Shroud of Darkness"
         },
         "attackSpeed": 0.95,
-        "attackSpeedPerLevel": 1,
+        "attackSpeedPerLevel": 1.0,
         "attackType": "Ranged",
-        "damage": 32,
+        "damage": 32.0,
         "damagePerLevel": 7.5,
         "health": 475,
         "healthPerLevel": 85,
@@ -5354,7 +5606,7 @@
         "attackSpeed": 0.86,
         "attackSpeedPerLevel": 0.8,
         "attackType": "Ranged",
-        "damage": 34,
+        "damage": 34.0,
         "damagePerLevel": 7.25,
         "health": 400,
         "healthPerLevel": 67,
@@ -5378,8 +5630,7 @@
             "stacks": {
                 "current": 0,
                 "max": "3",
-                "stacks": {
-                }
+                "stacks": {}
             }
         },
         "physicalProtection": 9,
@@ -5421,7 +5672,7 @@
                 250,
                 310
             ],
-            "description": "Heimdallr throws his sword, Hofuð, into the air. It shines with brilliant light that reveals enemies within 80 units. Heimdallr can refire this ability to call the sword down, causing it to fly to the target location and damage enemies.",
+            "description": "Heimdallr throws his sword, Hofu\u00f0, into the air. It shines with brilliant light that reveals enemies within 80 units. Heimdallr can refire this ability to call the sword down, causing it to fly to the target location and damage enemies.",
             "icon": "images/smite/abilities/piercing-sight.jpg",
             "level": 5,
             "name": "Piercing Sight",
@@ -5450,7 +5701,7 @@
             "name": "Gjallarhorn"
         },
         "attackSpeed": 0.96,
-        "attackSpeedPerLevel": 1.4,
+        "attackSpeedPerLevel": 1.4000000000000001,
         "attackType": "Ranged",
         "damage": 32,
         "damagePerLevel": 3,
@@ -5469,7 +5720,7 @@
         "name": "Heimdallr",
         "pantheon": "Norse",
         "passive": {
-            "description": "When Heimdallr gains vision of an enemy god he gains Physical Power, up to a maximum of 5 gods. When an enemy god would disappear from vision (including Stealth) Heimdallr continues to see them for 4s. Heimdallr's Critical Strikes only deal 70% bonus damage.",
+            "description": "When Heimdallr gains vision of an enemy god he gains Physical Power, up to a maximum of 5 gods. When an enemy god would disappear from vision (including Stealth) Heimdallr continues to see them for 4s. Heimdallr's Critical Strikes only deal 65% bonus damage.",
             "icon": "images/smite/abilities/the-vigilant.jpg",
             "level": 5,
             "name": "The Vigilant"
@@ -5542,7 +5793,7 @@
         "attackSpeed": 0.86,
         "attackSpeedPerLevel": 0.8,
         "attackType": "Ranged",
-        "damage": 33,
+        "damage": 33.0,
         "damagePerLevel": 7.5,
         "health": 410,
         "healthPerLevel": 67,
@@ -5641,12 +5892,12 @@
             "icon": "images/smite/abilities/polymorph.jpg",
             "level": 5,
             "name": "Polymorph",
-            "powerDamage": 75
+            "powerDamage": 80
         },
         "attackSpeed": 0.9,
-        "attackSpeedPerLevel": 0.9,
+        "attackSpeedPerLevel": 0.8999999999999999,
         "attackType": "Ranged",
-        "damage": 34,
+        "damage": 34.0,
         "damagePerLevel": 7.25,
         "health": 380,
         "healthPerLevel": 68,
@@ -5739,17 +5990,17 @@
                 80
             ],
             "damage": [
-                80,
-                125,
-                170,
-                215,
-                260
+                90,
+                140,
+                190,
+                240,
+                290
             ],
             "description": "Hercules smashes the ground, sending a shockwave forward that does damage to all enemies in the path. Enemies at the end of the shockwave are thrown into the air towards Hercules.",
             "icon": "images/smite/abilities/earthbreaker.jpg",
             "level": 5,
             "name": "Earthbreaker",
-            "powerDamage": 50
+            "powerDamage": 60
         },
         "attackSpeed": 1,
         "attackSpeedPerLevel": 0.8,
@@ -5778,8 +6029,7 @@
             "stacks": {
                 "current": 0,
                 "max": "3",
-                "stacks": {
-                }
+                "stacks": {}
             }
         },
         "physicalProtection": 18,
@@ -5809,11 +6059,11 @@
         },
         "abilityOne": {
             "cooldown": [
-                16,
-                16,
                 15,
-                15,
-                14
+                14.5,
+                14,
+                13.5,
+                13
             ],
             "cost": [
                 55,
@@ -5924,11 +6174,11 @@
                 80
             ],
             "damage": [
-                75,
-                120,
-                165,
-                210,
-                255
+                85,
+                130,
+                175,
+                220,
+                265
             ],
             "description": "Hou Yi fires a powerful shot that can ricochet off of walls. After firing, if this arrow bounces off of a wall it will travel 70 units from that point and gain +40% bonus damage to gods per bounce up to a maximum of 2 bounces. This arrow will stun if the target has Mark of the Golden Crow.",
             "icon": "images/smite/abilities/ricochet.jpg",
@@ -5961,13 +6211,13 @@
         "abilityTwo": {
             "cooldown": 18,
             "cost": 50,
-            "description": "Hou Yi marks an enemy with Mark of the Golden Crow. Marked enemies take extra damage for every 10% of their missing health from Hou Yi’s abilities and basic attacks. Also, marked enemies, including stealthed gods, are visible to Hou Yi on the minimap. The mark lasts for 10s.",
+            "description": "Hou Yi marks an enemy with Mark of the Golden Crow. Marked enemies take extra damage for every 10% of their missing health from Hou Yi\u2019s abilities and basic attacks. Also, marked enemies, including stealthed gods, are visible to Hou Yi on the minimap. The mark lasts for 10s.",
             "icon": "images/smite/abilities/mark-of-the-golden-crow.jpg",
             "level": 5,
             "name": "Mark of the Golden Crow"
         },
         "attackSpeed": 0.95,
-        "attackSpeedPerLevel": 1.1,
+        "attackSpeedPerLevel": 1.0999999999999999,
         "attackType": "Ranged",
         "damage": 40,
         "damagePerLevel": 2.8,
@@ -5986,7 +6236,7 @@
         "name": "Hou Yi",
         "pantheon": "Chinese",
         "passive": {
-            "description": "After taking a critical hit, Hou Yi can’t be critically hit again for 3s.",
+            "description": "After taking a critical hit, Hou Yi can\u2019t be critically hit again for 3s.",
             "icon": "images/smite/abilities/suntouched.jpg",
             "level": 5,
             "name": "Suntouched"
@@ -6105,7 +6355,7 @@
         "mpFive": 3.9,
         "mpFivePerLevel": 0.27,
         "name": "Hun Batz",
-        "pantheon": "Mayan",
+        "pantheon": "Maya",
         "passive": {
             "description": "After using an ability, Hun Batz's next Basic Attack will deal 15% increased damage. ",
             "icon": "images/smite/abilities/infused-strikes.jpg",
@@ -6119,135 +6369,6 @@
         "speed": 370,
         "title": "the Howler Monkey God",
         "type": "Assassin"
-    },
-    {
-        "abilityFour": {
-            "cooldown": 90,
-            "cost": [
-                80,
-                90,
-                100,
-                110,
-                120
-            ],
-            "damage": [
-                180,
-                215,
-                250,
-                285,
-                320
-            ],
-            "description": "Isis plants her staff at her target location for 5s. Allies within its radius take less damage. Any damage dealt within the radius charges up the staff. If Isis activates the staff again, it explodes, dealing damage to enemies inside and healing allies.",
-            "icon": "images/smite/abilities/circle-of-protection.jpg",
-            "level": 5,
-            "name": "Circle of Protection",
-            "powerDamage": 50,
-            "toggleStats": {
-                "hpFive": [
-                    90,
-                    115,
-                    140,
-                    165,
-                    190
-                ],
-                "toggle": false
-            }
-        },
-        "abilityOne": {
-            "cooldown": 10,
-            "cost": [
-                80,
-                85,
-                90,
-                95,
-                100
-            ],
-            "damage": [
-                35,
-                55,
-                75,
-                95,
-                115
-            ],
-            "description": "Isis flaps her wings, gaining increased movement speed with no backpedal penalty, and sending forth 4 wing gusts in a line, each dealing Magical Damage to all targets in their path. Isis is immune to Root and Knockback effects while casting.",
-            "icon": "images/smite/abilities/wing-gust.jpg",
-            "level": 5,
-            "name": "Wing Gust",
-            "powerDamage": 40,
-            "ticks": 4,
-            "toggleStats": {
-                "movementSpeed": 25,
-                "toggle": false
-            }
-        },
-        "abilityThree": {
-            "cooldown": 16,
-            "cost": [
-                60,
-                65,
-                70,
-                75,
-                80
-            ],
-            "description": "Isis Silences and slows enemy gods at her target location. Enemy gods hit also lose a portion of their Magical Protection. If Isis successfully hits an enemy god, allies near the Dispel Magic or Isis gain a shield. If Isis hits multiple enemy gods, the shield is increased by 40% for each enemy hit after the first up to a maximum of 80%.",
-            "icon": "images/smite/abilities/dispel-magic.jpg",
-            "level": 5,
-            "name": "Dispel Magic"
-        },
-        "abilityTwo": {
-            "cooldown": 10,
-            "cost": [
-                70,
-                75,
-                80,
-                85,
-                90
-            ],
-            "damage": [
-                70,
-                110,
-                150,
-                190,
-                230
-            ],
-            "description": "Isis sends forth a ball of spirit energy. As the ball travels, it gains in power up to 1.5x at max. range. At any time, Isis can activate the ability to detonate the ball, dealing Magical Damage and Stunning enemies within 10 units, scaling in duration up to 1.5s at max range.",
-            "icon": "images/smite/abilities/spirit-ball.jpg",
-            "level": 5,
-            "name": "Spirit Ball",
-            "powerDamage": 70
-        },
-        "attackSpeed": 1,
-        "attackSpeedPerLevel": 0,
-        "attackType": "Ranged",
-        "damage": 35,
-        "damagePerLevel": 7.5,
-        "health": 365,
-        "healthPerLevel": 68,
-        "hpFive": 6,
-        "hpFivePerLevel": 0.45,
-        "icon": "images/smite/gods/isis.jpg",
-        "id": 1918,
-        "magicalProtection": 30,
-        "magicalProtectionPerLevel": 0.9,
-        "mana": 280,
-        "manaPerLevel": 51,
-        "mpFive": 4.8,
-        "mpFivePerLevel": 0.43,
-        "name": "Isis",
-        "pantheon": "Egyptian",
-        "passive": {
-            "description": "Isis shares additional HP5 and MP5 with nearby allies. For every player death within 80 units, her aura gains an additional Stack (max. 10). Upon reaching 10 Stacks, Isis gains an additional 10% Cooldown Reduction. Additionally, Isis' final Basic Attack in her progression has a wider radius (+2).",
-            "icon": "images/smite/abilities/funeral-rites.jpg",
-            "level": 5,
-            "name": "Funeral Rites"
-        },
-        "physicalProtection": 9,
-        "physicalProtectionPerLevel": 2.7,
-        "powerType": "Magical",
-        "pros": "High Area Damage, High Crowd Control",
-        "speed": 360,
-        "title": "Goddess of Magic",
-        "type": "Mage"
     },
     {
         "abilityFour": {
@@ -6292,11 +6413,11 @@
         },
         "abilityThree": {
             "cooldown": [
-                20,
-                19,
-                18,
                 17,
-                16
+                16.5,
+                16,
+                15.5,
+                15
             ],
             "cost": 70,
             "description": "Izanami descends into the underworld, becoming Stealthed, and leaps away from her current position.\n\nTaking damage, or firing a damaging Ability or Basic Attack breaks her Stealth.",
@@ -6346,15 +6467,14 @@
         "name": "Izanami",
         "pantheon": "Japanese",
         "passive": {
-            "description": "The closer Izanami gets to death, the more powerful she becomes.  Izanami gains 4% Physical Penetration for each 10% of her Health that is missing, up to a maximum of 20%.\nAlso, Izanami's Basic Attacks only trigger Item effects on the first target hit per attack.",
+            "description": "The closer Izanami gets to death, the more powerful she becomes.  Izanami gains 4% Physical Penetration for each 10% of her Health that is missing, up to a maximum of 20%.\nIzanami's Basic Attacks increase in projectile speed with higher Attack Speed and only trigger Item effects on the first target hit per attack.",
             "icon": "images/smite/abilities/death-draws-nigh.jpg",
             "level": 5,
             "name": "Death Draws Nigh",
             "stacks": {
                 "current": 0,
                 "max": "5",
-                "stacks": {
-                }
+                "stacks": {}
             }
         },
         "physicalProtection": 11,
@@ -6376,7 +6496,7 @@
                 600,
                 700
             ],
-            "description": "Janus blasts a ball of multi-dimensional energy across the battlefield, burning a portal into every surface it encounters within range 500. These portals last 10s, may be used by allies, and do not vanish after the first use.\n\nEnemies hit by the energy ball take damage, increasing in Magical scaling the further the energy travels. Janus is immune to Crowd Control whilst firing.",
+            "description": "Janus blasts a ball of multi-dimensional energy across the battlefield, burning a portal into every surface it encounters within range 500. These portals last 10s, may be used by allies, and do not vanish after the first use.\n\nEnemies hit by the energy ball take damage, increasing in Magical scaling the further the energy travels. Enemy gods cannot take more than 75% of their maximum Health as damage. Janus is immune to Crowd Control whilst firing.",
             "icon": "images/smite/abilities/through-space-and-time.jpg",
             "level": 5,
             "name": "Through Space and Time",
@@ -6414,10 +6534,10 @@
             "toggleStats": {
                 "movementSpeed": [
                     10,
+                    12.5,
                     15,
-                    20,
-                    25,
-                    30
+                    17.5,
+                    20
                 ],
                 "toggle": false
             }
@@ -6438,7 +6558,7 @@
                 295,
                 360
             ],
-            "description": "Janus creates two unstable portals, far too small to fit into, and flings them forward dealing damage to enemies in their path. Enemies hit by both portals take 15% damage on the second hit.",
+            "description": "Janus creates two tethered unstable portals, far too small to fit into, and flings them forward dealing damage to enemies in their path. Enemies hit by both portals take 15% damage on the second hit.",
             "icon": "images/smite/abilities/unstable-vortex.jpg",
             "level": 5,
             "name": "Unstable Vortex",
@@ -6447,7 +6567,7 @@
         "attackSpeed": 1,
         "attackSpeedPerLevel": 0.8,
         "attackType": "Ranged",
-        "damage": 34,
+        "damage": 34.0,
         "damagePerLevel": 7.25,
         "health": 400,
         "healthPerLevel": 70,
@@ -6547,7 +6667,7 @@
             "name": "Explosive Bolts"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 1.4,
+        "attackSpeedPerLevel": 1.4000000000000001,
         "attackType": "Ranged",
         "damage": 38,
         "damagePerLevel": 2.7,
@@ -6617,7 +6737,13 @@
             "powerDamage": 40
         },
         "abilityThree": {
-            "cooldown": 16,
+            "cooldown": [
+                16,
+                15,
+                14,
+                13,
+                12
+            ],
             "cost": [
                 70,
                 75,
@@ -6659,9 +6785,9 @@
             "powerDamage": 45
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 1,
+        "attackSpeedPerLevel": 1.0,
         "attackType": "Ranged",
-        "damage": 24,
+        "damage": 24.0,
         "damagePerLevel": 12,
         "health": 495,
         "healthPerLevel": 100,
@@ -6753,7 +6879,7 @@
             "name": "Lash"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 2.2,
+        "attackSpeedPerLevel": 2.1999999999999997,
         "attackType": "Melee",
         "damage": 37,
         "damagePerLevel": 2.32,
@@ -6874,7 +7000,7 @@
         "attackSpeed": 1,
         "attackSpeedPerLevel": 1.2,
         "attackType": "Melee",
-        "damage": 38,
+        "damage": 38.0,
         "damagePerLevel": 7.5,
         "health": 490,
         "healthPerLevel": 90,
@@ -6966,7 +7092,7 @@
             "name": "Battle Stomp (Uppercut)"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0,
+        "attackSpeedPerLevel": 0.0,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2,
@@ -6992,8 +7118,7 @@
             "stacks": {
                 "current": 0,
                 "max": "4",
-                "stacks": {
-                }
+                "stacks": {}
             }
         },
         "physicalProtection": 17,
@@ -7079,7 +7204,13 @@
             "ticks": 12
         },
         "abilityTwo": {
-            "cooldown": 15,
+            "cooldown": [
+                15,
+                14.5,
+                14,
+                13.5,
+                13
+            ],
             "cost": 65,
             "description": "Kukulkan channels the wind, allowing him to move faster. This speed boost is strong at first but scales down gradually over the 4s duration. Additionally, Kukulkan cleanses himself of slows and becomes immune to Slows for 0.6s when activated.",
             "icon": "images/smite/abilities/slipstream.jpg",
@@ -7089,7 +7220,7 @@
         "attackSpeed": 0.87,
         "attackSpeedPerLevel": 0.8,
         "attackType": "Ranged",
-        "damage": 34,
+        "damage": 34.0,
         "damagePerLevel": 7.25,
         "health": 380,
         "healthPerLevel": 75,
@@ -7104,7 +7235,7 @@
         "mpFive": 5,
         "mpFivePerLevel": 0.45,
         "name": "Kukulkan",
-        "pantheon": "Mayan",
+        "pantheon": "Maya",
         "passive": {
             "description": "Increases Magical Power by 4% of maximum Mana.",
             "icon": "images/smite/abilities/power-of-the-wind-jewel.jpg",
@@ -7148,10 +7279,10 @@
                 80
             ],
             "damage": [
-                70,
-                140,
-                210,
-                280,
+                90,
+                155,
+                220,
+                285,
                 350
             ],
             "description": "Kumbhakarna sleepily runs forward. If he hits an enemy he stops and deals damage. If the enemy is a minion, he throws them, dealing increased damage to each enemy they hit.",
@@ -7185,10 +7316,10 @@
             ],
             "damage": [
                 90,
-                140,
-                190,
-                240,
-                290
+                145,
+                200,
+                255,
+                310
             ],
             "description": "Kumbhakarna smashes down, damaging all enemies in front of him and Rooting them.",
             "icon": "images/smite/abilities/groggy-strike.jpg",
@@ -7199,7 +7330,7 @@
         "attackSpeed": 1,
         "attackSpeedPerLevel": 1.2,
         "attackType": "Melee",
-        "damage": 38,
+        "damage": 38.0,
         "damagePerLevel": 7.5,
         "health": 490,
         "healthPerLevel": 100,
@@ -7287,7 +7418,7 @@
                 12
             ],
             "cost": 50,
-            "description": "The spikes on Kuzenbo’s back extend out, damaging enemies who attack Kuzenbo. While active, each time Kuzenbo takes damage, the cooldown on NeNe Kappa and Sumo Slam is reduced. Kuzenbo may activate this ability even while under the effects of Crowd Control.",
+            "description": "The spikes on Kuzenbo\u2019s back extend out, damaging enemies who attack Kuzenbo. While active, each time Kuzenbo takes damage, the cooldown on NeNe Kappa and Sumo Slam is reduced. Kuzenbo may activate this ability even while under the effects of Crowd Control.",
             "icon": "images/smite/abilities/shell-spikes.jpg",
             "level": 5,
             "name": "Shell Spikes"
@@ -7295,7 +7426,7 @@
         "attackSpeed": 1,
         "attackSpeedPerLevel": 1.2,
         "attackType": "Melee",
-        "damage": 38,
+        "damage": 38.0,
         "damagePerLevel": 7.5,
         "health": 500,
         "healthPerLevel": 100,
@@ -7467,7 +7598,13 @@
             "ticks": 4
         },
         "abilityThree": {
-            "cooldown": 15,
+            "cooldown": [
+                15,
+                14.5,
+                14,
+                13.5,
+                13
+            ],
             "cost": 70,
             "damage": [
                 80,
@@ -7564,11 +7701,11 @@
             "cooldown": 8,
             "cost": 50,
             "damage": [
-                70,
-                105,
-                140,
-                175,
-                210
+                80,
+                115,
+                150,
+                185,
+                220
             ],
             "description": "Mercury moves in the blink of an eye, dealing one melee attack to every enemy within the target area. This ability can Critically Hit, and triggers Ability related Item effects, not Basic Attack related Item effects. ",
             "icon": "images/smite/abilities/made-you-look.jpg",
@@ -7744,7 +7881,7 @@
         "attackSpeed": 1,
         "attackSpeedPerLevel": 0.8,
         "attackType": "Ranged",
-        "damage": 34,
+        "damage": 34.0,
         "damagePerLevel": 7.5,
         "health": 370,
         "healthPerLevel": 75,
@@ -7774,6 +7911,115 @@
         "pros": "High Area Damage",
         "speed": 355,
         "title": "The Master Wizard",
+        "type": "Mage"
+    },
+    {
+        "abilityFour": {
+            "cooldown": 90,
+            "cost": [
+                80,
+                85,
+                90,
+                95,
+                100
+            ],
+            "description": "Morgan Le Fay rises into the air, consuming the Marks on enemies in front of her, dealing damage and empowering her next strikes.\n\nFor a short duration after Morgan Le fay can fire out 3 devastating strikes of dark energy, dealing damage and providing a Missing Health Heal per enemy god hit.\nInitial Marks consumed increase the width of the energy projectiles. Subsequent heals per projectile is reduced by 50%.",
+            "icon": "images/smite/abilities/consuming-power.jpg",
+            "level": 5,
+            "name": "Consuming Power"
+        },
+        "abilityOne": {
+            "cooldown": 10,
+            "cost": [
+                50,
+                55,
+                60,
+                65,
+                70
+            ],
+            "description": "Morgan Le Fay summons a crashing magical sword, imbued by a sigil of her choice which is briefly carved into the ground. Enemy gods hit are Marked while the Sigil causes secondary effects.\n\nMark of Mind, fearing enemies from the center of the Sigil.\nMark of Body, creating a slowing field.\nMark of Soul, spawning a decoy that attacks enemy gods hit for 4s.",
+            "icon": "images/smite/abilities/sigil-mastery.jpg",
+            "level": 5,
+            "name": "Sigil Mastery"
+        },
+        "abilityThree": {
+            "cooldown": 13,
+            "cost": 60,
+            "damage": [
+                5,
+                10,
+                15,
+                20,
+                25
+            ],
+            "description": "Morgan Le Fay dons and sends out a cloak of wildfire, damaging enemies and stopping on enemy gods. On expiring the wildfire explodes, leaving a 4s debuff on enemies that continues to deal damage. While the debuff persists, enemies that use a movement ability combust, taking damage again. Morgan Le Fay gains Movement speed for using this ability and can extend the debuff on enemies with continued basic attacks. Applies Mark of Matter to enemy gods hit.",
+            "icon": "images/smite/abilities/shroud-of-wildfire.jpg",
+            "level": 5,
+            "name": "Shroud of Wildfire",
+            "powerDamage": 5,
+            "ticks": 1,
+            "toggleStats": {
+                "movementSpeed": [
+                    16,
+                    18,
+                    20,
+                    22,
+                    24
+                ],
+                "toggle": false
+            }
+        },
+        "abilityTwo": {
+            "cooldown": [
+                16,
+                15,
+                14,
+                13,
+                12
+            ],
+            "cost": [
+                70,
+                75,
+                80,
+                85,
+                90
+            ],
+            "description": "Morgan Le Fay summons a dragon apparition which bursts from the ground in front of her, dealing damage and knocking up enemies hit.\n\nThe dragon then flies forward, dealing damage again and knocking back enemies.\n\nApplies Mark of Spirit to enemy gods hit.",
+            "icon": "images/smite/abilities/dragonflight.jpg",
+            "level": 5,
+            "name": "Dragonflight"
+        },
+        "attackSpeed": 1,
+        "attackSpeedPerLevel": 0.8,
+        "attackType": "Ranged",
+        "damage": 35.0,
+        "damagePerLevel": 7.5,
+        "health": 430,
+        "healthPerLevel": 77,
+        "hpFive": 8,
+        "hpFivePerLevel": 0.48,
+        "icon": "images/smite/gods/morgan-le-fay.jpg",
+        "id": 4006,
+        "magicalProtection": 30,
+        "magicalProtectionPerLevel": 0.9,
+        "mana": 250,
+        "manaPerLevel": 55,
+        "mpFive": 4.8,
+        "mpFivePerLevel": 0.44,
+        "name": "Morgan Le Fay",
+        "pantheon": "Arthurian",
+        "passive": {
+            "description": "Morgan Le Fay's abilities Mark enemy gods also activating the shared Symbol on her sword providing Magical Power. Once her sword has gained all 5 Symbols, Morgan Le Fay becomes empowered, gaining double the Magical Power buff and reducing the cooldown of Consuming Power by 10s before the Symbols are all drained.",
+            "icon": "images/smite/abilities/empowered-blade.jpg",
+            "level": 5,
+            "name": "Empowered Blade"
+        },
+        "physicalProtection": 14,
+        "physicalProtectionPerLevel": 3,
+        "powerType": "Magical",
+        "pros": "High Area Damage",
+        "speed": 365,
+        "title": "The Dark Enchantress",
         "type": "Mage"
     },
     {
@@ -7810,7 +8056,13 @@
             }
         },
         "abilityThree": {
-            "cooldown": 16,
+            "cooldown": [
+                16,
+                15.5,
+                15,
+                14.5,
+                14
+            ],
             "cost": 60,
             "description": "Mulan readies herself and fires an arrow with a rope attached to it. If she hits an enemy god she stuns them, dealing damage and pulling them towards her while dashing and hitting them again for extra damage.\n\nSkilled - Mulan gains a Protection buff after hitting an enemy god.\nAdept - Mulan is able to dash to walls.\nMastered - Mulan gains 5% Movement Speed.",
             "icon": "images/smite/abilities/grapple.jpg",
@@ -7832,7 +8084,7 @@
             "name": "Spear Thrust"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 1,
+        "attackSpeedPerLevel": 1.0,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2.2,
@@ -7874,7 +8126,7 @@
                 110,
                 120
             ],
-            "description": "Ne Zha dashes forward and becomes immune to Crowd Control. If he hits an enemy god, he lifts them into the sky, banishing them for 4s, unleashing a 3-hit combo (successfully timed attacks during the combo result in critical strikes), then smashing them back to Earth in his starting location. This ability hits one initial time upon knockup, the three-hit combo, and then again dealing additional damage to enemies in the radius as he lands for a total of 5 hits. While knocked skywards, enemies are not considered Crowd Controlled.",
+            "description": "Ne Zha dashes forward and becomes CC immune. If he hits an enemy god he lifts them into the sky for 4s, unleashing a 3-hit combo. Successfully timed attacks during the combo result in these hits dealing Critical Damage. They are then smashed back to Earth, damaging the target and enemies around the landing location. When Ne Zha lands from this ability he gains bonus Protections for 5s and dashes back to where he cast this ability.",
             "icon": "images/smite/abilities/wind-fire-wheels.jpg",
             "level": 5,
             "name": "Wind Fire Wheels"
@@ -7910,16 +8162,16 @@
             "cost": 75,
             "damage": [
                 70,
-                100,
-                130,
-                160,
-                190
+                120,
+                170,
+                220,
+                270
             ],
-            "description": "Ne Zha throws out his Armillary Sash hitting the first enemy god in its path.  The target is Stunned as Ne Zha yanks himself toward the target, dealing a powerful blow to all enemies in the area as he arrives. This ability can Critically Hit.",
+            "description": "Ne Zha throws out his Armillary Sash hitting the first enemy god in its path.  The target is Stunned as Ne Zha yanks himself toward the target, dealing a powerful blow to all enemies in the area as he arrives.",
             "icon": "images/smite/abilities/armillary-sash.jpg",
             "level": 5,
             "name": "Armillary Sash",
-            "powerDamage": 100
+            "powerDamage": 150
         },
         "abilityTwo": {
             "cooldown": [
@@ -7936,7 +8188,7 @@
                 70,
                 75
             ],
-            "description": "Ne Zha empowers himself with fighting spirit, igniting his spear for increased Attack Speed and Critical Strike Chance for a short duration. Upon activation, Ne Zha is healed depending on how many stacks he currently has from his passive ability, Righteous Spirit.",
+            "description": "Ne Zha empowers himself with fighting spirit, igniting his spear for increased Attack Speed and Critical Strike Chance for a short duration. Upon activation, Ne Zha also heals himself.",
             "icon": "images/smite/abilities/flaming-spear.jpg",
             "level": 5,
             "name": "Flaming Spear",
@@ -7947,6 +8199,13 @@
                     35,
                     45,
                     55
+                ],
+                "hpFive": [
+                    2,
+                    4,
+                    6,
+                    8,
+                    10
                 ],
                 "toggle": false
             }
@@ -8012,7 +8271,13 @@
             "powerDamage": 120
         },
         "abilityOne": {
-            "cooldown": 15,
+            "cooldown": [
+                15,
+                14.5,
+                14,
+                13.5,
+                13
+            ],
             "cost": [
                 60,
                 65,
@@ -8208,8 +8473,7 @@
             "stacks": {
                 "current": 0,
                 "max": "3",
-                "stacks": {
-                }
+                "stacks": {}
             }
         },
         "physicalProtection": 11,
@@ -8429,7 +8693,7 @@
         "attackSpeed": 1,
         "attackSpeedPerLevel": 0.8,
         "attackType": "Ranged",
-        "damage": 34,
+        "damage": 34.0,
         "damagePerLevel": 7.5,
         "health": 365,
         "healthPerLevel": 75,
@@ -8446,7 +8710,7 @@
         "name": "Nox",
         "pantheon": "Roman",
         "passive": {
-            "description": "Nox’s candles gather energy from all abilities she uses. For every ability Nox casts, a candle is lit. For every candle lit Nox gains +3% magical power. When Nox takes damage from an enemy god one of her candles is blown out.",
+            "description": "Nox\u2019s candles gather energy from all abilities she uses. For every ability Nox casts, a candle is lit. For every candle lit Nox gains +3% magical power. When Nox takes damage from an enemy god one of her candles is blown out.",
             "icon": "images/smite/abilities/flame-of-the-night.jpg",
             "level": 5,
             "name": "Flame of the Night"
@@ -8534,9 +8798,9 @@
             "name": "Clay Soldiers"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 1.7,
+        "attackSpeedPerLevel": 1.7000000000000002,
         "attackType": "Ranged",
-        "damage": 35,
+        "damage": 35.0,
         "damagePerLevel": 7.5,
         "health": 400,
         "healthPerLevel": 75,
@@ -8577,7 +8841,7 @@
                 330,
                 400
             ],
-            "description": "Odin summons a wall of spears that blocks his enemies movement. Enemies inside the ring cannot heal. Odin is immune to Slow and Root effects while in his Ring. A portion of the wall can be destroyed when hit by 5 Basic Attacks. Enemies that leave the ring through or over a wall are chased by Gungnir, taking damage and becoming slowed for 2.5s. Enemies that die inside Ring of Spears grant Odin a permanent bonus to Physical Power.",
+            "description": "Odin summons a wall of spears. Enemies inside the ring cannot heal and have their power reduced by 15%. Odin is immune to Slows and Roots while in his Ring. A portion of the wall can be destroyed when hit by 5 Basic Attacks. Enemies that leave the ring through or over a wall are chased by Gungnir, taking damage and becoming slowed for 2.5s. Enemies that die inside Ring of Spears grant Odin a permanent bonus to Physical Power.",
             "icon": "images/smite/abilities/ring-of-spears.jpg",
             "level": 5,
             "name": "Ring of Spears",
@@ -8650,7 +8914,7 @@
             "name": "Raven Shout"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 1.1,
+        "attackSpeedPerLevel": 1.0999999999999999,
         "attackType": "Melee",
         "damage": 38,
         "damagePerLevel": 2,
@@ -8757,7 +9021,7 @@
                 105,
                 120
             ],
-            "description": "Olorun gains amplified Attack Speed. Every successful attack on an Enemy during the buff provides his inner Sun with energy, to a cap of 20 stacks.\nDuring the buff or for 4s after, Olorun can refire this ability to conjure the Sun to damage Enemies in an area. The Sun emits projectiles faster and more randomly with higher ammo. Hitting the same Enemy deals 30% less damage each time, to a minimum of 90% reduction.",
+            "description": "Olorun gains amplified Attack Speed. Every successful attack on an Enemy during the buff provides his inner Sun with energy, to a cap of 20 stacks.\nDuring the buff or for 4s after, Olorun can refire this ability to conjure the Sun to damage Enemies in an area. The Sun emits projectiles faster and more randomly with higher ammo. Hitting the same Enemy deals 30% less damage each time, to a maximum of 90% reduction.",
             "icon": "images/smite/abilities/overflowing-divinity.jpg",
             "level": 5,
             "name": "Overflowing Divinity",
@@ -8770,7 +9034,7 @@
         "attackSpeed": 1.05,
         "attackSpeedPerLevel": 1.6,
         "attackType": "Ranged",
-        "damage": 30.4,
+        "damage": 32.0,
         "damagePerLevel": 9.5,
         "health": 450,
         "healthPerLevel": 75,
@@ -8787,7 +9051,7 @@
         "name": "Olorun",
         "pantheon": "Yoruba",
         "passive": {
-            "description": "Upon reaching 150 Magical Power from Items, Olorun gains 15% Critical Hit Chance and a further 1% per 10 Magical Power from Items.\nOlorun's Critical hits only deal 50% increased damage.\nAdditionally Olorun gains 5% extra scaling on his basic attacks.",
+            "description": "Upon reaching 150 Magical Power from Items, Olorun gains 15% Critical Hit Chance and a further 1% per 10 Magical Power from Items.\nOlorun's Critical hits only deal 55% increased damage.\nAdditionally Olorun gains 5% extra scaling on his basic attacks.",
             "icon": "images/smite/abilities/touch-of-fate.jpg",
             "level": 5,
             "name": "Touch of Fate"
@@ -8870,7 +9134,7 @@
             "powerDamage": 75
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 1.4,
+        "attackSpeedPerLevel": 1.4000000000000001,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2.25,
@@ -8972,7 +9236,7 @@
             "name": "Eruption"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 2,
+        "attackSpeedPerLevel": 2.0,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2.25,
@@ -9021,14 +9285,20 @@
                 385,
                 455
             ],
-            "description": "Persephone conjures a mass of Entrapping Vines that she throws forwards, entrapping the first enemy god or wall it touches. Entrapped gods are crippled, rooted, and have reduced Attack Speed. Vines then spawn from the Entrapped target, seeking nearby enemy gods. Enemy gods hit are bound, crippled, and can no longer move away. Entrapping Vines are destroyed if hit by 5 Basic Attacks (3 if it trapped a Wall), ending all effects.\n\nEnemy gods hit are bound, crippled, and can no longer move away.",
+            "description": "Persephone conjures Entrapping Vines that she throws forwards, entrapping the first enemy god or wall it touches. Entrapped gods are crippled, rooted, and have reduced Attack Speed. Vines then spawn from the Entrapped target, seeking nearby enemy gods. Gods bound are crippled, can no longer further than 55 units away, and are slowed while running away from the center. Entrapping Vines are destroyed if hit by 5 Basic Attacks (3 if it trapped a Wall), ending all effects.",
             "icon": "images/smite/abilities/grasp-of-death.jpg",
             "level": 5,
             "name": "Grasp of Death",
             "powerDamage": 75
         },
         "abilityOne": {
-            "cooldown": 1,
+            "cooldown": [
+                12,
+                11.5,
+                11,
+                10.5,
+                10
+            ],
             "cost": [
                 60,
                 65,
@@ -9043,44 +9313,44 @@
                 250,
                 300
             ],
-            "description": "Persephone calls forth a skeletal warrior of the underworld. This warrior charges forward 35 units or until it comes into contact with a god. It charges with such force that when it stops it topples, sending bones flying forward and damaging enemies in its path. The skull from this warrior flies forward and becomes a Harvest Skull when it lands.",
+            "description": "Persephone calls forth a Skeletal Warrior from the underworld. This warrior charges forward, damaging minions and stopping on gods. Enemy gods hit are slowed for 2.5s. Wherever it stops its skull falls, becoming a Harvest Skull.",
             "icon": "images/smite/abilities/bone-rush.jpg",
             "level": 5,
             "name": "Bone Rush",
-            "powerDamage": 80
+            "powerDamage": 90
         },
         "abilityThree": {
             "cooldown": [
                 15,
+                14.5,
                 14,
-                13,
-                12,
-                1
+                13.5,
+                13
             ],
             "cost": 70,
-            "description": "Persephone floods the ground around her with life giving energy that propels her from the ground directly forwards or backwards; based on the direction she is moving. Harvest plants inside the area immediately grow to their next stage and activate. After using this ability the next Harvest cast is pre-germinated and spawns as a Sprout.",
+            "description": "Persephone floods the ground with necrotic energy that propels her from the ground directly forwards or backwards; based on the direction she is moving. Harvest plants inside the area immediately become Harvest Flowers and activate, charging in the direction Persephone is facing. Enemies caught in this area take damage.",
             "icon": "images/smite/abilities/flourish.jpg",
             "level": 5,
             "name": "Flourish"
         },
         "abilityTwo": {
-            "cooldown": 8,
+            "cooldown": 14,
             "cost": [
-                18,
-                21,
-                24,
-                27,
-                30
+                60,
+                65,
+                70,
+                75,
+                80
             ],
-            "description": "Persephone places a Skull (max 6/6/8/8/10) and can activate it with a Basic Attack to heal herself. She stores up to 6 Skulls. After 2.5s it turns into a Sprout that explodes when activated, damaging and slowing enemies. After 16s it turns into a Flower that chases down enemies when activated for 2.2s before biting them. After activation or 120s it withers. Enemies recently hit by Harvest take reduced damage from additional hits stacking 3 times.",
+            "description": "Persephone summons an explosion at a target location that places 3 Harvest Skulls. She can activate these Harvest plants with her Basic Attacks. When the Skulls are activated she restores health to herself. After 4s the Skulls turn into Harvest Flowers. When activated these Flowers charge forward in the direction hit, biting any target that gets close. Enemies recently bitten take reduced damage from other bites, stacking 3 times. She can have up to (5/5/6/6/7) Harvest Plants out at any time.",
             "icon": "images/smite/abilities/harvest.jpg",
             "level": 5,
             "name": "Harvest"
         },
         "attackSpeed": 0.95,
-        "attackSpeedPerLevel": 0.9,
+        "attackSpeedPerLevel": 0.8999999999999999,
         "attackType": "Magical",
-        "damage": 34,
+        "damage": 34.0,
         "damagePerLevel": 8.5,
         "health": 370,
         "healthPerLevel": 75,
@@ -9097,7 +9367,7 @@
         "name": "Persephone",
         "pantheon": "Greek",
         "passive": {
-            "description": "Persephone gains Pomegranate Seeds when her Harvest plants wither. If she has 25 Seeds she use them to resist death, continuing to fight at full mana for 8s but dealing 60% reduced damage. This can be cancelled before the revive occurs. Extra seeds are sold at the fountain for 3 gold a seed. Persephone can hold 100 Seeds.",
+            "description": "When Persephone dies she travels to the plane of death where she can place 6 Harvest Seeds that will sprout when she respawns. Additionally, each time one of her Harvest plants wither she gains a Pomegranate Seed which can be sold at the fountain for 3g. Persephone can hold 100 seeds.",
             "icon": "images/smite/abilities/pomegranate-seeds.jpg",
             "level": 5,
             "name": "Pomegranate Seeds"
@@ -9213,9 +9483,9 @@
             }
         },
         "attackSpeed": 0.87,
-        "attackSpeedPerLevel": 1,
+        "attackSpeedPerLevel": 1.0,
         "attackType": "Ranged",
-        "damage": 35,
+        "damage": 35.0,
         "damagePerLevel": 7.5,
         "health": 380,
         "healthPerLevel": 67,
@@ -9336,9 +9606,9 @@
             "powerDamage": 55
         },
         "attackSpeed": 0.88,
-        "attackSpeedPerLevel": 0.9,
+        "attackSpeedPerLevel": 0.8999999999999999,
         "attackType": "Ranged",
-        "damage": 34,
+        "damage": 34.0,
         "damagePerLevel": 7.5,
         "health": 385,
         "healthPerLevel": 68,
@@ -9363,7 +9633,7 @@
                 "current": 0,
                 "max": "3",
                 "stacks": {
-                    "movementSpeed": 6
+                    "movementSpeed": 5
                 }
             }
         },
@@ -9385,7 +9655,7 @@
             "name": "Taiko Drums"
         },
         "abilityOne": {
-            "cooldown": 10,
+            "cooldown": 9,
             "cost": [
                 50,
                 55,
@@ -9407,18 +9677,18 @@
                 85,
                 90
             ],
-            "description": "Raijin sends a bolt of lightning crashing down at his ground target location damaging and mesmerizing enemies, while Raijin himself ascends into the sky.  Shortly thereafter he crashes down at that location, doing a second burst of damage to all enemies in the area.\r\n",
+            "description": "Raijin sends a bolt of lightning crashing down at his ground target location damaging and mesmerizing enemies, while Raijin himself ascends into the sky.  Shortly thereafter he crashes down at that location, doing a second burst of damage to all enemies in the area.\n",
             "icon": "images/smite/abilities/thunder-crash.jpg",
             "level": 5,
             "name": "Thunder Crash"
         },
         "abilityTwo": {
             "cooldown": [
-                16,
-                15,
                 14,
                 13,
-                12
+                12,
+                11,
+                10
             ],
             "cost": [
                 60,
@@ -9444,7 +9714,7 @@
         "attackSpeed": 0.87,
         "attackSpeedPerLevel": 0.8,
         "attackType": "Ranged",
-        "damage": 34,
+        "damage": 34.0,
         "damagePerLevel": 7.5,
         "health": 385,
         "healthPerLevel": 80,
@@ -9480,10 +9750,10 @@
             "cost": 80,
             "damage": [
                 180,
-                265,
-                350,
-                435,
-                520
+                270,
+                360,
+                450,
+                540
             ],
             "description": "Rama launches into the air and shoots 3 powerful arrows at the ground, each successive shot increasing in damage (70%, 85%, 100%) and decreasing in AoE size (15, 10, 7.5).\n\nEvery time Rama generates or picks up an Astral Arrow the cooldown of this ability is reduced by 0.4s.",
             "icon": "images/smite/abilities/astral-barrage.jpg",
@@ -9639,7 +9909,7 @@
             "name": "Flurry"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 2,
+        "attackSpeedPerLevel": 2.0,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2.25,
@@ -9787,7 +10057,7 @@
             }
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 1.7,
+        "attackSpeedPerLevel": 1.7000000000000002,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2.2,
@@ -9858,7 +10128,7 @@
             "icon": "images/smite/abilities/sic-em.jpg",
             "level": 5,
             "name": "Sic 'Em",
-            "powerDamage": 80
+            "powerDamage": 75
         },
         "abilityThree": {
             "cooldown": 15,
@@ -9894,12 +10164,12 @@
             "icon": "images/smite/abilities/crush.jpg",
             "level": 5,
             "name": "Crush",
-            "powerDamage": 0
+            "powerDamage": 85
         },
         "attackSpeed": 1,
         "attackSpeedPerLevel": 0.8,
         "attackType": "Ranged",
-        "damage": 34,
+        "damage": 34.0,
         "damagePerLevel": 7.25,
         "health": 365,
         "healthPerLevel": 75,
@@ -9944,7 +10214,7 @@
             "icon": "images/smite/abilities/last-breath.jpg",
             "level": 5,
             "name": "Last Breath",
-            "powerDamage": 55
+            "powerDamage": 70
         },
         "abilityOne": {
             "cooldown": 13,
@@ -10001,7 +10271,7 @@
             "powerDamage": 50
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 2.2,
+        "attackSpeedPerLevel": 2.1999999999999997,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2.25,
@@ -10020,7 +10290,7 @@
         "name": "Serqet",
         "pantheon": "Egyptian",
         "passive": {
-            "description": "Serqet's Basic Attacks apply Catalyst, which consumes her lingering poisons from Deathbane and Cobra's Kiss. If the target is affected by two or three different poisons, they take additional damage.",
+            "description": "Serqet's damaging Basic Attacks apply Catalyst, which consumes her lingering poisons from Deathbane and Cobra's Kiss. If the target is affected by two or three different poisons, they take additional damage.",
             "icon": "images/smite/abilities/catalyst.jpg",
             "level": 5,
             "name": "Catalyst"
@@ -10070,11 +10340,11 @@
                 60
             ],
             "damage": [
-                85,
-				130,
-				175,
-				220,
-				265
+                75,
+                120,
+                165,
+                210,
+                255
             ],
             "description": "Set amasses his hatred, throwing it forward. Enemies caught in its path are damaged and slowed for 3s.\n\nSet's spawn are commanded when Set fires this attack, dashing towards a location Set determines. Enemies hit by a Spawn's dash take damage and are slowed for 3s. Any dash after the first will deal 40% damage. ",
             "icon": "images/smite/abilities/skewer.jpg",
@@ -10114,7 +10384,7 @@
             ],
             "cost": 30,
             "damage": 20,
-            "description": "Set conjures a Spawn of himself made of sand. These spawn will stand where summoned and attack nearby enemies. Set can have up to 2 charges of this ability, allowing him to conjure spawn in quick succession. Set can interact with these Spawn with his other abilities, commanding them to attack or teleporting to them. Set can only have 8 Spawn at any given time.",
+            "description": "Set conjures a Spawn of himself made of sand. These spawn will stand where summoned and attack nearby enemies. Set can have up to 2 charges of this ability, allowing him to conjure spawn in quick succession.\n\nSet can interact with these Spawn with his other abilities, commanding them to attack or teleporting to them. Set can only have 8 Spawn at any given time. This ability does not trigger Item effects.",
             "icon": "images/smite/abilities/spawn-of-set.jpg",
             "level": 5,
             "name": "Spawn of Set",
@@ -10276,14 +10546,14 @@
                 750,
                 900
             ],
-            "description": "Sobek submerges himself, where he gains 20% protections, regenerates Mana, is immune to Crowd Control and he Slows all enemies. When Sobek emerges, he damages all enemies in the radius. Cancelling the ability decreases the damage.",
+            "description": "Sobek submerges himself, where he gains 15% protections, regenerates Mana, is immune to Crowd Control and he Slows all enemies. When Sobek emerges, he damages all enemies in the radius. Cancelling the ability decreases the damage.",
             "icon": "images/smite/abilities/lurking-in-the-waters.jpg",
             "level": 5,
             "name": "Lurking in the Waters",
             "powerDamage": 80
         },
         "abilityOne": {
-            "cooldown": 13,
+            "cooldown": 14,
             "cost": [
                 70,
                 75,
@@ -10351,7 +10621,7 @@
         "attackSpeed": 0.85,
         "attackSpeedPerLevel": 1.2,
         "attackType": "Melee",
-        "damage": 38,
+        "damage": 38.0,
         "damagePerLevel": 7.5,
         "health": 490,
         "healthPerLevel": 95,
@@ -10375,8 +10645,7 @@
             "stacks": {
                 "current": 0,
                 "max": "3",
-                "stacks": {
-                }
+                "stacks": {}
             }
         },
         "physicalProtection": 19,
@@ -10472,12 +10741,12 @@
             "icon": "images/smite/abilities/stellar-burst.jpg",
             "level": 5,
             "name": "Stellar Burst",
-            "powerDamage": 35
+            "powerDamage": 40
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 1.8,
+        "attackSpeedPerLevel": 1.7999999999999998,
         "attackType": "Ranged",
-        "damage": 34,
+        "damage": 34.0,
         "damagePerLevel": 7.25,
         "health": 400,
         "healthPerLevel": 75,
@@ -10494,7 +10763,7 @@
         "name": "Sol",
         "pantheon": "Norse",
         "passive": {
-            "description": "Sol gains Heat as she uses abilities and hits with basic attacks. She gains +1% Magical Power and +1% Attack Speed for every 4% Heat. At 100% Heat, Sol's basic attacks gain +20% Damage. Heat decreases over time.",
+            "description": "Sol gains Heat as she uses abilities and hits with basic attacks. She gains +1% Magical Power and +1.2% Attack Speed for every 4% Heat. At 100% Heat, Sol's basic attacks gain +20% Damage. Heat decreases over time.",
             "icon": "images/smite/abilities/unstable-manifestation.jpg",
             "level": 5,
             "name": "Unstable Manifestation"
@@ -10593,7 +10862,7 @@
             "powerDamage": 65
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.9,
+        "attackSpeedPerLevel": 0.8999999999999999,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2,
@@ -10707,7 +10976,7 @@
             "powerDamage": 60
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 2.2,
+        "attackSpeedPerLevel": 2.1999999999999997,
         "attackType": "Melee",
         "damage": 38,
         "damagePerLevel": 2.2,
@@ -10783,7 +11052,7 @@
             "icon": "images/smite/abilities/verdant-growth.jpg",
             "level": 5,
             "name": "Verdant Growth",
-            "powerDamage": 35
+            "powerDamage": 50
         },
         "abilityThree": {
             "cooldown": [
@@ -10828,9 +11097,9 @@
             "powerDamage": 10
         },
         "attackSpeed": 0.9,
-        "attackSpeedPerLevel": 0.7,
+        "attackSpeedPerLevel": 0.7000000000000001,
         "attackType": "Ranged",
-        "damage": 35,
+        "damage": 38.0,
         "damagePerLevel": 7.5,
         "health": 510,
         "healthPerLevel": 90,
@@ -10924,7 +11193,7 @@
         "attackSpeed": 0.9,
         "attackSpeedPerLevel": 1.3,
         "attackType": "Melee",
-        "damage": 38,
+        "damage": 38.0,
         "damagePerLevel": 7.75,
         "health": 500,
         "healthPerLevel": 95,
@@ -11040,7 +11309,7 @@
             "name": "Scent of Death"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 1.7,
+        "attackSpeedPerLevel": 1.7000000000000002,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2.3,
@@ -11148,9 +11417,9 @@
             "name": "Dark Omen"
         },
         "attackSpeed": 0.87,
-        "attackSpeedPerLevel": 0.9,
+        "attackSpeedPerLevel": 0.8999999999999999,
         "attackType": "Ranged",
-        "damage": 34,
+        "damage": 34.0,
         "damagePerLevel": 12,
         "health": 400,
         "healthPerLevel": 75,
@@ -11167,7 +11436,7 @@
         "name": "The Morrigan",
         "pantheon": "Celtic",
         "passive": {
-            "description": "The 3rd hit of The Morrigan’s hit chain will explode, dealing damage to all enemies within range and Dooming all enemies hit. Doomed Enemies will take additional Basic Attack damage over time.",
+            "description": "The 3rd hit of The Morrigan\u2019s hit chain will explode, dealing damage to all enemies within range and Dooming all enemies hit. Doomed Enemies will take additional Basic Attack damage over time.",
             "icon": "images/smite/abilities/doomsayer.jpg",
             "level": 5,
             "name": "Doomsayer"
@@ -11269,7 +11538,7 @@
             "name": "Tectonic Rift"
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 1.4,
+        "attackSpeedPerLevel": 1.4000000000000001,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2.4,
@@ -11295,8 +11564,7 @@
             "stacks": {
                 "current": 0,
                 "max": "3",
-                "stacks": {
-                }
+                "stacks": {}
             }
         },
         "physicalProtection": 14,
@@ -11383,7 +11651,7 @@
         "attackSpeed": 1,
         "attackSpeedPerLevel": 1.2,
         "attackType": "Ranged",
-        "damage": 32,
+        "damage": 32.0,
         "damagePerLevel": 7.5,
         "health": 365,
         "healthPerLevel": 75,
@@ -11413,112 +11681,112 @@
         "title": "Arbiter of the Damned",
         "type": "Mage"
     },
-	{
-		"abilityFour": {
-			"cooldown": 0,
-			"cost": 0,
-			"description": "Tiamat is able to summon one of her children onto the battlefield.\n\nSummon Serpents: Serpents that travel down lanes and act as minions.\n\nSummon Beast: Kusarikku who stands guard waiting for enemy gods.\n\nSummon Storm: Umu Dabrutu, the storm that chases enemies.",
-			"icon": "images/smite/abilities/children-of-creation.jpg",
-			"level": 5,
-			"name": "Children of Creation"
-		},
-		"abilityOne": {
-			"cooldown": 10,
-			"cost": [
-				55,
-				60,
-				65,
-				70,
-				75
-			],
-			"damage": [
-				60,
-				70,
-				80,
-				90,
-				100
-			],
-			"description": "Tiamat gathers power, allowing her to fire orbs of energy at the end of the channel. Each orb damages enemies and stops on enemy gods.\n\nHitting the same enemy deals 15% less damage each time, to a minimum of 70% reduction.\n\nThis ability can fire additional projectiles at ranks 3 and 5.",
-			"icon": "images/smite/abilities/primordial-onslaught.jpg",
-			"level": 5,
-			"name": "Primordial Onslaught",
-			"powerDamage": 55
-		},
-		"abilityThree": {
-			"cooldown": [
-				22,
-				20,
-				18,
-				16,
-				14
-			],
-			"cost": 40,
-			"damage": [
-				40,
-				80,
-				120,
-				160,
-				200
-			],
-			"description": "Tiamat dives into the fight landing on all fours, dealing damage and switching to her Ground stance. This ability also provides Tiamat one Hardened Scale.",
-			"icon": "images/smite/abilities/grounding-dive.jpg",
-			"level": 5,
-			"name": "Grounding Dive",
-			"powerDamage": 40
-		},
-		"abilityTwo": {
-			"cooldown": [
-				16,
-				15,
-				14,
-				13,
-				12
-			],
-			"cost": [
-				65,
-				70,
-				75,
-				80,
-				85
-			],
-			"description": "Tiamat creates an energy field dealing low damage to enemies in the entire area and then a larger amount in the inner area. The inner area of the field also stuns enemies for a short duration.",
-			"icon": "images/smite/abilities/ruination.jpg",
-			"level": 5,
-			"name": "Ruination"
-		},
-		"attackSpeed": 0.88,
-		"attackSpeedPerLevel": 0.8999999999999999,
-		"attackType": "Ranged",
-		"damage": 34.0,
-		"damagePerLevel": 7.5,
-		"health": 400,
-		"healthPerLevel": 77,
-		"hpFive": 7,
-		"hpFivePerLevel": 0.5,
-		"icon": "images/smite/gods/tiamat.jpg",
-		"id": 3990,
-		"magicalProtection": 30,
-		"magicalProtectionPerLevel": 0.9,
-		"mana": 300,
-		"manaPerLevel": 55,
-		"mpFive": 5,
-		"mpFivePerLevel": 0.44,
-		"name": "Tiamat",
-		"pantheon": "Babylonian",
-		"passive": {
-			"description": "While in Flying stance Tiamat gains health from nearby ally and enemy deaths, less from minions. In Ground stance she gains up to 5 Hardened Scales, damage mitigation that breaks after a certain amount of damage is taken. Normal minions do not provide Hardened Scales.",
-			"icon": "images/smite/abilities/death-begets-life.jpg",
-			"level": 5,
-			"name": "Death Begets Life"
-		},
-		"physicalProtection": 13,
-		"physicalProtectionPerLevel": 2.7,
-		"powerType": "Magical",
-		"pros": "High Area Damage",
-		"speed": 360,
-		"title": "Goddess of the Salt Sea",
-		"type": "Mage"
-	},
+    {
+        "abilityFour": {
+            "cooldown": 0,
+            "cost": 0,
+            "description": "Tiamat is able to summon one of her children onto the battlefield.\n\nSummon Serpents: Serpents that travel down lanes and act as minions.\n\nSummon Beast: Kusarikku who stands guard waiting for enemy gods.\n\nSummon Storm: Umu Dabrutu, the storm that chases enemies.",
+            "icon": "images/smite/abilities/children-of-creation.jpg",
+            "level": 5,
+            "name": "Children of Creation"
+        },
+        "abilityOne": {
+            "cooldown": 10,
+            "cost": [
+                55,
+                60,
+                65,
+                70,
+                75
+            ],
+            "damage": [
+                80,
+                90,
+                90,
+                100,
+                100
+            ],
+            "description": "Tiamat gathers power, allowing her to fire orbs of energy at the end of the channel. Each orb damages enemies and stops on enemy gods.\n\nHitting the same enemy deals 15% less damage each time, to a maximum of 70% reduction.\n\nThis ability can fire additional projectiles at ranks 3 and 5.",
+            "icon": "images/smite/abilities/primordial-onslaught.jpg",
+            "level": 5,
+            "name": "Primordial Onslaught",
+            "powerDamage": 35
+        },
+        "abilityThree": {
+            "cooldown": [
+                22,
+                20,
+                18,
+                16,
+                14
+            ],
+            "cost": 40,
+            "damage": [
+                40,
+                80,
+                120,
+                160,
+                200
+            ],
+            "description": "Tiamat dives into the fight landing on all fours, dealing damage and switching to her Ground stance. This ability also provides Tiamat one Hardened Scale.",
+            "icon": "images/smite/abilities/grounding-dive.jpg",
+            "level": 5,
+            "name": "Grounding Dive",
+            "powerDamage": 40
+        },
+        "abilityTwo": {
+            "cooldown": [
+                16,
+                15,
+                14,
+                13,
+                12
+            ],
+            "cost": [
+                65,
+                70,
+                75,
+                80,
+                85
+            ],
+            "description": "Tiamat creates an energy field dealing low damage to enemies in the entire area and then a larger amount in the inner area. The inner area of the field also stuns enemies for a short duration.",
+            "icon": "images/smite/abilities/ruination.jpg",
+            "level": 5,
+            "name": "Ruination"
+        },
+        "attackSpeed": 0.88,
+        "attackSpeedPerLevel": 0.8999999999999999,
+        "attackType": "Ranged",
+        "damage": 34.0,
+        "damagePerLevel": 7.5,
+        "health": 400,
+        "healthPerLevel": 77,
+        "hpFive": 7,
+        "hpFivePerLevel": 0.5,
+        "icon": "images/smite/gods/tiamat.jpg",
+        "id": 3990,
+        "magicalProtection": 30,
+        "magicalProtectionPerLevel": 0.9,
+        "mana": 300,
+        "manaPerLevel": 55,
+        "mpFive": 5,
+        "mpFivePerLevel": 0.44,
+        "name": "Tiamat",
+        "pantheon": "Babylonian",
+        "passive": {
+            "description": "While in Flying stance Tiamat heals from nearby ally and enemy deaths, less from minions. In Ground stance she gains up to 5 Hardened Scales, damage mitigation that breaks after a certain amount of damage is taken. Normal minions do not provide Hardened Scales.",
+            "icon": "images/smite/abilities/death-begets-life.jpg",
+            "level": 5,
+            "name": "Death Begets Life"
+        },
+        "physicalProtection": 13,
+        "physicalProtectionPerLevel": 2.7,
+        "powerType": "Magical",
+        "pros": "High Area Damage",
+        "speed": 360,
+        "title": "Goddess of the Salt Sea",
+        "type": "Mage"
+    },
     {
         "abilityFour": {
             "cooldown": 90,
@@ -11529,7 +11797,7 @@
                 110,
                 120
             ],
-            "description": "Tsukuyomi channels the power of the Full Moon, gaining Crowd Control immunity and 30% Damage Reduction. He fires forward 4 powerful piercing beams of moonlight. Enemy gods damaged become marked. Each beam can hit up to 3 enemy gods. After firing all beams Tsukuyomi charges forward at light speed, dashing through all enemies in the order they were hit, dealing heavy damage. Tsukuyomi will end his dashing at the final enemy hit.\n\nIf Tsukuyomi kills an enemy god with this ability Tsukuyomi he will gain both of his ranged basic attacks.",
+            "description": "Tsukuyomi channels the power of the Full Moon, gaining Crowd Control immunity and 20% Damage Reduction. He fires forward 4 powerful piercing beams of moonlight. Enemy gods damaged become marked. Each beam can hit up to 3 enemy gods. After firing all beams Tsukuyomi charges forward at light speed, dashing through all enemies in the order they were hit, dealing heavy damage. Tsukuyomi will end his dashing at the final enemy hit.\n\nIf Tsukuyomi kills an enemy god with this ability Tsukuyomi he will gain both of his ranged basic attacks.",
             "icon": "images/smite/abilities/piercing-moonlight.jpg",
             "level": 5,
             "name": "Piercing Moonlight"
@@ -11706,7 +11974,7 @@
             }
         },
         "attackSpeed": 1,
-        "attackSpeedPerLevel": 0.9,
+        "attackSpeedPerLevel": 0.8999999999999999,
         "attackType": "Melee",
         "damage": 39,
         "damagePerLevel": 2,
@@ -11784,7 +12052,7 @@
             "name": "Expose Weakness (Invigorate)"
         },
         "attackSpeed": 0.95,
-        "attackSpeedPerLevel": 1.4,
+        "attackSpeedPerLevel": 1.4000000000000001,
         "attackType": "Ranged",
         "damage": 38,
         "damagePerLevel": 2.4,
@@ -11989,11 +12257,11 @@
                 70
             ],
             "damage": [
-                70,
-                120,
-                170,
-                220,
-                270
+                80,
+                130,
+                190,
+                230,
+                280
             ],
             "description": "Vulcan tosses a bomb that explodes in a radius on impact with the ground, damaging and knocking back nearby enemies.",
             "icon": "images/smite/abilities/magma-bomb.jpg",
@@ -12024,9 +12292,9 @@
             "powerDamage": 40
         },
         "attackSpeed": 0.9,
-        "attackSpeedPerLevel": 1,
+        "attackSpeedPerLevel": 1.0,
         "attackType": "Ranged",
-        "damage": 34,
+        "damage": 34.0,
         "damagePerLevel": 7.5,
         "health": 380,
         "healthPerLevel": 71,
@@ -12126,13 +12394,13 @@
                 75,
                 80
             ],
-            "description": "Xbalanque shoots 10 darts in a cone in front of him, dealing damage with each one.  An enemy can be hit by 3 darts, with the other 2 doing 30% damage.  Enemies hit are poisoned, taking additional damage every .5s and are Slowed.",
+            "description": "Xbalanque shoots 15 darts in a cone in front of him, dealing damage with each one.  An enemy can be hit by 5 darts, with the other 4 doing 30% damage.  Enemies hit are poisoned, taking additional damage every .5s and are Slowed.",
             "icon": "images/smite/abilities/poison-darts.jpg",
             "level": 5,
             "name": "Poison Darts"
         },
         "attackSpeed": 0.95,
-        "attackSpeedPerLevel": 1,
+        "attackSpeedPerLevel": 1.0,
         "attackType": "Ranged",
         "damage": 37,
         "damagePerLevel": 2.5,
@@ -12149,7 +12417,7 @@
         "mpFive": 4.4,
         "mpFivePerLevel": 0.4,
         "name": "Xbalanque",
-        "pantheon": "Mayan",
+        "pantheon": "Maya",
         "passive": {
             "description": "As Xbalanque deals damage to enemy Gods he gains stacks of Dead of Night which increases his Physical Power permanently. For every 1500 damage dealt, after mitigations, Xbalanque gets 1 stack, up to 6 stacks.",
             "icon": "images/smite/abilities/dead-of-night.jpg",
@@ -12158,8 +12426,7 @@
             "stacks": {
                 "current": 0,
                 "max": "6",
-                "stacks": {
-                }
+                "stacks": {}
             }
         },
         "physicalProtection": 12,
@@ -12254,9 +12521,9 @@
             "name": "Hook Slam"
         },
         "attackSpeed": 0.9,
-        "attackSpeedPerLevel": 1.1,
+        "attackSpeedPerLevel": 1.0999999999999999,
         "attackType": "Melee",
-        "damage": 35,
+        "damage": 35.0,
         "damagePerLevel": 7.75,
         "health": 495,
         "healthPerLevel": 90,
@@ -12280,8 +12547,7 @@
             "stacks": {
                 "current": 0,
                 "max": "12",
-                "stacks": {
-                }
+                "stacks": {}
             }
         },
         "physicalProtection": 21,
@@ -12350,7 +12616,7 @@
         "attackSpeed": 1,
         "attackSpeedPerLevel": 1.2,
         "attackType": "Ranged",
-        "damage": 34,
+        "damage": 34.0,
         "damagePerLevel": 7.5,
         "health": 490,
         "healthPerLevel": 95,
@@ -12411,11 +12677,11 @@
         },
         "abilityOne": {
             "cooldown": [
+                14,
+                13,
                 12,
                 11,
-                10,
-                9,
-                8
+                10
             ],
             "cost": [
                 60,
@@ -12474,9 +12740,9 @@
             "powerDamage": 70
         },
         "attackSpeed": 0.85,
-        "attackSpeedPerLevel": 1,
+        "attackSpeedPerLevel": 1.0,
         "attackType": "Melee",
-        "damage": 38,
+        "damage": 38.0,
         "damagePerLevel": 7.75,
         "health": 510,
         "healthPerLevel": 104,
@@ -12568,9 +12834,9 @@
             "name": "Aegis Assault"
         },
         "attackSpeed": 0.95,
-        "attackSpeedPerLevel": 0.9,
+        "attackSpeedPerLevel": 0.8999999999999999,
         "attackType": "Ranged",
-        "damage": 35,
+        "damage": 35.0,
         "damagePerLevel": 7.5,
         "health": 380,
         "healthPerLevel": 71,
@@ -12615,8 +12881,7 @@
             "icon": "images/smite/abilities/recall-demons.jpg",
             "level": 5,
             "name": "Recall Demons",
-            "powerDamage": 25,
-            "ticks": 5
+            "powerDamage": 25
         },
         "abilityOne": {
             "cooldown": 12,
@@ -12638,8 +12903,8 @@
             "icon": "images/smite/abilities/expose-evil.jpg",
             "level": 5,
             "name": "Expose Evil",
-            "powerDamage": 15,
-            "ticks": 5
+            "powerDamage": 20,
+            "ticks": 1
         },
         "abilityThree": {
             "cooldown": 15,
@@ -12686,9 +12951,9 @@
             "powerDamage": 50
         },
         "attackSpeed": 0.86,
-        "attackSpeedPerLevel": 0.9,
+        "attackSpeedPerLevel": 0.8999999999999999,
         "attackType": "Ranged",
-        "damage": 33,
+        "damage": 33.0,
         "damagePerLevel": 7.5,
         "health": 450,
         "healthPerLevel": 85,
@@ -12712,8 +12977,7 @@
             "stacks": {
                 "current": 0,
                 "max": "40 ",
-                "stacks": {
-                }
+                "stacks": {}
             }
         },
         "physicalProtection": 8,
