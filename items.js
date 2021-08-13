@@ -116,6 +116,7 @@
         "passive": "PASSIVE - On Basic Attack hits, deal Physical Damage equal to 3% of the target's maximum Health. If the target has over 2000 Health, the bonus damage scales up. This effect reaches a maximum of 5% of the targets Maximum Health at 2750 Health.",
         "physicalPower": 40,
         "tier": 3,
+        "maxHealthDamage": 3,
         "type": "Physical"
     },
     {
