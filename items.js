@@ -692,6 +692,10 @@
         "passive": "PASSIVE - Enemies take 20% increased damage from you if they are affected by Crowd Control. Does not include Knockbacks, Blinds, or Grabs.",
         "physicalPower": 40,
         "tier": 3,
+        "toggleStats": {
+            "damagePercentIncrease": 20,
+            "toggle": false
+        },
         "type": "Physical"
     },
     {
