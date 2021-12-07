@@ -867,6 +867,7 @@
     },
     {
         "cost": 1950,
+        "criticalStrikeDamageDecrease": 55,
         "health": 200,
         "icon": "images/smite/items/spectral-armor.jpg",
         "id": 12664,
