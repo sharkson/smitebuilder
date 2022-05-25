@@ -114,7 +114,7 @@
         "id": 7593,
         "maxHealthDamage": 3,
         "name": "Qin's Sais",
-        "passive": "PASSIVE - On Basic Attack hits, deal Physical Damage equal to 3% of the target's maximum Health. If the target has over 2000 Health, the bonus damage scales up. This effect reaches a maximum of 5% of the targets Maximum Health at 2750 Health.",
+        "passive": "PASSIVE - On Basic Attack hits, deal Physical Damage equal to 3% of the target's maximum Health. If the target has over 2250 Health, the bonus damage scales up. This effect reaches a maximum of 5% of the targets Maximum Health at 3000 Health.",
         "physicalPower": 40,
         "tier": 3,
         "type": "Physical"
@@ -230,7 +230,7 @@
         "icon": "images/smite/items/mace.jpg",
         "id": 7827,
         "name": "Mace",
-        "physicalPower": 15,
+        "physicalPower": 10,
         "tier": 1,
         "type": "Physical"
     },
@@ -239,7 +239,7 @@
         "icon": "images/smite/items/warriors-bane.jpg",
         "id": 7522,
         "name": "Warrior's Bane",
-        "physicalPenetrationPercent": 10,
+        "physicalPenetrationPercent": 5,
         "physicalPower": 20,
         "tier": 2,
         "type": "Physical"
@@ -249,7 +249,6 @@
         "icon": "images/smite/items/heavy-mace.jpg",
         "id": 7828,
         "name": "Heavy Mace",
-        "physicalPenetration": 5,
         "physicalPower": 25,
         "tier": 2,
         "type": "Physical"
@@ -782,7 +781,7 @@
         "icon": "images/smite/items/round-shield.jpg",
         "id": 9833,
         "name": "Round Shield",
-        "physicalPower": 10,
+        "physicalPower": 7,
         "physicalProtection": 5,
         "tier": 1,
         "type": "Physical"
@@ -853,8 +852,8 @@
         "id": 16544,
         "name": "Berserker's Shield",
         "passive": "PASSIVE - Can only be built by Assassins or Warriors. While below 40% Health you become Berserk for 5s. Berserk provides 7% Damage Mitigation. Can only occur once every 15 seconds.",
-        "physicalPower": 30,
-        "physicalProtection": 60,
+        "physicalPower": 25,
+        "physicalProtection": 50,
         "restrictedRoles": "hunter",
         "tier": 3,
         "toggleStats": {
@@ -1196,7 +1195,7 @@
         "cost": 600,
         "icon": "images/smite/items/emerald-ring.jpg",
         "id": 9847,
-        "magicalPower": 25,
+        "magicalPower": 20,
         "name": "Emerald Ring",
         "tier": 1,
         "type": "Magical"
@@ -1273,7 +1272,7 @@
         "cost": 650,
         "icon": "images/smite/items/magic-focus.jpg",
         "id": 9849,
-        "magicalPower": 25,
+        "magicalPower": 20,
         "name": "Magic Focus",
         "tier": 1,
         "type": "Magical"
@@ -1282,7 +1281,7 @@
         "cost": 1500,
         "icon": "images/smite/items/spell-focus.jpg",
         "id": 9850,
-        "magicalPenetrationPercent": 10,
+        "magicalPenetrationPercent": 5,
         "magicalPower": 55,
         "name": "Spell Focus",
         "tier": 2,
@@ -1292,7 +1291,6 @@
         "cost": 1400,
         "icon": "images/smite/items/enchanted-spear.jpg",
         "id": 9851,
-        "magicalPenetration": 5,
         "magicalPower": 60,
         "name": "Enchanted Spear",
         "tier": 2,
@@ -1521,7 +1519,7 @@
         "magicalPower": 95,
         "mana": 300,
         "name": "Soul Reaver",
-        "passive": "PASSIVE - Your abilities deal an additional 2% of the target's maximum Health as Magical Damage. If the target has over 2000 Health, your ability bonus damage scales up. This effect reaches a maximum of 9% Maximum Health damage at 2750 Health. Subsequent hits on the same target do half the bonus damage for the next 3s.",
+        "passive": "PASSIVE - Your abilities deal an additional 2% of the target's maximum Health as Magical Damage. If the target has over 2250 Health, your ability bonus damage scales up. This effect reaches a maximum of 9% Maximum Health damage at 3000 Health. Subsequent hits on the same target do half the bonus damage for the next 3s.",
         "tier": 3,
         "type": "Magical"
     },
@@ -1686,7 +1684,7 @@
         "id": 10190,
         "magicalProtection": 10,
         "name": "Enchanted Buckler",
-        "physicalPower": 10,
+        "physicalPower": 7,
         "tier": 1,
         "type": "Physical"
     },
@@ -1729,11 +1727,11 @@
         "health": 100,
         "icon": "images/smite/items/caduceus-shield.jpg",
         "id": 18195,
-        "magicalProtection": 35,
+        "magicalProtection": 30,
         "name": "Caduceus Shield",
         "passive": "AURA - Allied gods within 70 units have their Healing increased by 20%.",
         "physicalPower": 25,
-        "physicalProtection": 35,
+        "physicalProtection": 30,
         "tier": 3,
         "type": "Physical"
     },
@@ -1806,7 +1804,7 @@
         "health": 350,
         "icon": "images/smite/items/jade-emperors-crown.jpg",
         "id": 14179,
-        "magicalPower": 40,
+        "magicalPower": 30,
         "name": "Jade Emperor's Crown",
         "passive": "AURA - Enemy gods within 40 units have their Physical Power reduced by 15%.",
         "physicalProtection": 50,
@@ -2025,7 +2023,7 @@
         "icon": "images/smite/items/shuriken.jpg",
         "id": 12667,
         "name": "Shuriken",
-        "physicalPower": 10,
+        "physicalPower": 7,
         "tier": 1,
         "type": "Physical"
     },
@@ -2074,7 +2072,7 @@
         "movementSpeed": 3,
         "name": "Katana",
         "passive": "This item and all upgrades are only available to Assassins and Warriors.",
-        "physicalPower": 10,
+        "physicalPower": 7,
         "restrictedRoles": "guardian,hunter,mage",
         "tier": 1,
         "type": "Physical"
@@ -2212,7 +2210,7 @@
         "health": 150,
         "icon": "images/smite/items/shoguns-kusari.jpg",
         "id": 14178,
-        "magicalProtection": 60,
+        "magicalProtection": 50,
         "mpFive": 20,
         "name": "Shogun's Kusari",
         "passive": "AURA - Allied gods within 70 units have their Attack Speed increased by 30%.",
@@ -2537,7 +2535,7 @@
         "id": 19490,
         "mpFive": 10,
         "name": "Bluestone Pendant",
-        "passive": "PASSIVE - Enemies hit by your damaging Abilities take an additional 25 Physical Damage over 2s. (Max 2 Stacks) Can be upgraded at level 20.",
+        "passive": "PASSIVE - Enemies hit by your damaging Abilities take an additional 20 Physical Damage over 2s. (Max 2 Stacks) Can be upgraded at level 20.",
         "physicalPower": 15,
         "stacks": {
             "current": 2,
@@ -2599,7 +2597,7 @@
         "magicalPower": 35,
         "name": "Death's Toll",
         "passive": "PASSIVE - Hitting an enemy with a Basic Attack restores 2 Health (+0.4% of your Maximum Health) and 1 Mana (+1% of your Maximum Mana). Basic Attacks that deal damage in an AoE restore less health (75% for Melee Attacks, 50% for Ranged Attacks) for each enemy hit after the first. Can be upgraded at level 20.",
-        "physicalPower": 20,
+        "physicalPower": 15,
         "starter": true,
         "tier": 1,
         "type": "Both"
@@ -2639,7 +2637,7 @@
         "type": "Physical"
     },
     {
-        "basicAttackFlatIncrease": 25,
+        "basicAttackFlatIncrease": 20,
         "cost": 650,
         "health": 50,
         "icon": "images/smite/items/gilded-arrow.jpg",
@@ -2829,7 +2827,7 @@
         "cost": 700,
         "icon": "images/smite/items/sands-of-time.jpg",
         "id": 19508,
-        "magicalPower": 30,
+        "magicalPower": 25,
         "mpFive": 10,
         "name": "Sands of Time",
         "passive": "PASSIVE - This item grants 2 MP5 per 10% of your missing Mana. Can be upgraded at level 20.",
@@ -2873,7 +2871,7 @@
     },
     {
         "cost": 700,
-        "health": 100,
+        "health": 75,
         "icon": "images/smite/items/vampiric-shroud.jpg",
         "id": 19510,
         "magicalLifesteal": 5,
@@ -3044,7 +3042,7 @@
         "type": "Both"
     },
     {
-        "attackSpeed": 5,
+        "attackSpeed": 7,
         "cost": 700,
         "icon": "images/smite/items/leather-cowl.jpg",
         "id": 19672,
@@ -3102,7 +3100,7 @@
         "cost": 700,
         "icon": "images/smite/items/conduit-gem.jpg",
         "id": 19677,
-        "magicalPower": 30,
+        "magicalPower": 25,
         "mana": 100,
         "mpFive": 10,
         "name": "Conduit Gem",
@@ -3156,12 +3154,12 @@
         "type": "Magical"
     },
     {
-        "attackSpeed": 10,
+        "attackSpeed": 7,
         "cost": 650,
         "hpFive": 10,
         "icon": "images/smite/items/eye-of-the-jungle.jpg",
         "id": 19694,
-        "magicalPower": 25,
+        "magicalPower": 20,
         "name": "Eye of the Jungle",
         "passive": "PASSIVE - You deal 30% increased damage to Jungle Monsters. Upon defeating a Large Jungle Monster you place a ward at its location that lasts for 30 seconds. While in the jungle you gain +20 HP5 and +15 MP5 Can be upgraded at level 20.",
         "physicalPower": 10,
