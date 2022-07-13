@@ -258,7 +258,7 @@
     },
     {
         "abilityFour": {
-            "cooldown": 90,
+            "cooldown": 100,
             "cost": 100,
             "damage": [
                 275,
@@ -939,7 +939,7 @@
             "icon": "images/smite/abilities/water-illusion.jpg",
             "level": 5,
             "name": "Water Illusion",
-            "powerDamage": 60,
+            "powerDamage": 70,
             "ticks": 5.0
         },
         "abilityThree": {
@@ -1023,7 +1023,7 @@
         "name": "Ao Kuang",
         "pantheon": "Chinese",
         "passive": {
-            "description": "Every 12 seconds Ao Kuang gets a stack of Dragon King's Sword. With a stack available, his next non-ultimate ability that deals damage to an Enemy god has a reduced cooldown and heals Ao Kuang. Successfully executing an Enemy god with King of the Eastern Seas fully charges Dragon King's Sword.",
+            "description": "Every 10 seconds Ao Kuang gets a stack of Dragon King's Sword. With a stack available, his next non-ultimate ability that deals damage to an Enemy god has a reduced cooldown and heals Ao Kuang. Successfully executing an Enemy god with King of the Eastern Seas fully charges Dragon King's Sword.",
             "icon": "images/smite/abilities/dragon-kings-sword.jpg",
             "level": 5,
             "name": "Dragon King's Sword"
@@ -1446,7 +1446,7 @@
                 130,
                 150
             ],
-            "description": "Chains extend from Ares' shield, doing damage to all enemies in its path. Hitting a god shackles them to Ares, Cripples them, preventing movement abilities, dealing the same damage every second while slowing them by 15% and buffing Ares. While shackled, Ares can fire another chain for free within 2s.",
+            "description": "Chains extend from Ares' shield, doing damage to all enemies in its path. Hitting a god shackles them to Ares, Cripples them, preventing movement abilities, dealing the same damage every second while slowing them by 15% and buffing Ares. While shackled, Ares can fire another chain for free within 2s. Jungle Camps take an extra +40% damage.",
             "icon": "images/smite/abilities/shackles.jpg",
             "level": 5,
             "name": "Shackles",
@@ -1680,7 +1680,13 @@
             "name": "Shapeshift"
         },
         "abilityOne": {
-            "cooldown": 12,
+            "cooldown": [
+                15,
+                14.5,
+                14,
+                13.5,
+                13
+            ],
             "cost": [
                 40,
                 45,
@@ -1702,11 +1708,11 @@
             "powerDamage": 30,
             "secondaryDamage": {
                 "damage": [
-                    40,
-                    70,
-                    100,
-                    130,
-                    160
+                    35,
+                    65,
+                    95,
+                    125,
+                    155
                 ],
                 "powerDamage": 30
             }
@@ -2618,7 +2624,7 @@
                 38,
                 45
             ],
-            "description": "Baron Samedi pulls the souls of the living towards his Coffin, becoming immune to Crowd Control and taking 35% reduced damage. Enemy gods within range are caught in a Vortex, dragging them towards the Coffin and taking damage every .33s. When an enemy god gets too close to the Coffin their soul is ripped out, causing them to be stunned, take a large amount of damage based on their maximum health and gain max Hysteria. This ability persists for 3.5s or until an enemy god is pulled to the Coffin.\n\nIf targets being pulled are above 30 Hysteria, the pull strength is increased.",
+            "description": "Baron Samedi pulls the souls of the living towards his Coffin, becoming immune to Crowd Control and taking 35% reduced damage. Enemy gods within range are caught in a Vortex, dragging them towards the Coffin and taking damage every .33s. When an enemy god reaches the Coffin their soul is ripped out, causing them to be stunned, take a large amount of damage based on their maximum health and gain max Hysteria. This ability persists for 3.5s or until an enemy god is pulled to the Coffin.\n\nIf targets being pulled are above 30 Hysteria, the pull strength is increased.",
             "icon": "images/smite/abilities/life-of-the-party.jpg",
             "level": 5,
             "name": "Life of the Party",
@@ -2690,7 +2696,11 @@
             "icon": "images/smite/abilities/consign-spirits.jpg",
             "level": 5,
             "name": "Consign Spirits",
-            "powerDamage": 70
+            "powerDamage": 70,
+            "toggleStats": {
+                "movementSpeed": 25,
+                "toggle": false
+            }
         },
         "attackSpeed": 0.9,
         "attackSpeedPerLevel": 0.7000000000000001,
@@ -3308,11 +3318,11 @@
                 80
             ],
             "damage": [
-                40,
-                70,
-                100,
-                130,
-                160
+                50,
+                80,
+                110,
+                140,
+                170
             ],
             "description": "Cerberus's snake tail spits venom that passes through and damages Enemies. If Cerberus's dog heads are Alert, they then also spit venom when the ability is fired. Each head is alerted upon hitting an Enemy with a Basic Attack, and all are alerted after Ghastly Breath. Each projectile that hits the same target deals 20% less damage, but hitting an Enemy with all 4 Stuns them.",
             "icon": "images/smite/abilities/paralyzing-spit.jpg",
@@ -3384,7 +3394,7 @@
         "name": "Cerberus",
         "pantheon": "Greek",
         "passive": {
-            "description": "Any time an Enemy God within 40 units of Cerberus is healed, that healing is reduced by 20% and Cerberus receives 50% of the heal. Cerberus reduces all types of healing, and steals from all types except HP5. The amount stolen is based off the heals base effect, and does not include any increase or reduction applied.",
+            "description": "Any time an Enemy God within 40 units of Cerberus is healed, that healing is reduced by 25% and Cerberus receives 50% of the heal. Cerberus reduces all types of healing, and steals from all types except HP5. The amount stolen is based off the heals base effect, and does not include any increase or reduction applied.",
             "icon": "images/smite/abilities/spirit-of-death.jpg",
             "level": 5,
             "name": "Spirit of Death"
@@ -3738,8 +3748,8 @@
         "attackType": "Ranged",
         "damage": 32.0,
         "damagePerLevel": 7.25,
-        "health": 574,
-        "healthPerLevel": 84,
+        "health": 650,
+        "healthPerLevel": 88,
         "hpFive": 6,
         "hpFivePerLevel": 0.45,
         "icon": "images/smite/gods/change.jpg",
@@ -3946,12 +3956,12 @@
                 110,
                 120
             ],
-            "description": "During a brief channeling period, Chernobog summons shadows at the location of all enemies that last for 8s and apply a short stacking Slow.\r\nChernobog can select any of his shadow clones to fly towards. Once he reaches the location he takes the place of his shadow, refreshing his cooldowns, as well as temporarily obtaining damage mitigations and extra movement speed.",
+            "description": "During a brief channeling period, Chernobog summons shadows at the location of all enemies that last for 8s and apply a short stacking Slow.\nChernobog can select any of his shadow clones to fly towards. Once he reaches the location he takes the place of his shadow, refreshing his cooldowns, as well as temporarily obtaining damage mitigations and extra movement speed.",
             "icon": "images/smite/abilities/living-nightmare.jpg",
             "level": 5,
             "name": "Living Nightmare",
             "toggleStats": {
-                "movementSpeed": 30,
+                "movementSpeed": 25,
                 "toggle": false
             }
         },
@@ -3981,16 +3991,16 @@
             "icon": "images/smite/abilities/crystallized-curses.jpg",
             "level": 5,
             "name": "Crystallized Curses",
-            "powerDamage": 80,
+            "powerDamage": 70,
             "secondaryDamage": {
                 "damage": [
-                    50,
-                    80,
-                    110,
-                    140,
-                    170
+                    40,
+                    70,
+                    100,
+                    130,
+                    160
                 ],
-                "powerDamage": 80
+                "powerDamage": 70
             },
             "ticks": 3
         },
@@ -4347,7 +4357,7 @@
     },
     {
         "abilityFour": {
-            "cooldown": 5,
+            "cooldown": 6,
             "cost": [
                 30,
                 35,
@@ -4369,11 +4379,11 @@
             "powerDamage": 30,
             "secondaryDamage": {
                 "damage": [
-                    80,
-                    120,
-                    160,
-                    200,
-                    240
+                    60,
+                    95,
+                    130,
+                    165,
+                    200
                 ],
                 "powerDamage": 30
             }
@@ -4388,11 +4398,11 @@
                 70
             ],
             "damage": [
-                35,
-                50,
-                65,
-                80,
-                95
+                30,
+                45,
+                60,
+                75,
+                90
             ],
             "description": "Cliodhna wails at enemies before her, causing damage 3 times, with the final hit being the strongest. The final hit will also cause enemies to be silenced and deafened for 1.5s. While channeling this scream Cliodhna is immune to knockups. While inside a wall Cliodhna will cause a spectral face to appear and wail in her stead that damages only enemy gods in a wider cone. ",
             "icon": "images/smite/abilities/banshees-wail.jpg",
@@ -4401,11 +4411,11 @@
             "powerDamage": 60,
             "secondaryDamage": {
                 "damage": [
-                    70,
-                    110,
-                    150,
-                    190,
-                    230
+                    60,
+                    100,
+                    140,
+                    180,
+                    220
                 ],
                 "powerDamage": 60
             },
@@ -4459,11 +4469,11 @@
                 80
             ],
             "damage": [
-                90,
-                145,
-                200,
-                255,
-                310
+                70,
+                125,
+                180,
+                235,
+                290
             ],
             "description": "Cliodhna fires a distorting bolt of energy that explodes on contact with a living soul. Enemy gods hit by this explosion lose the ability to perceive Cliodhna for 4s. If Cliodhna attacks or is hit she flickers back into vision before fading back out. \n\nAs long as one enemy god is debuffed Cliodhna gains a Movement Speed Buff.",
             "icon": "images/smite/abilities/flickering-visions.jpg",
@@ -4801,7 +4811,7 @@
                 140,
                 170
             ],
-            "description": "Cupid fires an arrow of love at the target, causing damage when it hits and Slowing them.  After a short time, the targets heart explodes, dealing the damage again to the target and all enemies within the radius. If Cupid has max Heart Stacks then all enemies in the explosion area are Stunned for 1s. Minions take 50% increased damage from Heart Bomb.",
+            "description": "Cupid fires an arrow of love at the target, causing damage when it hits and Slowing them.  After a short time, the targets heart explodes, dealing the damage again to the target and all enemies within the radius. If Cupid has max Heart Stacks then all enemies in the explosion area are Stunned for 1s. Minions take 60% increased damage from Heart Bomb.",
             "icon": "images/smite/abilities/heart-bomb.jpg",
             "level": 5,
             "name": "Heart Bomb",
@@ -5105,7 +5115,7 @@
                 230,
                 280
             ],
-            "description": "Danzaburou takes a swig of his sake bottle, gaining health, before hurling it in front of him dealing damage to Enemies in the inner circle. \n\nThe bottle of sake applies stacks to Enemy gods in the area slowing, and upon reaching 3 stacks, taunting (with no DR) them towards the sake bottle. Enemies that take more than 30% of their max. Health while taunted are broken out early.",
+            "description": "Danzaburou takes a swig of his sake bottle, gaining health, before hurling it in front of him dealing damage to Enemies in the inner circle. Jungle Camps take an extra+40% damage.  \n\nThe bottle of sake applies stacks to Enemy gods in the area slowing, and upon reaching 3 stacks, taunting (with no DR) them towards the sake bottle. Enemies that take more than 30% of their max. Health while taunted are broken out early.",
             "icon": "images/smite/abilities/alluring-spirits.jpg",
             "level": 5,
             "name": "Alluring Spirits",
@@ -5216,7 +5226,7 @@
             }
         },
         "abilityThree": {
-            "cooldown": 16,
+            "cooldown": 15,
             "cost": [
                 50,
                 55,
@@ -5239,11 +5249,11 @@
                 80
             ],
             "damage": [
-                60,
-                100,
-                140,
-                180,
-                220
+                80,
+                120,
+                160,
+                200,
+                240
             ],
             "description": "Discordia creates an area of Strife that damages all enemies hit. If 2 or more enemy gods are hit at the same time they will be afflicted by Madness for 1s, forcing them to attack each other for additional damage. The same is true for minions. If only a single target of one type is hit then it becomes Rooted for 1s instead.",
             "icon": "images/smite/abilities/strife.jpg",
@@ -5893,11 +5903,11 @@
                 65
             ],
             "damage": [
-                20,
                 30,
                 40,
                 50,
-                60
+                60,
+                70
             ],
             "description": "Freya activates a Buff that makes her Basic Attacks ranged, dealing bonus Magical damage and Slowing the target and all nearby enemies. The area effect and slow are lost when Irradiate is active.",
             "icon": "images/smite/abilities/pulse.jpg",
@@ -7193,7 +7203,7 @@
         "name": "Hera",
         "pantheon": "Greek",
         "passive": {
-            "description": "Each time Hera deals damage to gods with her Abilities or Basic Attacks Argus, The Defender's cooldown is reduced by 1s and Divine Shroud's cooldown is reduced by 0.33s. If Argus is active he is instead healed.",
+            "description": "Each time Hera deals damage to gods with her Abilities or Basic Attacks Argus, The Defender's cooldown is reduced by 1.5s and Divine Shroud's cooldown is reduced by 0.5s. If Argus is active he is instead healed.",
             "icon": "images/smite/abilities/commanding-presence.jpg",
             "level": 5,
             "name": "Commanding Presence"
@@ -7230,7 +7240,7 @@
             "powerDamage": 100
         },
         "abilityOne": {
-            "cooldown": 14,
+            "cooldown": 13,
             "cost": [
                 60,
                 65,
@@ -7261,11 +7271,11 @@
         },
         "abilityTwo": {
             "cooldown": [
-                14,
-                13.5,
                 13,
                 12.5,
-                12
+                12,
+                11.5,
+                11
             ],
             "cost": [
                 60,
@@ -7645,13 +7655,13 @@
                 80
             ],
             "damage": [
-                75,
-                130,
-                185,
-                240,
-                295
+                85,
+                140,
+                195,
+                250,
+                305
             ],
-            "description": "Hun Batz smashes his staff to the ground in front of him, doing damage to all enemies.",
+            "description": "Hun Batz smashes his staff to the ground in front of him, doing damage to all enemies. While Hun Batz is channeling, he is immune to knockups.",
             "icon": "images/smite/abilities/overhand-smash.jpg",
             "level": 5,
             "name": "Overhand Smash",
@@ -8018,7 +8028,7 @@
         "abilityTwo": {
             "cooldown": 12,
             "cost": 50,
-            "damage": 120,
+            "damage": 110,
             "description": "Jing Wei loads her crossbow with explosive bolts that augment her next 3 Basic Attacks. These attacks are wider, have increased critical chance, and deal area of effect damage.",
             "icon": "images/smite/abilities/explosive-bolts.jpg",
             "level": 5,
@@ -9002,6 +9012,139 @@
         "abilityFour": {
             "cooldown": 90,
             "cost": [
+                80,
+                85,
+                90,
+                95,
+                100
+            ],
+            "damage": [
+                260,
+                320,
+                380,
+                440,
+                500
+            ],
+            "description": "Lancelot mounts and rears up his horse as a large jousting list is created, crippling enemies in the area. Lancelot charges ahead, dealing damage to all enemies hit and refreshing his mounted Health Shield.",
+            "icon": "images/smite/abilities/the-grand-joust.jpg",
+            "level": 5,
+            "name": "The Grand Joust",
+            "powerDamage": 120
+        },
+        "abilityOne": {
+            "cooldown": 12,
+            "cost": [
+                50,
+                55,
+                60,
+                65,
+                70
+            ],
+            "damage": [
+                50,
+                90,
+                130,
+                170,
+                210
+            ],
+            "description": "Lancelot does a quick dash and thrust forwards with his lance. He deals damage to enemies in his path and those hit by the extending lance. If he hits an enemy he may dash again within 3s.",
+            "icon": "images/smite/abilities/piercing-thrust.jpg",
+            "level": 5,
+            "name": "Piercing Thrust",
+            "powerDamage": 65,
+            "ticks": 3.0
+        },
+        "abilityThree": {
+            "cooldown": 14,
+            "cost": [
+                30,
+                35,
+                40,
+                45,
+                50
+            ],
+            "description": "Lancelot mounts onto his trusty steed charging forwards with increased movement speed. While on his horse Lancelot gains a Health Shield that builds over time and his abilities change.\nLancelot can cancel this ability to dismount normally which will not trigger a Cooldown. If Lancelot's Health Shield is depleted, he is forced off his horse.\nWhile Mounted, Lancelot is immune to CC effects except Stuns.",
+            "icon": "images/smite/abilities/mount-up.jpg",
+            "level": 5,
+            "name": "Mount up",
+            "toggleStats": {
+                "movementSpeed": 20,
+                "toggle": false
+            }
+        },
+        "abilityTwo": {
+            "cooldown": 14,
+            "cost": [
+                60,
+                65,
+                70,
+                75,
+                80
+            ],
+            "damage": [
+                50,
+                80,
+                110,
+                140,
+                170
+            ],
+            "description": "Lancelot slams his shield into enemies in a small area in front of him, dealing damage and knocking them back. He follows up this attack with a sweep of his lance dealing damage again and bonus damage to enemies that are further away.",
+            "icon": "images/smite/abilities/skilled-strikes.jpg",
+            "level": 5,
+            "name": "Skilled Strikes",
+            "powerDamage": 80,
+            "secondaryDamage": {
+                "damage": [
+                    70,
+                    110,
+                    150,
+                    190,
+                    230
+                ],
+                "powerDamage": 80
+            }
+        },
+        "attackSpeed": 1,
+        "attackSpeedPerLevel": 1.9,
+        "attackType": "Melee",
+        "damage": 38,
+        "damagePerLevel": 2.3,
+        "health": 644,
+        "healthPerLevel": 81,
+        "hpFive": 9,
+        "hpFivePerLevel": 0.7,
+        "icon": "images/smite/gods/lancelot.jpg",
+        "id": 4075,
+        "magicalProtection": 38.4,
+        "magicalProtectionPerLevel": 1.2,
+        "mana": 230,
+        "manaPerLevel": 40,
+        "mpFive": 1.6,
+        "mpFivePerLevel": 0.46,
+        "name": "Lancelot",
+        "pantheon": "Arthurian",
+        "passive": {
+            "description": "Lancelot receives 1 Stack for a god kill/assist and 1 Stack for every 5 minion kills (max. 60 Stacks).\nWhile Mounted, each stack provides increased Movement Speed.\nWhile Unmounted, each stack provides reduced basic attack damage received from directly in front.",
+            "icon": "images/smite/abilities/camelots-quest.jpg",
+            "level": 5,
+            "name": "Camelot's Quest",
+            "toggleStats": {
+                "movementSpeed": 0,
+                "toggle": false
+            }
+        },
+        "physicalProtection": 19.6,
+        "physicalProtectionPerLevel": 3.1,
+        "powerType": "Physical",
+        "pros": "High Mobility",
+        "speed": 370,
+        "title": "First Knight of the Round Table",
+        "type": "Assassin"
+    },
+    {
+        "abilityFour": {
+            "cooldown": 90,
+            "cost": [
                 60,
                 70,
                 80,
@@ -9265,7 +9408,7 @@
     },
     {
         "abilityFour": {
-            "cooldown": 90,
+            "cooldown": 100,
             "cost": [
                 80,
                 90,
@@ -9386,7 +9529,7 @@
         "name": "Mercury",
         "pantheon": "Roman",
         "passive": {
-            "description": "For every 1 unit traveled, Mercury gains a 0.08% Physical Power bonus on his next Basic Attack (max 40%).\n\nMercury also gains additional Physical Power equal to 25% of movement speed from items or abilities.",
+            "description": "For every 1 unit traveled, Mercury gains a 0.06% Physical Power bonus on his next Basic Attack (max 30%).\n\nMercury also gains additional Physical Power equal to 25% of movement speed from items or abilities.",
             "icon": "images/smite/abilities/fastest-god-alive.jpg",
             "level": 5,
             "name": "Fastest God Alive"
@@ -10293,7 +10436,13 @@
             "powerDamage": 70
         },
         "abilityOne": {
-            "cooldown": 14,
+            "cooldown": [
+                14,
+                13.5,
+                13,
+                12.5,
+                12
+            ],
             "cost": [
                 60,
                 65,
@@ -10346,11 +10495,11 @@
                 80
             ],
             "damage": [
-                70,
-                130,
-                190,
-                250,
-                310
+                80,
+                140,
+                200,
+                260,
+                320
             ],
             "description": "Nike conjures a protective barrier in front of her that blocks ranged Basic Attacks. While focused on the barrier Nike's ability to turn is limited and she is knockback immune. Enemies who get near the barrier are repelled. At any point, Nike can re-fire the ability to collapse the barrier and deal damage to enemies in front of the barrier.",
             "icon": "images/smite/abilities/barrier-formation.jpg",
@@ -10711,11 +10860,11 @@
             "cooldown": 12,
             "cost": 70,
             "damage": [
-                25,
-                45,
-                65,
-                85,
-                105
+                30,
+                50,
+                70,
+                90,
+                110
             ],
             "description": "Odin begins empowering Gungnir with Runic Magic, becoming immune to knockbacks. Every .7s Gungnir changes runes and Odin pulses out damage around him, slowing enemies for 2s. When Odin releases Gungnir it travels forward, damaging enemies and stopping on the first god hit. The first rune causes allies around Odin to gain Attack Speed for 3s. The second allows Gungnir to home onto enemy gods. The last rune allows Gungnir to stun.",
             "icon": "images/smite/abilities/gungnirs-might.jpg",
@@ -10725,10 +10874,10 @@
             "secondaryDamage": {
                 "damage": [
                     60,
-                    110,
-                    160,
-                    210,
-                    260
+                    120,
+                    180,
+                    240,
+                    300
                 ],
                 "powerDamage": 60
             },
@@ -11289,7 +11438,7 @@
         "pros": "High Area Damage",
         "speed": 360,
         "title": "Queen of the Underworld",
-        "type": "Mage"
+        "type": "Mage, Ranged"
     },
     {
         "abilityFour": {
@@ -11831,7 +11980,7 @@
             "icon": "images/smite/abilities/through-the-cosmos.jpg",
             "level": 5,
             "name": "Through the Cosmos",
-            "powerDamage": 70
+            "powerDamage": 90
         },
         "abilityOne": {
             "cooldown": 14,
@@ -11857,7 +12006,13 @@
             "ticks": 0
         },
         "abilityThree": {
-            "cooldown": 15,
+            "cooldown": [
+                14,
+                13.5,
+                13,
+                12.5,
+                12
+            ],
             "cost": [
                 60,
                 65,
@@ -11983,7 +12138,7 @@
             "icon": "images/smite/abilities/prana-onslaught.jpg",
             "level": 5,
             "name": "Prana Onslaught",
-            "powerDamage": 80
+            "powerDamage": 90
         },
         "abilityThree": {
             "cooldown": 16,
@@ -12005,7 +12160,7 @@
             "icon": "images/smite/abilities/10-hand-shadow-fist.jpg",
             "level": 5,
             "name": "10-Hand Shadow Fist",
-            "powerDamage": 70,
+            "powerDamage": 85,
             "ticks": 0,
             "toggleStats": {
                 "hpFive": [
@@ -12071,7 +12226,7 @@
         "name": "Ravana",
         "pantheon": "Hindu",
         "passive": {
-            "description": "Successful Basic Attacks and abilities against an Enemy add to Ravana's Combo Chain.  Each time his Chain reaches 8 he receives a Shield equal to 5% of his Maximum Health as well as 3% Movement Speed. This may stack up to 3 times.\r\n",
+            "description": "Successful Basic Attacks and abilities against an Enemy add to Ravana's Combo Chain.  Each time his Chain reaches 8 he receives a Shield equal to 7% of his Maximum Health as well as 3% Movement Speed. This may stack up to 3 times.\n",
             "icon": "images/smite/abilities/chain-of-blows.jpg",
             "level": 5,
             "name": "Chain of Blows"
@@ -12222,7 +12377,7 @@
                 252,
                 300
             ],
-            "description": "Serqet leaps to an enemy, Stunning them and gaining 35% damage mitigation. She then applies the Last Breath poison and pushes them 30 units away. The Last Breath poison deals true damage to the target over the next 5s, and prevents them from healing. If an enemy dies while infected with Last Breath, they will explode, applying the poison to all enemies within 20 units.",
+            "description": "Serqet leaps to an enemy, Stunning them and gaining 50% damage mitigation. She then applies the Last Breath poison and pushes them 30 units away. The Last Breath poison deals true damage to the target over the next 5s, and prevents them from healing. If an enemy dies while infected with Last Breath, they will explode, applying the poison to all enemies within 20 units.",
             "icon": "images/smite/abilities/last-breath.jpg",
             "level": 5,
             "name": "Last Breath",
@@ -12234,10 +12389,10 @@
             "cost": 60,
             "damage": [
                 50,
-                68,
-                86,
-                104,
-                122
+                70,
+                90,
+                110,
+                130
             ],
             "description": "Serqet dashes three times from side to side, dealing damage and applying Deathbane Poison to each enemy hit. This ability can Critical Hit, and Serqet is immune to Knockup while dashing.\n\nDeathbane Poison reduces a target's Physical Protection for a short time, and remains in a lingering dormant state for 20s.",
             "icon": "images/smite/abilities/deathbane.jpg",
@@ -13678,7 +13833,7 @@
                 245,
                 300
             ],
-            "description": "When activated, The Morrigan begins combining the power from all three of her forms. When activated again, they simultaneously damage and stun enemies in front of them.",
+            "description": "When activated, The Morrigan begins combining the power from all three of her forms. When activated again, they simultaneously damage and stun enemies in front of them. Jungle Camps take an extra +30% damage.",
             "icon": "images/smite/abilities/deadly-aspects.jpg",
             "level": 5,
             "name": "Deadly Aspects",
@@ -13830,7 +13985,7 @@
                 170,
                 210
             ],
-            "description": "Thor throws Mjolnir forward, doing damage to all enemies in its path. If hit twice, minions will take 80% damage while gods take 200% damage from the return. While the hammer is flying, pressing the button again will teleport Thor to his hammer.",
+            "description": "Thor throws Mjolnir forward, doing damage to all enemies in its path. If hit twice, minions will take 100% damage while gods take 200% damage from the return. While the hammer is flying, pressing the button again will teleport Thor to his hammer.",
             "icon": "images/smite/abilities/mjolnirs-attunement.jpg",
             "level": 5,
             "name": "Mjolnir's Attunement",
@@ -15404,7 +15559,13 @@
             }
         },
         "abilityTwo": {
-            "cooldown": 13,
+            "cooldown": [
+                13,
+                12.5,
+                12,
+                11.5,
+                11
+            ],
             "cost": [
                 60,
                 65,
@@ -15456,7 +15617,7 @@
         "name": "Yu Huang",
         "pantheon": "Chinese",
         "passive": {
-            "description": "Yu Huang attunes himself to the Dao, giving his Basic Attacks and Abilities additional effects. He gains a stack of Dao every 15s. He may also gain a stack by hitting an enemy after not taking or dealing damage for 3s. Once he has 6 or more stacks, Yu Huang becomes Attuned, allowing his Basic Attacks chain to one additional enemy.",
+            "description": "Yu Huang attunes himself to the Dao, giving his Basic Attacks and Abilities additional effects. He gains a stack of Dao every 8s. He may also gain a stack by hitting an enemy after not taking or dealing damage for 3s. Once he has 6 or more stacks, Yu Huang becomes Attuned, allowing his Basic Attacks chain to one additional enemy.",
             "icon": "images/smite/abilities/master-of-the-dao.jpg",
             "level": 5,
             "name": "Master of the Dao"
@@ -15488,7 +15649,7 @@
             "ticks": 5
         },
         "abilityOne": {
-            "cooldown": 10,
+            "cooldown": 12,
             "cost": [
                 50,
                 55,
@@ -15559,18 +15720,18 @@
             "ticks": 5.0,
             "toggleStats": {
                 "attackSpeed": [
+                    15,
                     20,
                     25,
                     30,
-                    35,
-                    40
+                    35
                 ],
                 "movementSpeed": [
+                    15,
+                    17.5,
                     20,
                     22.5,
-                    25,
-                    27.5,
-                    30
+                    25
                 ],
                 "toggle": false
             }
@@ -15723,7 +15884,7 @@
                 "stacks": {}
             }
         },
-        "physicalProtection": 11.2,
+        "physicalProtection": 15.2,
         "physicalProtectionPerLevel": 2.8,
         "powerType": "Magical",
         "pros": "High Area Damage, Medium Crowd Control",
