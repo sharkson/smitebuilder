@@ -1408,7 +1408,7 @@
     },
     {
         "abilityFour": {
-            "cooldown": 100,
+            "cooldown": 90,
             "cost": [
                 80,
                 85,
@@ -1453,11 +1453,11 @@
             "powerDamage": 15,
             "secondaryDamage": {
                 "damage": [
-                    20,
-                    40,
-                    60,
-                    80,
-                    100
+                    25,
+                    45,
+                    65,
+                    85,
+                    105
                 ],
                 "powerDamage": 15
             },
@@ -2411,11 +2411,11 @@
         "abilityThree": {
             "cooldown": 14,
             "cost": [
+                60,
+                65,
                 70,
                 75,
-                80,
-                85,
-                90
+                80
             ],
             "damage": [
                 30,
@@ -2424,11 +2424,20 @@
                 75,
                 90
             ],
-            "description": "Bacchus lets out an obnoxiously loud belch, doing damage every .5s for 2s and reducing enemy healing. If he is Tipsy, enemies are Stunned for 1s. Bacchus is immune to knockback for the duration.",
+            "description": "Bacchus lets out an obnoxiously loud belch, doing damage every .5s for 2s and reducing enemy healing. Lane Minions take a small amount of extra damage. If he is Tipsy, enemies are Stunned for 1s. Bacchus is immune to knockback for the duration.",
             "icon": "images/smite/abilities/belch-of-the-gods.jpg",
             "level": 5,
             "name": "Belch of the Gods",
             "powerDamage": 15,
+            "secondaryDamage": {
+                "damage": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ]
+            },
             "ticks": 4
         },
         "abilityTwo": {
@@ -2440,11 +2449,11 @@
                 14
             ],
             "cost": [
+                60,
+                65,
                 70,
                 75,
-                80,
-                85,
-                90
+                80
             ],
             "damage": [
                 90,
@@ -3287,7 +3296,7 @@
     },
     {
         "abilityFour": {
-            "cooldown": 100,
+            "cooldown": 90,
             "cost": [
                 90,
                 95,
@@ -3334,11 +3343,11 @@
             "cooldown": 14,
             "cost": 55,
             "damage": [
-                60,
-                100,
-                140,
-                180,
-                220
+                80,
+                120,
+                160,
+                200,
+                240
             ],
             "description": "Cerberus leaps a short distance forward, dealing damage on impact and severing the souls of Enemies. These souls will not block Cerberus's attacks, and killing the souls heals Cerberus.",
             "icon": "images/smite/abilities/soul-expulsion.jpg",
@@ -3394,7 +3403,7 @@
         "name": "Cerberus",
         "pantheon": "Greek",
         "passive": {
-            "description": "Any time an Enemy God within 40 units of Cerberus is healed, that healing is reduced by 25% and Cerberus receives 50% of the heal. Cerberus reduces all types of healing, and steals from all types except HP5. The amount stolen is based off the heals base effect, and does not include any increase or reduction applied.",
+            "description": "Any time an Enemy God within 40 units of Cerberus is healed, that healing is reduced by 30% and Cerberus receives 50% of the heal. Cerberus reduces all types of healing, and steals from all types except HP5. The amount stolen is based off the heals base effect, and does not include any increase or reduction applied.",
             "icon": "images/smite/abilities/spirit-of-death.jpg",
             "level": 5,
             "name": "Spirit of Death"
@@ -3727,7 +3736,7 @@
             "level": 5,
             "name": "Moonflower Dance",
             "powerDamage": 60,
-            "ticks": 4
+            "ticks": 5
         },
         "abilityTwo": {
             "cooldown": [
@@ -4691,7 +4700,7 @@
                 245,
                 305
             ],
-            "description": "Cu Chulainn thrusts his spear forward, damaging all enemies in front of him and stunning less powerful minions. Successfully hitting an enemy minion with this ability restores 5 Rage, 8 for a god (to a max of 18). Barbs from his spear stick in opponents and reduce their healing received for 4s.\nIn his Berserk Form, Cu Chulainn instead slams his massive arms down, damaging and rooting all enemies in front of him and this ability costs no Rage.",
+            "description": "Cu Chulainn thrusts his spear forward, damaging all enemies in front of him and stunning less powerful minions. Successfully hitting an enemy minion with this ability restores 5 Rage, 8 for a god (to a max of 18). Barbs from his spear stick in opponents and reduce their healing received for 5s.\nIn his Berserk Form, Cu Chulainn instead slams his massive arms down, damaging and rooting all enemies in front of him and this ability costs no Rage.",
             "icon": "images/smite/abilities/barbed-spear.jpg",
             "level": 5,
             "name": "Barbed Spear (Ground Slam)",
@@ -5369,7 +5378,7 @@
             "icon": "images/smite/abilities/72-transformations.jpg",
             "level": 5,
             "name": "72 Transformations",
-            "powerDamage": 85,
+            "powerDamage": 70,
             "secondaryDamage": {
                 "damage": [
                     70,
@@ -5378,7 +5387,7 @@
                     250,
                     310
                 ],
-                "powerDamage": 85
+                "powerDamage": 70
             },
             "ticks": 3
         },
@@ -5426,7 +5435,7 @@
         "pantheon": "Chinese",
         "passive": {
             "damage": 0,
-            "description": "Each time Erlang Shen hits an enemy with a Basic Attack, his dog hits as well for 7.5% of his Basic Attack power and 1.75% of the target's max. health. The percentage damage only works against gods and minions.",
+            "description": "Each time Erlang Shen hits an enemy with a Basic Attack, his dog hits as well for 5% of his Basic Attack power and 1.75% of the target's max. health. The percentage damage only works against gods and minions.",
             "icon": "images/smite/abilities/howling-celestial-dog.jpg",
             "level": 5,
             "name": "Howling Celestial Dog"
@@ -6088,7 +6097,7 @@
                 440,
                 550
             ],
-            "description": "Geb pulls apart the earth, dealing Magical Damage and stunning enemy gods hit. Targets take additional damage based on their current Health.",
+            "description": "Geb becomes immune to Crowd Control as he pulls apart the earth, dealing Magical Damage and stunning enemy gods hit. Targets take additional damage based on their current Health.",
             "icon": "images/smite/abilities/cataclysm.jpg",
             "level": 5,
             "name": "Cataclysm"
@@ -6359,7 +6368,7 @@
             "ticks": 4.0
         },
         "abilityOne": {
-            "cooldown": 14,
+            "cooldown": 13,
             "cost": 60,
             "description": "Guan Yu's courageous leadership is infectious and, when focused, heals himself and his allies. Healing friendly gods reduces all Cooldowns by 2s.",
             "icon": "images/smite/abilities/conviction.jpg",
@@ -6400,7 +6409,7 @@
             "ticks": 1
         },
         "abilityTwo": {
-            "cooldown": 14,
+            "cooldown": 13,
             "cost": [
                 60,
                 65,
@@ -7702,6 +7711,116 @@
     },
     {
         "abilityFour": {
+            "cooldown": 90,
+            "cost": 100,
+            "damage": [
+                80,
+                100,
+                120,
+                140,
+                160
+            ],
+            "description": "Ishtar becomes CC-immune and summons five swords of light, firing them out in a cone in front of her. Each sword damages and cripples enemies for 1.25s. When the swords reach their destination, Ishtar may recall them to her location within 3s. If an Enemy is hit by both the initial fire and the recall, they are stunned for 1s. Each sword hit after the first deals reduced damage, resetting before recalling.",
+            "icon": "images/smite/abilities/blades-of-retribution.jpg",
+            "level": 5,
+            "name": "Blades of Retribution",
+            "powerDamage": 45,
+            "ticks": 0
+        },
+        "abilityOne": {
+            "cooldown": 9,
+            "cost": [
+                60,
+                65,
+                70,
+                75,
+                80
+            ],
+            "description": "Ishtar imbues her arrows with heavenly light, enhancing her Basic Attacks in one of three ways for 5s. The three varieties include Strike Shot, a lobbed explosive arrow, Spread Shot, a volley of five arrows, and Storm Shot, a fast-paced long range snipe. Ishtar cannot hit Structures during the duration.",
+            "icon": "images/smite/abilities/imbue-arrows.jpg",
+            "level": 5,
+            "name": "Imbue Arrows"
+        },
+        "abilityThree": {
+            "cooldown": 15,
+            "cost": 60,
+            "damage": [
+                80,
+                120,
+                160,
+                200,
+                240
+            ],
+            "description": "Ishtar draws her blades and charges forward, striking all Enemies in her path. If she hits an Enemy God, she stops and roots them for 1s as she backflips off of them. As Ishtar is in the air, she fires her bow, dealing damage in an area around the affected God. This shot may Crit and trigger Basic Attack item effects.",
+            "icon": "images/smite/abilities/jolt.jpg",
+            "level": 5,
+            "name": "Jolt",
+            "powerDamage": 60,
+            "ticks": 1.0
+        },
+        "abilityTwo": {
+            "cooldown": 15,
+            "cost": [
+                55,
+                60,
+                65,
+                70,
+                75
+            ],
+            "damage": [
+                40,
+                60,
+                80,
+                100,
+                120
+            ],
+            "description": "Ishtar calls down four strikes of lightning in a line, damaging Enemies within their area. Ishtar may aim which direction the strikes travel. If an Enemy is hit by more than one strike, they are mesmerized.",
+            "icon": "images/smite/abilities/rolling-thunder.jpg",
+            "level": 5,
+            "name": "Rolling Thunder",
+            "powerDamage": 40,
+            "ticks": 0
+        },
+        "attackSpeed": 1,
+        "attackSpeedPerLevel": 1.6,
+        "attackType": "Ranged",
+        "damage": 36,
+        "damagePerLevel": 2.6,
+        "health": 658,
+        "healthPerLevel": 82,
+        "hpFive": 7,
+        "hpFivePerLevel": 0.7,
+        "icon": "images/smite/gods/ishtar.jpg",
+        "id": 4137,
+        "magicalProtection": 38.4,
+        "magicalProtectionPerLevel": 1.2,
+        "mana": 220,
+        "manaPerLevel": 38,
+        "mpFive": 4.5,
+        "mpFivePerLevel": 0.38,
+        "name": "Ishtar",
+        "pantheon": "Babylonian",
+        "passive": {
+            "description": "When Ishtar drops below 75% Health, she marks the Enemy God that most recently damaged her for 10s. Each time Ishtar deals damage to the marked God with a Basic Attack, she gains a stacking Attack Speed buff. If Ishtar receives a kill or assist on the marked God, she gains a Movement Speed buff. This passive has a 20 second cooldown.",
+            "icon": "images/smite/abilities/mark-of-vengeance.jpg",
+            "level": 5,
+            "name": "Mark of Vengeance",
+            "stacks": {
+                "current": 0,
+                "max": "4",
+                "stacks": {}
+            }
+        },
+        "physicalProtection": 18.2,
+        "physicalProtectionPerLevel": 3.132,
+        "powerType": "Physical",
+        "pros": "Medium Area Damage, High Attack Speed",
+        "speed": 365,
+        "title": "Goddess of Love and War",
+        "type": "Hunter"
+    },
+    {
+        "abilityFour": {
             "cooldown": 8,
             "cost": 100,
             "damage": [
@@ -7899,11 +8018,11 @@
                 90
             ],
             "damage": [
-                100,
-                165,
-                230,
-                295,
-                360
+                110,
+                175,
+                240,
+                305,
+                370
             ],
             "description": "Janus creates two tethered unstable portals, far too small to fit into, and flings them forward dealing damage to enemies in their path. Enemies hit by both portals take 15% damage on the second hit.",
             "icon": "images/smite/abilities/unstable-vortex.jpg",
@@ -7936,8 +8055,8 @@
             "level": 5,
             "name": "Passages"
         },
-        "physicalProtection": 11.2,
-        "physicalProtectionPerLevel": 2.8,
+        "physicalProtection": 14,
+        "physicalProtectionPerLevel": 3,
         "powerType": "Magical",
         "pros": "High Area Damage, High Mobility",
         "speed": 360,
@@ -8333,7 +8452,7 @@
         "name": "Kali",
         "pantheon": "Hindu",
         "passive": {
-            "description": "Kali selects a god to Mark. Kali gains Physical Penetration against that god, and Heals 80% of her Max Health for killing the god or 20% for assisting. Gold Bounty from that god is increased by 30% for a Kill or Assist. If her marked target dies the enemy god closest to Kali becomes marked. If Kali is killed by an enemy god she may choose a new target.",
+            "description": "Kali selects a god to Mark. Kali gains Physical Penetration against that god, and Heals 60% of her Max Health for killing the god or 20% for assisting. Gold Bounty from that god is increased by 30% for a Kill or Assist. If her marked target dies the enemy god closest to Kali becomes marked. If Kali is killed by an enemy god she may choose a new target.",
             "icon": "images/smite/abilities/marked-for-death.jpg",
             "level": 5,
             "name": "Marked for Death"
@@ -8363,10 +8482,10 @@
             "toggleStats": {
                 "movementSpeed": [
                     20,
+                    22.5,
                     25,
-                    30,
-                    35,
-                    40
+                    27.5,
+                    30
                 ],
                 "toggle": false
             }
@@ -8774,17 +8893,23 @@
             "powerDamage": 40,
             "secondaryDamage": {
                 "damage": [
-                    200,
-                    290,
-                    380,
-                    470,
-                    560
+                    240,
+                    330,
+                    420,
+                    510,
+                    600
                 ],
                 "powerDamage": 40
             }
         },
         "abilityOne": {
-            "cooldown": 13,
+            "cooldown": [
+                13,
+                12.5,
+                12,
+                11.5,
+                11
+            ],
             "cost": [
                 60,
                 65,
@@ -8872,7 +8997,7 @@
         "name": "Kumbhakarna",
         "pantheon": "Hindu",
         "passive": {
-            "description": "Kumbhakarna does not die when he reaches 0 Health, instead he falls asleep. He will awaken after 8s at 25% Health and Mana, unless hit with 6 Basic Attacks (+1 every 5 levels) while sleeping. This passive has a 240s Cooldown.",
+            "description": "Kumbhakarna does not die when he reaches 0 Health, instead he falls asleep. He will awaken after 8s at 35% Health and Mana, unless hit with 6 Basic Attacks (+1 every 5 levels) while sleeping. This passive has a 180s Cooldown.",
             "icon": "images/smite/abilities/sleepy.jpg",
             "level": 5,
             "name": "Sleepy"
@@ -9063,7 +9188,7 @@
                 45,
                 50
             ],
-            "description": "Lancelot mounts onto his trusty steed charging forwards with increased movement speed. While on his horse Lancelot gains a Health Shield that builds over time and his abilities change.\nLancelot can cancel this ability to dismount normally which will not trigger a Cooldown. If Lancelot's Health Shield is depleted, he is forced off his horse.\nWhile Mounted, Lancelot is immune to CC effects except Stuns.",
+            "description": "Lancelot mounts onto his trusty steed charging forwards with increased movement speed. While on his horse Lancelot gains a Health Shield that builds over time and his abilities change.\nLancelot can cancel this ability to dismount normally which will not trigger a Cooldown. If Lancelot's Health Shield is depleted, he is forced off his horse.\nWhile Mounted, Lancelot is immune to CC effects except Stuns and Time Dilation.",
             "icon": "images/smite/abilities/mount-up.jpg",
             "level": 5,
             "name": "Mount up",
@@ -9371,7 +9496,7 @@
             "level": 5,
             "name": "Acid Spray",
             "powerDamage": 80,
-            "ticks": 4
+            "ticks": 5
         },
         "attackSpeed": 0.95,
         "attackSpeedPerLevel": 1.3,
@@ -10190,19 +10315,13 @@
             "powerDamage": 120
         },
         "abilityOne": {
-            "cooldown": [
-                15,
-                14.5,
-                14,
-                13.5,
-                13
-            ],
+            "cooldown": 13,
             "cost": [
-                60,
-                65,
-                70,
-                75,
-                80
+                40,
+                45,
+                50,
+                55,
+                60
             ],
             "damage": [
                 90,
@@ -10594,17 +10713,17 @@
                 70
             ],
             "damage": [
-                70,
-                110,
-                150,
-                190,
-                230
+                80,
+                125,
+                170,
+                215,
+                260
             ],
             "description": "Nox extends her shadow forward, damaging enemies. If this shadow hits an enemy god it stops, rooting and crippling them in place and dealing damage over time instead. Nox must channel and stay within range to maintain hold on the target, but may cancel this ability early. Nox will continue to channel this ability even if she is hit by Crowd Control effects. While channeling this ability Nox suffers no directional movement penalty.",
             "icon": "images/smite/abilities/shadow-lock.jpg",
             "level": 5,
             "name": "Shadow Lock",
-            "powerDamage": 50,
+            "powerDamage": 60,
             "ticks": 2
         },
         "abilityThree": {
@@ -11410,7 +11529,7 @@
         },
         "attackSpeed": 0.95,
         "attackSpeedPerLevel": 0.8999999999999999,
-        "attackType": "Magical",
+        "attackType": "Ranged",
         "damage": 34.0,
         "damagePerLevel": 8.5,
         "health": 518,
@@ -11435,10 +11554,11 @@
         },
         "physicalProtection": 12.6,
         "physicalProtectionPerLevel": 2.9,
+        "powerType": "Magical",
         "pros": "High Area Damage",
         "speed": 360,
         "title": "Queen of the Underworld",
-        "type": "Mage, Ranged"
+        "type": "Mage"
     },
     {
         "abilityFour": {
@@ -11538,10 +11658,10 @@
             "toggleStats": {
                 "movementSpeed": [
                     10,
+                    12.5,
                     15,
-                    20,
-                    25,
-                    30
+                    17.5,
+                    20
                 ],
                 "toggle": false
             }
@@ -11738,11 +11858,11 @@
                 70
             ],
             "damage": [
-                30,
-                45,
-                60,
-                75,
-                90
+                35,
+                50,
+                65,
+                80,
+                95
             ],
             "description": "Raijin pounds his drums sending forth a peal of thunder in a line, then another, then two at once, each growing wider as it travels. The thunder deals Magical Damage to Enemies it hits.",
             "icon": "images/smite/abilities/percussive-storm.jpg",
@@ -12525,7 +12645,7 @@
             "ticks": 1
         },
         "abilityThree": {
-            "cooldown": 16,
+            "cooldown": 15,
             "cost": [
                 50,
                 55,
@@ -12540,7 +12660,7 @@
                 20,
                 24
             ],
-            "description": "Set conjures a Sandstorm around him, protecting him from Physical Damage and causing him to be immune to Slows. Enemies near Set are damaged every .4s for 6s and have their vision obscured by the sands.\n\nIf Set is targeting a spawn when this ability is cast he will immediately teleport to the spawn. Otherwise, he can reactivate this ability to teleport. Set can only teleport once per Sandstorm.",
+            "description": "Set conjures a Sandstorm around him, protecting him from Damage and causing him to be immune to Slows. Enemies near Set are damaged every .4s for 6s and have their vision obscured by the sands.\n\nIf Set is targeting a spawn when this ability is cast he will immediately teleport to the spawn. Otherwise, he can reactivate this ability to teleport. Set can only teleport once per Sandstorm.",
             "icon": "images/smite/abilities/sandstorm.jpg",
             "level": 5,
             "name": "Sandstorm",
@@ -12694,7 +12814,7 @@
                 155,
                 185
             ],
-            "description": "Shiva dashes into a pillar of fire where he meditates for a short duration, taking reduced damage and becoming immune to CC except for stuns, before being able to dash out again. Each dash deals damage to enemies and as he meditates the pillar emits an aura.\n\nBliss - Allies in the aura gain a block stack while Shiva gains up to 3 after leaving.\nDestruction - Enemies in the aura suffer constant damage.",
+            "description": "Shiva dashes into a pillar of fire where he meditates for a short duration, taking reduced damage and becoming immune to CC except for Stuns and Time Dilation, before being able to dash out again. Each dash deals damage to enemies and as he meditates the pillar emits an aura.\n\nBliss - Allies in the aura gain a block stack while Shiva gains up to 3 after leaving.\nDestruction - Enemies in the aura suffer constant damage.",
             "icon": "images/smite/abilities/pillar-of-dawn.jpg",
             "level": 5,
             "name": "Pillar of Dawn",
@@ -12786,7 +12906,7 @@
             "icon": "images/smite/abilities/winters-grasp.jpg",
             "level": 5,
             "name": "Winter's Grasp",
-            "powerDamage": 5,
+            "powerDamage": 7,
             "ticks": 0
         },
         "abilityOne": {
@@ -12800,10 +12920,10 @@
             ],
             "damage": [
                 90,
-                140,
-                190,
-                240,
-                290
+                145,
+                200,
+                255,
+                310
             ],
             "description": "Skadi throws an icy spear forward, dealing damage to enemies and Slowing them for 3s. Kaldr's basic attacks deal double damage to targets afflicted by Piercing Cold. ",
             "icon": "images/smite/abilities/piercing-cold.jpg",
@@ -12970,7 +13090,7 @@
             "level": 5,
             "name": "Sickening Strike",
             "powerDamage": 30,
-            "ticks": 4
+            "ticks": 5
         },
         "abilityTwo": {
             "cooldown": 14,
@@ -13471,11 +13591,11 @@
         },
         "abilityThree": {
             "cooldown": [
-                18,
                 17,
                 16,
                 15,
-                14
+                14,
+                13
             ],
             "cost": [
                 70,
@@ -13563,7 +13683,7 @@
             "ticks": 10.0
         },
         "abilityOne": {
-            "cooldown": 13,
+            "cooldown": 11,
             "cost": 0,
             "damage": [
                 60,
@@ -13589,13 +13709,13 @@
                 80
             ],
             "damage": [
-                70,
-                100,
-                130,
-                160,
-                190
+                90,
+                120,
+                150,
+                180,
+                210
             ],
-            "description": "Terra summons a Standing Stone monolith surging with natural energy. The monolith heals nearby allied gods every .5s for the duration but can be destroyed early if hit by 3 enemy basic attacks.\n\nTerra can Shatter this stone with Force of Nature to Root enemies in the area for 1s and create a damaging area that lasts 5s. ",
+            "description": "Terra summons a Standing Stone monolith surging with natural energy. The monolith heals nearby allied gods every .5s for the duration but can be destroyed early if hit by 5 enemy basic attacks.\n\nTerra can Shatter this stone with Force of Nature to Root enemies in the area for 1s and create a damaging area that lasts 5s. ",
             "icon": "images/smite/abilities/monolith.jpg",
             "level": 5,
             "name": "Monolith",
@@ -14080,10 +14200,10 @@
             "cooldown": 90,
             "cost": 100,
             "damage": [
-                360,
-                430,
-                500,
-                570,
+                400,
+                460,
+                520,
+                580,
                 640
             ],
             "description": "Thoth conjures a large glyph from his book, and then inscribes three more at its corners. When all four have been summoned, he sends them forward damaging all Enemies in their path.\n\nThoth may activate this ability again to fire the ability early, doing a reduced amount of damage based on the number of glyphs currently summoned. Alternately he may cancel this ability at a cost of 30 mana.",
@@ -15617,10 +15737,17 @@
         "name": "Yu Huang",
         "pantheon": "Chinese",
         "passive": {
+            "damage": 75,
             "description": "Yu Huang attunes himself to the Dao, giving his Basic Attacks and Abilities additional effects. He gains a stack of Dao every 8s. He may also gain a stack by hitting an enemy after not taking or dealing damage for 3s. Once he has 6 or more stacks, Yu Huang becomes Attuned, allowing his Basic Attacks chain to one additional enemy.",
             "icon": "images/smite/abilities/master-of-the-dao.jpg",
             "level": 5,
-            "name": "Master of the Dao"
+            "name": "Master of the Dao",
+            "stacks": {
+                "current": 0,
+                "max": "12 Dao",
+                "stacks": {}
+            },
+            "ticks": 0
         },
         "physicalProtection": 16.8,
         "physicalProtectionPerLevel": 3.2,
