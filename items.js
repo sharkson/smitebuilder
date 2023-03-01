@@ -108,13 +108,13 @@
         "type": "Physical"
     },
     {
-        "attackSpeed": 20,
+        "attackSpeed": 25,
         "cost": 2650,
         "icon": "images/smite/items/qins-sais.jpg",
         "id": 7593,
         "maxHealthDamage": 3,
         "name": "Qin's Sais",
-        "passive": "PASSIVE - On Basic Attack hits, deal Physical Damage equal to 3% of the target's maximum Health. If the target has over 2000 Health, the bonus damage scales up. This effect reaches a maximum of 5% of the targets Maximum Health at 2750 Health.",
+        "passive": "PASSIVE - On Basic Attack hits, deal Physical Damage equal to 3% of the target's maximum Health. If the target has over 2000 Health, the bonus damage scales up. This effect reaches a maximum of 6% of the targets Maximum Health at 2750 Health.",
         "physicalPower": 40,
         "tier": 3,
         "type": "Physical"
@@ -125,12 +125,12 @@
         "icon": "images/smite/items/asi.jpg",
         "id": 17090,
         "name": "Asi",
-        "passive": "PASSIVE - While below 50% Health, you gain an additional 30% Physical Lifesteal for 5 seconds.  Can only occur once every 15 seconds.",
+        "passive": "PASSIVE - While below 50% Health, you gain an additional 25% Physical Lifesteal for 5 seconds.  Can only occur once every 15 seconds.",
         "physicalLifesteal": 20,
         "physicalPower": 50,
         "tier": 3,
         "toggleStats": {
-            "physicalLifesteal": 30,
+            "physicalLifesteal": 25,
             "toggle": false
         },
         "type": "Physical"
@@ -311,22 +311,22 @@
     },
     {
         "attackSpeed": 15,
-        "cost": 2900,
+        "cost": 2800,
         "icon": "images/smite/items/the-crusher.jpg",
         "id": 23858,
         "name": "The Crusher",
-        "passive": "PASSIVE - Enemies hit by your damaging Abilities take an additional 40% of your Physical Power over 2s. Subsequent hits on the same target do half the bonus damage for the next 3s.",
+        "passive": "PASSIVE - Enemies hit by your damaging Abilities take bonus damage equal to additional 30% of your Physical Power over 2s. Subsequent hits on the same target do half the bonus damage for the next 3s.",
         "physicalPenetrationPercent": 10,
-        "physicalPower": 55,
+        "physicalPower": 50,
         "tier": 3,
         "type": "Physical"
     },
     {
-        "cost": 2750,
+        "cost": 2650,
         "icon": "images/smite/items/brawlers-beat-stick.jpg",
         "id": 24170,
         "name": "Brawler's Beat Stick",
-        "passive": "PASSIVE - Enemies hit by your Abilities have 40% reduced healing for 5 seconds. Getting a kill or assist on an enemy god creates a deployable that provides allies within it 10 Power + 2 Per level. This effect can only occur once every 10 seconds.",
+        "passive": "PASSIVE - Enemies hit by your Abilities have 40% reduced healing for 5 seconds. Getting a kill or assist on an enemy god creates a field that lasts 10s, providing allies within it 20 Power + 2 Per level. This effect can only occur once every 10 seconds.",
         "physicalPenetration": 15,
         "physicalPower": 55,
         "tier": 3,
@@ -450,7 +450,7 @@
         "mana": 200,
         "mpFive": 20,
         "name": "Heartseeker",
-        "passive": "PASSIVE - Your abilities deal an additional 3% of the targets maximum Health as Physical Damage. If you have over 200 Physical Power, your ability bonus damage scales up. This effect reaches a maximum of 6% Maximum Health damage at 350 Physical Power. Subsequent hits on the same target do 75% bonus damage for the next 3s.",
+        "passive": "PASSIVE - Your abilities deal an additional 2% of the targets maximum Health as Physical Damage. If you have over 200 Physical Power, your ability bonus damage scales up. This effect reaches a maximum of 6% Maximum Health damage at 350 Physical Power. Subsequent hits on the same target do 75% bonus damage for the next 3s.",
         "physicalPenetrationPercent": 10,
         "physicalPower": 65,
         "tier": 3,
@@ -564,13 +564,13 @@
         "type": "Physical"
     },
     {
-        "attackSpeed": 15,
-        "cost": 2550,
+        "attackSpeed": 20,
+        "cost": 2450,
         "criticalChance": 20,
         "icon": "images/smite/items/bladed-boomerang.jpg",
         "id": 23854,
         "name": "Bladed Boomerang",
-        "passive": "PASSIVE - Your next basic attack on an enemy god creates a deployable that, when picked up, provides you with 4% Movement Speed and 10% Critical Strike Chance. This effect stacks up to 3 times and can only occur once every 2 seconds.",
+        "passive": "PASSIVE - Your next basic attack on an enemy god creates a deployable that, when picked up, provides you with 4% Movement Speed and 10% Critical Strike Chance for 6s. This effect stacks up to 3 times and can only occur once every 2 seconds.",
         "physicalPower": 40,
         "stacks": {
             "current": 3,
@@ -816,7 +816,7 @@
         "type": "Physical"
     },
     {
-        "cost": 2650,
+        "cost": 2450,
         "crowdControl": 20,
         "health": 300,
         "icon": "images/smite/items/dawnbringer.jpg",
@@ -861,8 +861,14 @@
         "id": 24191,
         "mpFive": 20,
         "name": "Caduceus Club",
-        "passive": "AURA - Allied gods within 70 units have their Healing increased by 20%.",
+        "passive": "AURA - Allied gods within 70 units have their Healing increased by 20%. This does not stack with similar Auras.",
         "physicalPower": 30,
+        "stacks": {
+            "current": 0,
+            "max": 0,
+            "stacks": {},
+            "type": "permanent"
+        },
         "tier": 3,
         "type": "Physical"
     },
@@ -911,7 +917,7 @@
         "icon": "images/smite/items/gladiators-shield.jpg",
         "id": 23853,
         "name": "Gladiator's Shield",
-        "passive": "PASSIVE - When damaging an enemy god with an ability you deal an additional 15 + 35% of your Protections from items and abilities. Can only trigger once per enemy per ability. Subsequent hits on the same target do half the bonus damage for the next 3s.",
+        "passive": "PASSIVE - When damaging an enemy god with an ability you deal an additional 15 + 35% of your Protections from items and abilities as Physical Damage. Can only trigger once per enemy per ability. Subsequent hits on the same target do half the bonus damage for the next 3s.",
         "physicalProtection": 50,
         "tier": 3,
         "type": "Both"
@@ -919,13 +925,13 @@
     {
         "cost": 2050,
         "crowdControl": 10,
-        "health": 150,
+        "health": 200,
         "hpFive": 20,
         "icon": "images/smite/items/phalanx.jpg",
         "id": 23863,
         "name": "Phalanx",
-        "passive": "PASSIVE - When you are Basic Attacked by an enemy god, friendly minions within 40 units gain a stack, up to a max of 3. Stacks provide 20% Attack Speed and 15 of each Protection and last for 6s. You cannot give more than one stack per second.",
-        "physicalProtection": 55,
+        "passive": "PASSIVE - When you are Basic Attacked by an enemy god, friendly lane minions within 40 units gain a stack, up to a max of 3. Stacks provide 20% Attack Speed and 15 of each Protection and last for 6s. You cannot give more than one stack per second.",
+        "physicalProtection": 60,
         "stacks": {
             "current": 0,
             "max": 0,
@@ -975,7 +981,7 @@
         "mana": 250,
         "mpFive": 15,
         "name": "Contagion",
-        "passive": "AURA - Enemy gods within 55 units have their healing reduced by 25%. This does not stack with similar Auras. When you are hit by a Hard Crowd Control, the enemy receives an aura that deals 40 Magical Damage per second to them and other enemies within a 25 unit radius for 5s.",
+        "passive": "AURA - Enemy gods within 55 units have their healing reduced by 20%. This does not stack with similar Auras. \n\nPASSIVE - When you are hit by a Hard Crowd Control, the enemy receives an aura that deals 25 Magical Damage per second to them and other enemies within a 25 unit radius for 5s. This aura is refreshed if an enemy applies additional Hard Crowd Control to you within 5s.",
         "physicalProtection": 60,
         "stacks": {
             "current": 0,
@@ -1051,7 +1057,7 @@
         "type": "Both"
     },
     {
-        "cost": 650,
+        "cost": 600,
         "icon": "images/smite/items/cloak.jpg",
         "id": 9840,
         "magicalProtection": 10,
@@ -1083,7 +1089,7 @@
         "type": "Both"
     },
     {
-        "cost": 1550,
+        "cost": 1500,
         "health": 125,
         "icon": "images/smite/items/armored-cloak.jpg",
         "id": 9843,
@@ -1096,7 +1102,7 @@
     },
     {
         "cooldownReduction": 10,
-        "cost": 2000,
+        "cost": 2100,
         "icon": "images/smite/items/magis-cloak.jpg",
         "id": 7935,
         "magicalProtection": 30,
@@ -1108,7 +1114,7 @@
     },
     {
         "cooldownReduction": 10,
-        "cost": 2600,
+        "cost": 2700,
         "crowdControl": 20,
         "icon": "images/smite/items/spirit-robe.jpg",
         "id": 9361,
@@ -1121,7 +1127,7 @@
     },
     {
         "cooldownReduction": 10,
-        "cost": 3100,
+        "cost": 3200,
         "icon": "images/smite/items/mantle-of-discord.jpg",
         "id": 12666,
         "magicalProtection": 55,
@@ -1132,14 +1138,14 @@
         "type": "Both"
     },
     {
-        "cooldownReduction": 20,
-        "cost": 2200,
+        "cooldownReduction": 10,
+        "cost": 2300,
         "health": 150,
         "icon": "images/smite/items/prophetic-cloak.jpg",
         "id": 24168,
         "magicalProtection": 25,
         "name": "Prophetic Cloak",
-        "passive": "PASSIVE - Once every 10s, when you damage an enemy god with an attack, you gain a stack of 2 Protections in an Aura that corresponds with the damage type of the target. Once you have reached 15 stacks of both Protections, this item Evolves, giving you mitigation based on your total protections.",
+        "passive": "PASSIVE - Once every 8s, when you damage an enemy god with an attack, you gain a stack of 2 Protections in an Aura that corresponds with the damage type of the target. Once you have reached 15 stacks of both Protections, this item Evolves, giving you additional Protections and mitigation based on your total Protections.",
         "physicalProtection": 25,
         "stacks": {
             "current": 0,
@@ -1230,10 +1236,11 @@
     },
     {
         "cost": 2200,
+        "crowdControl": 20,
         "health": 250,
         "icon": "images/smite/items/absolution.jpg",
         "id": 23864,
-        "magicalProtection": 60,
+        "magicalProtection": 70,
         "name": "Absolution",
         "passive": "PASSIVE - When your Ultimate ability has finished casting, you pulse out a cleansing aura within 50 units, providing all allies with CC-immunity for 0.6s. This effect can only occur once every 40s.",
         "tier": 3,
@@ -1542,7 +1549,13 @@
         "magicalPower": 90,
         "movementSpeed": 7,
         "name": "Rod of Asclepius",
-        "passive": "AURA - Allied gods within 70 units have their Healing increased by 20%.",
+        "passive": "AURA - Allied gods within 70 units have their Healing increased by 20%. This does not stack with similar Auras.",
+        "stacks": {
+            "current": 0,
+            "max": 0,
+            "stacks": {},
+            "type": "permanent"
+        },
         "tier": 3,
         "type": "Magical"
     },
@@ -1622,7 +1635,7 @@
         "magicalPower": 90,
         "mana": 300,
         "name": "Tablet of Destinies",
-        "passive": "PASSIVE - Your next successful damaging ability on an enemy god grants a stack of Wisdom. For each stack of Wisdom you have, your abilities deal 0.08% of your Max Mana as True Damage to enemy gods. You may only gain one stack every 2s, and can only gain stacks once per god per ability hit. Max 50 stacks.",
+        "passive": "PASSIVE - Your next successful damaging ability on an enemy god grants a stack of Wisdom. For each stack of Wisdom you have, your abilities deal 0.14% of your Max Mana as True Damage to enemy gods. You may only gain one stack and deal damage every 2s, and can only gain stacks once per god per ability hit. Max 50 stacks.",
         "stacks": {
             "current": 50,
             "max": 50,
@@ -1691,7 +1704,7 @@
         "cost": 2900,
         "icon": "images/smite/items/chronos-pendant.jpg",
         "id": 7784,
-        "magicalPower": 90,
+        "magicalPower": 100,
         "mpFive": 20,
         "name": "Chronos' Pendant",
         "passive": "PASSIVE - Every 10s the Pendant activates, subtracting 1s from all of your abilities currently on Cooldown. The initial countdown will not start until you leave the fountain.",
@@ -1970,14 +1983,14 @@
         "type": "Both"
     },
     {
-        "cost": 2300,
+        "cost": 2150,
         "health": 300,
         "hpFive": 20,
         "icon": "images/smite/items/cannoneers-cuirass.jpg",
         "id": 23974,
         "magicalProtection": 30,
         "name": "Cannoneer's Cuirass",
-        "passive": "PASSIVE - Your next successful basic attack on an enemy lane minion causes it to explode, instantly killing it, dealing 50 (+5 Per Level) magical damage to enemies in a small area and providing 25 bonus gold to your nearest ally within 80 units. This can only happen once every 20s.",
+        "passive": "PASSIVE - Your next successful basic attack on an enemy lane minion causes it to explode, instantly killing it, dealing 50 (+5 Per Level) magical damage to enemies in a small area and providing 25 bonus gold to your nearest ally within 80 ft. This can only happen once every 20s.",
         "physicalProtection": 30,
         "tier": 3,
         "type": "Both"
@@ -2077,7 +2090,7 @@
         "id": 23868,
         "movementSpeed": 7,
         "name": "Shadowdrinker",
-        "passive": "PASSIVE - Killing an enemy god drains their shadow, causing you to enter stealth and gain 30% Movement Speed for 3s. Taking damage or firing an Ability or Basic Attack breaks the stealth.",
+        "passive": "PASSIVE - Killing an enemy god drains their shadow, causing you to enter stealth and gain 30% Movement Speed for 3s. Taking damage, firing an Ability, or firing a Basic Attack breaks the stealth.",
         "physicalPenetration": 10,
         "physicalPower": 50,
         "restrictedRoles": "guardian,hunter,mage",
@@ -2150,7 +2163,7 @@
         "type": "Both"
     },
     {
-        "cost": 600,
+        "cost": 650,
         "health": 50,
         "icon": "images/smite/items/druid-stone.jpg",
         "id": 14071,
@@ -2171,25 +2184,25 @@
         "type": "Both"
     },
     {
-        "cost": 2500,
+        "cost": 2400,
         "health": 250,
         "icon": "images/smite/items/stone-of-binding.jpg",
         "id": 14175,
         "magicalProtection": 40,
         "name": "Stone of Binding",
-        "passive": "PASSIVE - Successfully hitting an enemy god with a Crowd Control ability will place a debuff on them, reducing their Physical and Magical Protections by 5 + 1 per level for 5s.",
+        "passive": "PASSIVE - Successfully hitting an enemy god with a Crowd Control ability will place a debuff on them, reducing their Physical and Magical Protections by 1 * your level for 5s.",
         "physicalProtection": 40,
         "tier": 3,
         "type": "Both"
     },
     {
-        "cost": 2700,
+        "cost": 2600,
         "health": 300,
         "icon": "images/smite/items/archdruids-fury.jpg",
         "id": 23975,
         "mpFive": 15,
         "name": "Archdruid's Fury",
-        "passive": "PASSIVE - Gain a stack (up to a max of 6) each time you take damage from enemy gods equal to 5% of your maximum Health. Your next basic attack on an enemy god consumes all stacks and deals 30 (+ 2 Per Level) True Damage per stack. This effect can only occur once every 15 seconds.",
+        "passive": "PASSIVE - Gain a stack (up to a max of 6) each time you take damage from enemy gods equal to 5% of your maximum Health. Your next basic attack on an enemy god consumes all stacks and deals 30 (+ 1.5 Per Level) Magical Damage per stack. This effect can only occur once every 15 seconds.",
         "physicalProtection": 35,
         "stacks": {
             "current": 0,
@@ -2201,7 +2214,7 @@
         "type": "Both"
     },
     {
-        "cost": 2550,
+        "cost": 2450,
         "health": 300,
         "icon": "images/smite/items/abyssal-stone.jpg",
         "id": 24011,
@@ -2305,7 +2318,7 @@
         "icon": "images/smite/items/arondight.jpg",
         "id": 17356,
         "name": "Arondight",
-        "passive": "PASSIVE - When your Ultimate ability has finished casting, reveal all enemy gods within 120 units for 8s. While moving towards revealed enemies gain 30% Movement Speed. When first striking a revealed target they take an additional 20 + 50% of your Physical Power. This can only occur once every 45 seconds.",
+        "passive": "PASSIVE - When your Ultimate ability has finished casting, reveal all enemy gods within 120 units for 8s. While moving towards revealed enemies gain 30% Movement Speed. When first striking a revealed target they take an additional 20 + 50% of your Physical Power. This can only occur once every 45 seconds. This item is only available to Assassins and Warriors.",
         "physicalPower": 75,
         "restrictedRoles": "hunter",
         "tier": 3,
@@ -2318,7 +2331,7 @@
         "icon": "images/smite/items/fail-not.jpg",
         "id": 17357,
         "name": "Fail-not",
-        "passive": "PASSIVE - When your Ultimate ability has finished casting, your next ability or basic attack within 8s that damages an enemy god marks them, increasing the chance you and your allies can land a Critical Strike by 20% for 10 seconds. This can only occur once every 45 seconds.",
+        "passive": "PASSIVE - When your Ultimate ability has finished casting, your next ability or basic attack within 8s that damages an enemy god marks them, increasing the chance you and your allies can land a Critical Strike by 20% for 10 seconds. This can only occur once every 45 seconds. This item is only available to Hunters.",
         "physicalPenetrationPercent": 10,
         "physicalPower": 40,
         "restrictedRoles": "assassin,warrior",
@@ -2540,7 +2553,7 @@
         "magicalPower": 65,
         "magicalProtection": 30,
         "name": "Sundering Axe",
-        "passive": "PASSIVE - Damaging an enemy god steals 4% (+2% of your Protection from items) of their Current Health away from your target and restores it to you. This effect can only occur once every 10s.",
+        "passive": "PASSIVE - Damaging an enemy god steals 3% (+2% of your Protection from items) of their Current Health away from your target and restores it to you. This effect can only occur once every 10s.",
         "physicalPower": 40,
         "physicalProtection": 30,
         "starter": true,
@@ -3225,7 +3238,7 @@
         "id": 23855,
         "mpFive": 10,
         "name": "Bluestone Pendant",
-        "passive": "PASSIVE - Enemies hit by your damaging Abilities take an additional 60 Physical Damage over 2s. Subsequent hits on the same target do half the bonus damage for the next 3s. Can be upgraded at level 20.",
+        "passive": "PASSIVE - Enemies hit by your damaging Abilities take an additional 48 Physical Damage over 2s. Subsequent hits on the same target do half the bonus damage for the next 3s. Can be upgraded at level 20.",
         "physicalPower": 15,
         "starter": true,
         "tier": 1,
@@ -3239,7 +3252,7 @@
         "id": 23859,
         "mpFive": 30,
         "name": "Bluestone Brooch",
-        "passive": "PASSIVE - Enemies hit by your damaging abilities take an additional 200 (+15% of their Current Health) as Physical Damage over 2s. Subsequent hits on the same target do half the bonus damage for the next 3s.",
+        "passive": "PASSIVE - Enemies hit by your damaging abilities take an additional 180 Physical Damage over 2s. Enemy gods take an additional 15% of their Current Health as Physical Damage over 2s. Subsequent hits on the same target do half the bonus damage for the next 3s.",
         "physicalPower": 45,
         "starter": true,
         "tier": 2,
@@ -3275,7 +3288,7 @@
         "magicalProtection": 10,
         "mpFive": 10,
         "name": "War Flag",
-        "passive": "PASSIVE - Getting the assist for an enemy minion or jungle monster dying will provide 8 Bonus gold, restore 5 Health and 5 Mana. You and nearby allied gods also receive a stack that gives 1% Movement Speed and 2% Attack Speed for 8s to nearby allies up to 10 stacks. If you are not within 30 units of an allied god for 20 seconds this passive is disabled until you are near an allied god again. Can be upgraded at level 15.",
+        "passive": "PASSIVE - Getting the assist for an enemy minion or jungle monster dying restores 5 Health and 5 Mana. If you have the lowest gold on your team, you will also receive 8 bonus Gold. You and nearby allied gods also receive a stack that gives 1% Movement Speed and 2% Attack Speed for 8s to nearby allies up to 10 stacks. Can be upgraded at level 15.",
         "physicalProtection": 10,
         "stacks": {
             "current": 0,

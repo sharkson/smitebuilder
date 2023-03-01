@@ -956,7 +956,7 @@
             "icon": "images/smite/abilities/wild-storm.jpg",
             "level": 5,
             "name": "Wild Storm",
-            "powerDamage": 50
+            "powerDamage": 40
         },
         "abilityTwo": {
             "cooldown": [
@@ -3474,11 +3474,11 @@
                 80
             ],
             "damage": [
-                70,
-                105,
-                140,
-                175,
-                210
+                55,
+                90,
+                125,
+                160,
+                195
             ],
             "description": "Cernunnos fires a bramble forward in a line that roots and cripples a single enemy hit. Upon hitting an enemy, wall, or reaching max range it will explode dealing damage and spawning an area of brambles at the location. This area deals damage every .5s and persists for 5s.",
             "icon": "images/smite/abilities/bramble-blast.jpg",
@@ -4009,13 +4009,13 @@
         },
         "abilityThree": {
             "cooldown": [
-                18,
-                17,
                 16,
+                15.5,
                 15,
+                14.5,
                 14
             ],
-            "cost": 70,
+            "cost": 50,
             "damage": [
                 60,
                 75,
@@ -4033,11 +4033,11 @@
         "abilityTwo": {
             "cooldown": 12,
             "cost": [
-                70,
-                75,
-                80,
-                85,
-                90
+                50,
+                55,
+                60,
+                65,
+                70
             ],
             "description": "Chernobog fires an enlarged crystal shard that can pierce enemies and deals damage like a Basic Attack. This applies a single stack of Heart of Cold to all enemies it passes through and instantly detonates Crystallized Curses. After firing, Chernobog gains increased Attack Speed for several seconds.",
             "icon": "images/smite/abilities/vicious-barrage.jpg",
@@ -5177,11 +5177,11 @@
             "cooldown": 90,
             "cost": 100,
             "damage": [
-                100,
                 125,
                 150,
                 175,
-                200
+                200,
+                225
             ],
             "description": "Discordia throws her Golden Apple of Discord that damages and passes through minions and bounces off of walls. If the Apple hits an enemy god it will damage them and force them to hold the Apple.\nGods holding the apple will become intolerable, causing them to be Crippled, Intoxicated while they constantly boast.\nAt the end of the duration, the Apple will detonate, dealing damage and spreading the effects to nearby gods.",
             "icon": "images/smite/abilities/golden-apple-of-discord.jpg",
@@ -5233,7 +5233,7 @@
             }
         },
         "abilityThree": {
-            "cooldown": 15,
+            "cooldown": 13,
             "cost": [
                 50,
                 55,
@@ -5795,7 +5795,7 @@
         "abilityTwo": {
             "cooldown": 13,
             "cost": 60,
-            "description": "Fenrir rears back and howls, inspiring himself with a Physical Power and Lifesteal Buff. While inspired Fenrir generates 2 runes.",
+            "description": "Fenrir rears back and howls, inspiring himself with a Physical Power, Attack Speed, and Lifesteal Buff. While inspired Fenrir generates 2 runes.",
             "icon": "images/smite/abilities/seething-howl.jpg",
             "level": 5,
             "name": "Seething Howl",
@@ -6148,7 +6148,7 @@
             "name": "Stone Shield"
         },
         "abilityTwo": {
-            "cooldown": 15,
+            "cooldown": 14,
             "cost": [
                 60,
                 65,
@@ -6157,11 +6157,11 @@
                 80
             ],
             "damage": [
-                90,
-                160,
-                230,
-                300,
-                370
+                100,
+                170,
+                240,
+                310,
+                380
             ],
             "description": "Geb creates a shock wave, which ripples out from him in a cone, causing damage and Knockup to all enemies. The damage decreases the further the enemy is from Geb, down to 70% at the maximum range.",
             "icon": "images/smite/abilities/shock-wave.jpg",
@@ -6771,17 +6771,17 @@
                 85
             ],
             "damage": [
-                80,
-                130,
-                180,
-                230,
-                280
+                70,
+                120,
+                170,
+                220,
+                270
             ],
             "description": "He Bo calls forth a geyser, causing it to burst out with tremendous force at his target location, damaging enemies while knocking them into the air.",
             "icon": "images/smite/abilities/waterspout.jpg",
             "level": 5,
             "name": "Waterspout",
-            "powerDamage": 65
+            "powerDamage": 60
         },
         "abilityTwo": {
             "cooldown": 12,
@@ -7737,11 +7737,11 @@
                 80
             ],
             "damage": [
-                10,
-                15,
-                20,
-                25,
-                30
+                8,
+                13,
+                18,
+                23,
+                28
             ],
             "description": "Ishtar imbues her arrows with heavenly light, enhancing her Basic Attacks in one of three ways for 6s. The three varieties include Strike Shot, a lobbed explosive arrow, Spread Shot, a volley of five arrows, and Storm Shot, a fast-paced long range snipe. Ishtar cannot hit Structures during the duration.",
             "icon": "images/smite/abilities/imbue-arrows.jpg",
@@ -8096,7 +8096,13 @@
             "ticks": 2.0
         },
         "abilityOne": {
-            "cooldown": 12,
+            "cooldown": [
+                12,
+                11.5,
+                11,
+                10.5,
+                10
+            ],
             "cost": [
                 60,
                 65,
@@ -8118,11 +8124,11 @@
             "powerDamage": 5,
             "secondaryDamage": {
                 "damage": [
-                    10,
-                    20,
-                    30,
-                    40,
-                    50
+                    15,
+                    25,
+                    35,
+                    45,
+                    55
                 ],
                 "powerDamage": 5
             },
@@ -9423,7 +9429,154 @@
     },
     {
         "abilityFour": {
-            "cooldown": 9,
+            "cooldown": 90,
+            "cost": 100,
+            "damage": [
+                35,
+                50,
+                65,
+                80,
+                95
+            ],
+            "description": "Martichoras becomes CC immune and untargetable as he soars into the air, raining down 12 bursts of damaging toxins over 3s. Each time an enemy is hit with a burst, their Physical Protections are reduced.",
+            "icon": "images/smite/abilities/death-from-above.jpg",
+            "level": 5,
+            "name": "Death From Above",
+            "powerDamage": 20,
+            "ticks": 3.0
+        },
+        "abilityOne": {
+            "cooldown": 14,
+            "cost": [
+                60,
+                65,
+                70,
+                75,
+                80
+            ],
+            "damage": [
+                80,
+                120,
+                160,
+                200,
+                240
+            ],
+            "description": "Martichoras fires hundreds of venomous barbs from his wings, creating a circular rain of spikes that deals damage as it rolls forward. As the rain moves, it leaves behind a toxic trail that slows and damages all enemies within the trail.",
+            "icon": "images/smite/abilities/acid-rain.jpg",
+            "level": 5,
+            "name": "Acid Rain",
+            "powerDamage": 10,
+            "secondaryDamage": {
+                "damage": [
+                    6,
+                    10,
+                    14,
+                    18,
+                    22
+                ],
+                "powerDamage": 10
+            },
+            "ticks": 3
+        },
+        "abilityThree": {
+            "cooldown": [
+                25,
+                22.5,
+                20,
+                17.5,
+                15
+            ],
+            "cost": [
+                60,
+                65,
+                70,
+                75,
+                80
+            ],
+            "description": "Martichoras creates a patch of stealth grass in which he and all allied gods may hide. While inside and on exiting the patch, Martichoras gains Movement Speed. Martichoras\u2019 Basic Attacks from stealth gain 10% additional Basic Attack Damage up front and apply 8 stacks of Venom. Enemies may reveal anyone hidden in the patch by entering it or by placing a ward inside its range.",
+            "icon": "images/smite/abilities/stalk-prey.jpg",
+            "level": 5,
+            "name": "Stalk Prey"
+        },
+        "abilityTwo": {
+            "cooldown": [
+                12,
+                11.5,
+                11,
+                10.5,
+                10
+            ],
+            "cost": [
+                40,
+                45,
+                50,
+                55,
+                60
+            ],
+            "damage": [
+                45,
+                80,
+                115,
+                150,
+                185
+            ],
+            "description": "Martichoras shoots a stinger, dealing damage, piercing minions, and stopping on the first enemy god hit. The stinger then persists for 3s attached to the enemy god, reducing their healing, or at a point on the ground. Martichoras can explode it by hitting it with a basic attack or ability. The explosion deals damage, reduces healing, and Roots the god who held the stinger.",
+            "icon": "images/smite/abilities/poisoned-barb.jpg",
+            "level": 5,
+            "name": "Poisoned Barb",
+            "powerDamage": 50,
+            "secondaryDamage": {
+                "damage": [
+                    30,
+                    65,
+                    100,
+                    135,
+                    170
+                ],
+                "powerDamage": 50
+            },
+            "ticks": 0
+        },
+        "attackSpeed": 0.92,
+        "attackSpeedPerLevel": 1.3,
+        "attackType": "Ranged",
+        "damage": 33,
+        "damagePerLevel": 2.6,
+        "health": 680,
+        "healthPerLevel": 86,
+        "hpFive": 7,
+        "hpFivePerLevel": 0.7,
+        "icon": "images/smite/gods/martichoras.jpg",
+        "id": 4213,
+        "magicalProtection": 30,
+        "magicalProtectionPerLevel": 1.6,
+        "mana": 240,
+        "manaPerLevel": 38,
+        "mpFive": 4.5,
+        "mpFivePerLevel": 0.4,
+        "name": "Martichoras",
+        "pantheon": "Greek",
+        "passive": {
+            "description": "Martichoras gains up to 100 stacks of Ferocity for hitting Basics, Abilities, and earning kills or assists. Once maxed, he loses all Ferocity and gains an Attack Speed buff that increases in duration by Basic Attacking gods. He also gains a permanent Monstrosity stack of 1% Physical Lifesteal and 1% Physical Ability Lifesteal.",
+            "icon": "images/smite/abilities/monstrosity.jpg",
+            "level": 5,
+            "name": "Monstrosity",
+            "toggleStats": {
+                "attackSpeed": 15,
+                "toggle": false
+            }
+        },
+        "physicalProtection": 22.4,
+        "physicalProtectionPerLevel": 3.3,
+        "powerType": "Physical",
+        "pros": "Medium Single Target Damage, Medium Area Damage",
+        "speed": 365,
+        "title": "The Manticore King",
+        "type": "Hunter"
+    },
+    {
+        "abilityFour": {
+            "cooldown": 11,
             "cost": 100,
             "damage": [
                 275,
@@ -9478,11 +9631,11 @@
                 90
             ],
             "damage": [
-                110,
-                165,
-                220,
-                275,
-                335
+                90,
+                145,
+                200,
+                255,
+                315
             ],
             "description": "Maui leaps, latches his hook onto a ray of sunlight, and swings from it. He swings back and forth before he leaps from the rope and slams his hook into the ground, damaging and stunning all enemies in the area. While he swings, Maui can reactivate this ability at any time to leap early.",
             "icon": "images/smite/abilities/solar-swing.jpg",
@@ -13203,7 +13356,7 @@
                 190,
                 230
             ],
-            "description": "Sobek charges forward at a frenzied pace. If Sobek hits an enemy, he does damage and throws the enemy behind himself. Sobek is immune to Knockups whilst dashing.",
+            "description": "Sobek charges forward at a frenzied pace. If Sobek hits an enemy, he does damage, becomes briefly CC Immune, and throws the enemy behind him. Sobek is immune to Knockups while dashing.",
             "icon": "images/smite/abilities/charge-prey.jpg",
             "level": 5,
             "name": "Charge Prey",
@@ -13621,11 +13774,11 @@
                 85
             ],
             "damage": [
-                45,
-                65,
-                85,
-                105,
-                125
+                35,
+                55,
+                75,
+                95,
+                115
             ],
             "description": "Surtr's fury creates a ring of embers around him providing a Movement Speed buff that increases for hitting enemies, while the ability is active.\nThe ring deals damage and slows enemies once as it expands or when fully formed and again when it contracts.\nWhile formed, the outer ring deals continuous damage to enemies inside. The ring also picks up Obsidian Flesh fragments.",
             "icon": "images/smite/abilities/emberwalk.jpg",
@@ -14785,7 +14938,7 @@
             "icon": "images/smite/abilities/piercing-moonlight.jpg",
             "level": 5,
             "name": "Piercing Moonlight",
-            "powerDamage": 45,
+            "powerDamage": 50,
             "secondaryDamage": {
                 "damage": [
                     70,
@@ -14794,7 +14947,7 @@
                     160,
                     190
                 ],
-                "powerDamage": 45
+                "powerDamage": 50
             }
         },
         "abilityOne": {
@@ -14807,11 +14960,11 @@
                 90
             ],
             "damage": [
-                75,
-                125,
-                175,
-                225,
-                275
+                85,
+                135,
+                185,
+                235,
+                285
             ],
             "description": "Tsukuyomi calls upon Shingetsu, summoning forth a Dark Moon Shuriken. The Shuriken damages enemies and stops on gods, sticking into them. If Tsukuyomi gets close to the god he retrieves the Shuriken and reduces its cooldown. <font color='#b18cd9'>After casting this ability Shingetsu's next Basic Attack becomes ranged. This attack steals Movement Speed from the enemy hit.</font>",
             "icon": "images/smite/abilities/dark-moon-shuriken.jpg",
